@@ -21,7 +21,7 @@ YRef = -1.0e5
 ZRef = 0 
 
 RF_output_on = 1            ! RF on      
-OutputPointType = 4         ! Type (0: no output, 1: take GP's 2: 4 points per surface triangle, 3: output at certain pickpoints)
+OutputPointType = 5         ! Type (0: no output, 1: take GP's 2: 4 points per surface triangle, 3: output at certain pickpoints)
 /
 
 &Elementwise
@@ -38,7 +38,7 @@ refinement = 1
 printtimeinterval = 1       ! Index of printed info at timesteps
 OutputMask = 1 1 1 1      ! output 1/ yes, 0/ no - position: 1/ slip rate 2/ stress 3/ normal velocity 4/ in case of rate and state output friction and state variable
                             ! 5/ background values
-nOutpoints = 0
+nOutpoints = 5
 PPFileName = 'FaultReceivers5.dat'
 /
 
@@ -77,7 +77,6 @@ printIntervalCriterion = 2           ! Criterion for index of printed info: 1=ti
 pickdt = 0.005                       ! Pickpoint Sampling
 pickDtType = 1                       ! Pickpoint Type
 FaultOutputFlag = 1                  ! DR output (add this line only if DR is active)
-nRecordPoints = 0                   ! number of Record points which are read from file
 RFileName = 'Receivers5.dat'      ! Record Points in extra file
 checkPointBackend = 'hdf5' ! Either ’hdf5’, ’mpio’ or ’none’
 /
