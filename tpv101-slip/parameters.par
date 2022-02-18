@@ -60,8 +60,8 @@ refinement = 1
 &Pickpoint
 printtimeinterval = 1       ! Index of printed info at timesteps
 OutputMask = 1 1 1 1 1 1 1 1 1 1 1 1 !           ! turn on and off fault outputs
-nOutpoints = 0
-PPFileName = 'tpv101_faultreceivers.dat'
+nOutpoints = 5
+PPFileName = 'FaultReceivers.dat'
 /
 
 &SourceType
@@ -92,8 +92,7 @@ TimeInterval =  1.                             ! Index of printed info at time
 refinement = 1
 
 ! off-fault ascii receivers
-nRecordPoints = 0                              ! number of Record points which are read from file
-RFileName = 'tpv101_receivers.dat'          ! Record Points in extra file
+RFileName = 'Receivers.dat'          ! Record Points in extra file
 pickdt = 0.005                                 ! Pickpoint Sampling
 pickDtType = 1                                 ! Pickpoint Type
 ! (Optional) Synchronization point for receivers.
