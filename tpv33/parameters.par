@@ -24,7 +24,7 @@ YRef = 0.0
 ZRef = -1.0
 refPointMethod = 1
 
-RF_output_on = 0                               ! Rupture front ascii output
+RF_output_on = 1                               ! Rupture front ascii output
 magnitude_output_on =0                         ! Moment magnitude output
 energy_rate_output_on=0                        ! Moment rate output
 OutputPointType = 4                            ! Type (0: no output, 3: ascii file, 4: paraview file, 5: 3+4)
