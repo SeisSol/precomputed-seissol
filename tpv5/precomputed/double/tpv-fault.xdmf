@@ -116,6 +116,12 @@
       <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 4368">tpv-fault_cell.h5:/mesh0/RT</DataItem>
      </DataItem>
     </Attribute>
+    <Attribute Name="DS" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="4368">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 4368</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 4368">tpv-fault_cell.h5:/mesh0/DS</DataItem>
+     </DataItem>
+    </Attribute>
    </Grid>
    <Grid Name="step_000000000001" GridType="Uniform"><!-- mesh id: 0, mesh step: 1 -->
     <Topology TopologyType="Triangle" NumberOfElements="4368">
@@ -230,6 +236,12 @@
       <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 4368">tpv-fault_cell.h5:/mesh0/RT</DataItem>
      </DataItem>
     </Attribute>
+    <Attribute Name="DS" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="4368">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 4368</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 4368">tpv-fault_cell.h5:/mesh0/DS</DataItem>
+     </DataItem>
+    </Attribute>
    </Grid>
    <Grid Name="step_000000000002" GridType="Uniform"><!-- mesh id: 0, mesh step: 2 -->
     <Topology TopologyType="Triangle" NumberOfElements="4368">
@@ -342,6 +354,12 @@
      <DataItem ItemType="HyperSlab" Dimensions="4368">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 4368</DataItem>
       <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 4368">tpv-fault_cell.h5:/mesh0/RT</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="DS" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="4368">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 4368</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 4368">tpv-fault_cell.h5:/mesh0/DS</DataItem>
      </DataItem>
     </Attribute>
    </Grid>

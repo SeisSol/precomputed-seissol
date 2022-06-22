@@ -20,7 +20,7 @@ Note: This is not the SCEC TPV33, but a test for SeisSol's friction law 33 (impo
 ## TPV34
 Reference computed on June 9, with commit `2eaf426b`.
 
-Note: This is not the SCEC TPV33, but a test for SeisSol's friction law 34 (imposed slip rates with Gaussian STF).
+Note: This is not the SCEC TPV34, but a test for SeisSol's friction law 34 (imposed slip rates with Gaussian STF).
 
 ## TPV5
 Reference computed on June 22, with commit `115018ad`.
