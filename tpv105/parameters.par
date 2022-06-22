@@ -65,7 +65,7 @@ refinement = 1
 &Pickpoint
 printtimeinterval = 1       ! Index of printed info at timesteps
 OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
-nOutpoints = 5
+nOutpoints = 4
 PPFileName = 'FaultReceivers.dat'
 /
 
