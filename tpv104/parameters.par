@@ -46,8 +46,7 @@ refinement = 1
 
 &Pickpoint
 printtimeinterval = 1       ! Index of printed info at timesteps
-OutputMask = 1 1 1 1      ! output 1/ yes, 0/ no - position: 1/ slip rate 2/ stress 3/ normal velocity 4/ in case of rate and state output friction and state variable
-                            ! 5/ background values
+OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
 nOutpoints = 5
 PPFileName = 'FaultReceivers.dat'
 /
