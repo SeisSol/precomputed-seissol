@@ -34,7 +34,7 @@ mu_w=0.2
 &Elementwise
 printIntervalCriterion = 2
 printtimeinterval_sec = 1.0
-OutputMask = 1 1 1 1 1 1 1 1 1 1 0 0
+OutputMask = 1 1 1 1 1 1 0 1 1 1 0 0
 refinement_strategy = 2
 refinement = 1
 /
