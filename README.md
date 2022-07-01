@@ -12,6 +12,11 @@ Reference computed on June 22, with commit `115018ad`.
 ## TPV105
 Reference computed on June 22, with commit `115018ad`.
 
+## TPV16
+Reference computed on July 1, with commit `4357f5e0`.
+
+Note: There seems to be something broken with the traction part of the faultreceiver output on the master branch as it outputs strange values. In particular the quantity `Ts0` at initial time does not have the same value as `T_s` in the header.
+
 ## TPV33
 Reference computed on June 9, with commit `2eaf426b`.
 

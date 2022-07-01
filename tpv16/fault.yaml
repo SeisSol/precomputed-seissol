@@ -1,0 +1,33 @@
+!Switch
+[s_xx, s_yy, s_zz, s_xy, s_yz, s_xz, cohesion, mu_s, mu_d, d_c, forced_rupture_time]:
+  !AffineMap
+  matrix:
+    x: [1.0, 0.0,  0.0]
+    z: [0.0, 0.0, -1.0]
+  translation:
+    x: 0.0
+    z: 0.0
+  components: !SCECFile
+    file: tpv16_input_file.txt
+    components: !Switch
+      [s_xx, s_zz, s_xz]: !ConstantMap
+        map:
+          s_xx: 0.0
+          s_zz: 0.0
+          s_xz: 0.0
+      [s_yy, s_xy, s_yz,cohesion]: !FunctionMap
+        map:
+          s_yy: return -s_normal;
+          s_xy: return s_strike;
+          s_yz: return s_dip;
+          cohesion: return -cohesion;
+      [mu_s, mu_d, d_c, forced_rupture_time]: !IdentityMap {}
+[nuc_xx, nuc_yy, nuc_zz, nuc_xy, nuc_yz, nuc_xz]:
+  !ConstantMap
+  map:
+    nuc_xx: 0.0
+    nuc_yy: 0.0
+    nuc_zz: 0.0
+    nuc_xy: 0.0
+    nuc_yz: 0.0
+    nuc_xz: 0.0
