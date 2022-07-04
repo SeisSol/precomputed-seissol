@@ -12,7 +12,7 @@ BC_of = 1
 /
 
 &DynamicRupture
-FL = 2
+FL = 16
 ModelFileName = 'fault.yaml'
 
 XRef = 0.0
