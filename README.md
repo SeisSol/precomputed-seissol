@@ -30,5 +30,8 @@ Note: This is not the SCEC TPV34, but a test for SeisSol's friction law 34 (impo
 ## TPV5
 Reference computed on June 22, with commit `115018ad`.
 
+## TPV5
+Reference computed on July 08, with commit `a5d9098c`.
+
 ## ASl vs ASI
 On the master branch an output variable is wrongly named `ASI`. As a postprocessing step the variable name has been changed to `ASl`.

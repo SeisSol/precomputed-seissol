@@ -1,0 +1,84 @@
+&equations
+MaterialFileName = 'material.yaml'
+/
+
+&IniCondition
+/
+
+&Boundaries
+BC_fs = 1
+BC_dr = 1
+BC_of = 1
+/
+
+&DynamicRupture
+FL = 6
+ModelFileName = 'fault.yaml'
+vStar = 1                                     ! Prakash-Clifton regularization parameter
+prakashLength = 0.01
+
+XRef = 0.0
+YRef = -1.0
+ZRef = 0.0
+refPointMethod = 1
+
+RF_output_on = 1
+OutputPointType = 5
+SlipRateOutputType=1
+/
+
+&Elementwise
+printIntervalCriterion = 2
+printtimeinterval_sec = 1.0
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 0
+refinement_strategy = 2
+refinement = 1
+/
+
+&Pickpoint
+printtimeinterval = 1       ! Index of printed info at timesteps
+OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
+nOutpoints = 4
+PPFileName = 'FaultReceivers.dat'
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+            
+&MeshNml
+MeshFile = 'tpv5-20k.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 2
+/
+
+&Output
+FaultOutputFlag = 1                            ! DR output (add this line only if DR is active)
+OutputFile = 'output/tpv'
+Format = 6
+!             |stress     |vel
+iOutputMask = 0 0 0 0 0 0 1 1 1
+TimeInterval =  1.
+refinement = 1
+
+RFileName = 'Receivers.dat'
+pickdt = 0.005
+pickDtType = 1
+printIntervalCriterion = 2
+/
+
+&AbortCriteria
+EndTime = 2.0
+/
+
+&Analysis
+/
+
+&Debugging
+/
