@@ -23,7 +23,7 @@ Reference computed on July 13, with commit `40346cf3`.
 Note: This is not the SCEC TPV33, but a test for SeisSol's friction law 33 (imposed slip rates with regularized yoffe STF).
 
 ## TPV34
-Reference computed on June 9, with commit `2eaf426b`.
+Reference computed on July 13, with commit `40346cf3`.
 
 Note: This is not the SCEC TPV34, but a test for SeisSol's friction law 34 (imposed slip rates with Gaussian STF).
 
