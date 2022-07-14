@@ -20,12 +20,12 @@ Note: There seems to be something broken with the traction part of the faultrece
 ## TPVyoffe
 Reference computed on July 13, with commit `40346cf3`.
 
-This is not a SCEC benchmark, but rather a benchmark for the imposed slip friction law with Yoffe slip function.
+This is not a SCEC benchmark, but rather a verification setup for the imposed slip friction law with Yoffe slip function.
 
 ## TPVgaussian
 Reference computed on July 13, with commit `40346cf3`.
 
-This is not a SCEC benchmark, but rather a benchmark for the imposed slip friction law with Gaussian slip function.
+This is not a SCEC benchmark, but rather a verification setup for the imposed slip friction law with Gaussian slip function.
 
 ## TPV5
 Reference computed on June 22, with commit `115018ad`.
