@@ -12,7 +12,7 @@ BC_of = 1
 /
 
 &DynamicRupture
-FL = 34                                        ! Friction law  
+FL = 34
 ModelFileName = 'northridge_fault.yaml'
 
 XRef = 0.0 
@@ -41,7 +41,7 @@ refinement = 1
             
 &MeshNml
 MeshFile = 'mesh_northridge.puml.h5'
-meshgenerator = 'PUML'                         ! Name of meshgenerator (Gambit3D-fast, Netcdf or PUML)
+meshgenerator = 'PUML'
 /
 
 &Discretization
@@ -50,7 +50,7 @@ ClusteredLTS = 2
 /
 
 &Output
-FaultOutputFlag = 1                            ! DR output (add this line only if DR is active)
+FaultOutputFlag = 1
 OutputFile = 'output/tpv'
 Format = 6
 !             |stress     |vel  
@@ -64,6 +64,10 @@ pickDtType = 1
 printIntervalCriterion = 2
 
 xdmfWriterBackend = 'posix'
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 1.0
 /
 
 &AbortCriteria

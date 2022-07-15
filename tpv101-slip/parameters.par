@@ -39,7 +39,7 @@ refinement = 1
 /
 
 &Pickpoint
-printtimeinterval = 1       ! Index of printed info at timesteps
+printtimeinterval = 1
 OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
 nOutpoints = 4
 PPFileName = 'FaultReceivers.dat'
@@ -62,7 +62,7 @@ ClusteredLTS = 2
 /
 
 &Output
-FaultOutputFlag = 1                            ! DR output (add this line only if DR is active)
+FaultOutputFlag = 1
 OutputFile = 'output/tpv'
 Format = 6
 !             |stress     |vel  
@@ -74,6 +74,10 @@ RFileName = 'Receivers.dat'
 pickdt = 0.005
 pickDtType = 1
 printIntervalCriterion = 2
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 1.0
 /
 
 &AbortCriteria

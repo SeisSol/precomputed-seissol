@@ -60,15 +60,19 @@ ClusteredLTS = 2
 FaultOutputFlag = 1
 OutputFile = 'output/tpv'
 Format = 6
-!             |stress     |vel
-iOutputMask = 0 0 0 0 0 0 1 1 1
-TimeInterval =  1.
+!             |stress     |vel  
+iOutputMask = 0 0 0 0 0 0 1 1 1 
+TimeInterval = 1.
 refinement = 1
 
 RFileName = 'Receivers.dat'
 pickdt = 0.005
 pickDtType = 1
 printIntervalCriterion = 2
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 1.0
 /
 
 &AbortCriteria
