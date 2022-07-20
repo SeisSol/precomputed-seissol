@@ -30,6 +30,12 @@ This is not a SCEC benchmark, but rather a verification setup for the imposed sl
 ## TPV5
 Reference computed on July 15, with commit `153338af`.
 
+## TPV5-nuc
+This is a version of TPV5, which is nucleated with the nucleation stress method.
+This feature does not work properly on the master branch.
+We used a hotfix-branch to compute this reference.
+Reference computed on July 20, with commit `1728b83a`.
+
 ## TPV6
 Reference computed on July 15, with commit `153338af`.
 
