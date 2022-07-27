@@ -14,8 +14,8 @@ BC_of = 1
 &DynamicRupture
 FL = 6
 ModelFileName = 'fault.yaml'
-vStar = 1                                     ! Prakash-Clifton regularization parameter
-prakashLength = 0.01
+pc_vStar = 1
+pc_prakashLength = 0.01
 
 XRef = 0.0
 YRef = -1.0
