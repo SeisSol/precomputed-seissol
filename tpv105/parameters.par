@@ -30,11 +30,11 @@ RS_iniSlipRate1 = 1e-16
 RS_iniSlipRate2 = 0.0
 
 thermalPress = 1
-TP_iniTemp = 483.15
-TP_iniPressure = 0.0e6                  
-TP_thermalDiffusivity = 1.0e-6
-TP_heatCapacity = 2.7e6
-TP_undrainedTPResponse = 0.1e6
+tp_iniTemp = 483.15
+tp_iniPressure = 0.0e6                  
+tp_thermalDiffusivity = 1.0e-6
+tp_heatCapacity = 2.7e6
+tp_undrainedTPResponse = 0.1e6
 
 t_0 = 1.0
 /
