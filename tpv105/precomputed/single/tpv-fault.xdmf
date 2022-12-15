@@ -104,12 +104,6 @@
       <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="1 4368">tpv-fault_cell.h5:/mesh0/PSR</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="RT" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="4368">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 4368</DataItem>
-      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="1 4368">tpv-fault_cell.h5:/mesh0/RT</DataItem>
-     </DataItem>
-    </Attribute>
     <Attribute Name="DS" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="4368">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 4368</DataItem>
@@ -230,12 +224,6 @@
       <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="2 4368">tpv-fault_cell.h5:/mesh0/PSR</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="RT" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="4368">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 4368</DataItem>
-      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="2 4368">tpv-fault_cell.h5:/mesh0/RT</DataItem>
-     </DataItem>
-    </Attribute>
     <Attribute Name="DS" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="4368">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 4368</DataItem>
@@ -354,12 +342,6 @@
      <DataItem ItemType="HyperSlab" Dimensions="4368">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 4368</DataItem>
       <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="3 4368">tpv-fault_cell.h5:/mesh0/PSR</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="RT" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="4368">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 4368</DataItem>
-      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="3 4368">tpv-fault_cell.h5:/mesh0/RT</DataItem>
      </DataItem>
     </Attribute>
     <Attribute Name="DS" Center="Cell">
