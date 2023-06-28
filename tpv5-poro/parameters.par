@@ -10,9 +10,7 @@ width = 1e-7
 /
 
 &Boundaries
-BC_fs = 1
 BC_dr = 1
-BC_of = 1
 /
 
 &DynamicRupture
@@ -20,7 +18,7 @@ FL = 16
 ModelFileName = 'fault.yaml'
 
 XRef = 0.0
-YRef = -1.0e5
+YRef = -1.0
 ZRef = 0.0
 
 RF_output_on = 1
@@ -63,18 +61,18 @@ FaultOutputFlag = 1
 OutputFile = 'output/tpv'
 Format = 6
 !             |stress     |vel  
-iOutputMask = 1 1 1 1 1 1 1 1 1 
+iOutputMask = 0 0 0 0 0 0 1 1 1 
 TimeInterval = 1.
 refinement = 1
 
 RFileName = 'Receivers.dat'
 pickdt = 0.005
-pickDtType = 1
-printIntervalCriterion = 2
 
 EnergyOutput = 1
 EnergyTerminalOutput = 1
 EnergyOutputInterval = 1.0
+
+checkpoint = 0
 /
 
 &AbortCriteria
