@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+  <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+   <Grid Name="step_000000000000" GridType="Uniform"><!-- mesh id: 0, mesh step: 0 -->
+    <Topology TopologyType="Tetrahedron" NumberOfElements="76520">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="76520 4">tpv_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="23067">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="23067 3">tpv_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="0"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76520">tpv_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="clustering" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76520">tpv_cell/mesh0/clustering.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="1 76520">tpv_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="1 76520">tpv_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="1 76520">tpv_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="eta" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="1 76520">tpv_cell/mesh0/eta.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000001" GridType="Uniform"><!-- mesh id: 0, mesh step: 1 -->
+    <Topology TopologyType="Tetrahedron" NumberOfElements="76520">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="76520 4">tpv_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="23067">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="23067 3">tpv_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="1"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76520">tpv_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="clustering" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76520">tpv_cell/mesh0/clustering.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="2 76520">tpv_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="2 76520">tpv_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="2 76520">tpv_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="eta" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="2 76520">tpv_cell/mesh0/eta.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000002" GridType="Uniform"><!-- mesh id: 0, mesh step: 2 -->
+    <Topology TopologyType="Tetrahedron" NumberOfElements="76520">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="76520 4">tpv_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="23067">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="23067 3">tpv_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="2"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76520">tpv_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="clustering" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76520">tpv_cell/mesh0/clustering.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="3 76520">tpv_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="3 76520">tpv_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="3 76520">tpv_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="eta" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="76520">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76520</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="Binary" Dimensions="3 76520">tpv_cell/mesh0/eta.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+  </Grid>
+ </Domain>
+</Xdmf>

@@ -1,0 +1,2 @@
+hostname,rank,localRank,workermask,workernuma,commthread_mask,commthread_numa,nproc
+"fedora-work",0,0,"0,1,2,3,4,5,6,7","0,0,0,0,0,0,0,0","no-info","no-info",8
