@@ -36,7 +36,7 @@ This feature does not work properly on the master branch.
 We used a hotfix-branch to compute this reference.
 Reference computed on July 20, with commit `1728b83a`.
 
-## TPV5-nuc
+## TPV5-poro
 This is a poroelastic version of TPV5.
 The rupture is nucleated by a fluid pressure pertubation at the initial time.
 Reference computed on June 27, 2023 with commit `2752c6d9`.
