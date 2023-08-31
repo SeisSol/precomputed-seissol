@@ -1,0 +1,66 @@
+&equations
+MaterialFileName = 'material.yaml'
+/
+
+&IniCondition
+/
+
+&Boundaries
+BC_fs = 1
+BC_of = 1
+/
+
+&DynamicRupture
+/
+
+&Elementwise
+/
+
+&Pickpoint
+/
+
+&SourceType
+Type = 42 
+FileName = 'source.nrf'
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = 'mesh.puml.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.4
+ClusteredLTS = 2
+/
+
+&Output
+OutputFile = 'output/tpv'
+Format = 6
+!             |stress     |vel  
+iOutputMask = 0 0 0 0 0 0 1 1 1 
+TimeInterval = 1.
+refinement = 1
+
+RFileName = 'Receivers.dat'
+pickdt = 0.005
+pickDtType = 1
+printIntervalCriterion = 2
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 1.0
+/
+
+&AbortCriteria
+EndTime = 2.0
+/
+
+&Analysis
+/
+
+&Debugging
+/
