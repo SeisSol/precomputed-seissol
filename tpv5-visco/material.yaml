@@ -1,0 +1,10 @@
+!ConstantMap
+map:
+  rho:    2670
+  mu:     32038120320
+  lambda: 32043759360
+  Qp:     40.0
+  Qs:     120.0
+
+
+

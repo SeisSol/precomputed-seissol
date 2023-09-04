@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+  <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+   <Grid Name="step_000000000000" GridType="Uniform"><!-- mesh id: 0, mesh step: 0 -->
+    <Topology TopologyType="Tetrahedron" NumberOfElements="29420">
+     <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="29420 4">tpv_cell.h5:/mesh0/connect</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="8821">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8821 3">tpv_vertex.h5:/mesh0/geometry</DataItem>
+    </Geometry>
+    <Time Value="0"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="29420">tpv_cell.h5:/mesh0/partition</DataItem>
+    </Attribute>
+    <Attribute Name="clustering" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="29420">tpv_cell.h5:/mesh0/clustering</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="1 29420">tpv_cell.h5:/mesh0/u</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="1 29420">tpv_cell.h5:/mesh0/v</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="1 29420">tpv_cell.h5:/mesh0/w</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000001" GridType="Uniform"><!-- mesh id: 0, mesh step: 1 -->
+    <Topology TopologyType="Tetrahedron" NumberOfElements="29420">
+     <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="29420 4">tpv_cell.h5:/mesh0/connect</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="8821">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8821 3">tpv_vertex.h5:/mesh0/geometry</DataItem>
+    </Geometry>
+    <Time Value="1"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="29420">tpv_cell.h5:/mesh0/partition</DataItem>
+    </Attribute>
+    <Attribute Name="clustering" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="29420">tpv_cell.h5:/mesh0/clustering</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="2 29420">tpv_cell.h5:/mesh0/u</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="2 29420">tpv_cell.h5:/mesh0/v</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="2 29420">tpv_cell.h5:/mesh0/w</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000002" GridType="Uniform"><!-- mesh id: 0, mesh step: 2 -->
+    <Topology TopologyType="Tetrahedron" NumberOfElements="29420">
+     <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="29420 4">tpv_cell.h5:/mesh0/connect</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="8821">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8821 3">tpv_vertex.h5:/mesh0/geometry</DataItem>
+    </Geometry>
+    <Time Value="2"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="29420">tpv_cell.h5:/mesh0/partition</DataItem>
+    </Attribute>
+    <Attribute Name="clustering" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="29420">tpv_cell.h5:/mesh0/clustering</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="3 29420">tpv_cell.h5:/mesh0/u</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="3 29420">tpv_cell.h5:/mesh0/v</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="29420">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 29420</DataItem>
+      <DataItem NumberType="Float" Precision="4" Format="HDF" Dimensions="3 29420">tpv_cell.h5:/mesh0/w</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+  </Grid>
+ </Domain>
+</Xdmf>

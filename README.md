@@ -12,10 +12,19 @@ Reference computed on July 15 2022, with commit `153338af`.
 ## TPV105
 Reference computed on December 15 2022, with commit `64cc387e`.
 
+## TPV13
+With slight modification: Fault is smaller, but does not break up to the boundaries within 2s.
+Reference computed on August 31, 2023, with commit `7fde4778`.
+
 ## TPV16
 Reference computed on July 15 2022, with commit `153338af`.
 
 Note: There seems to be something broken with the traction part of the faultreceiver output on the master branch as it outputs strange values. In particular the quantity `Ts0` at initial time does not have the same value as `T_s` in the header.
+
+## TPVahsp
+Reference computed on August 31, 2023, with commit `9b1b0ec9`.
+
+This is not a SCEC benchmark, but SISMOWINE benchmark for anisotropic materials. We call it TPVahsp nonetheless, for consistency.
 
 ## TPVyoffe
 Reference computed on July 15 2022, with commit `153338af`.
@@ -35,6 +44,10 @@ This is a version of TPV5, which is nucleated with the nucleation stress method.
 This feature does not work properly on the master branch.
 We used a hotfix-branch to compute this reference.
 Reference computed on July 20, with commit `1728b83a`.
+
+## TPV5-visco
+This is a viscoelastic version of TPV5.
+Reference computed on August 31, 2023 with commit `9b1b0ec`.
 
 ## TPV5-poro
 This is a poroelastic version of TPV5.
