@@ -54,6 +54,7 @@ meshgenerator = 'PUML'
 &Discretization
 CFL = 0.5
 ClusteredLTS = 2
+FixFimeStep = 0.01
 /
 
 &Output
