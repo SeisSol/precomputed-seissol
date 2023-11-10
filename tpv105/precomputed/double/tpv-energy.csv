@@ -15,9 +15,9 @@ time,variable,measurement
 1,elastic_energy,2.80315e+14
 1,elastic_kinetic_energy,5.92919e+13
 1,plastic_moment,0
-1,total_frictional_work,3.38741e+14
+1,total_frictional_work,1.69370e+14
 1,static_frictional_work,2.43957e+14
-1,seismic_moment,5.1227e+17
+1,seismic_moment,5.12270e+17
 1,plastic_moment,0
 2,gravitational_energy,0
 2,acoustic_energy,0
@@ -25,7 +25,7 @@ time,variable,measurement
 2,elastic_energy,4.93862e+14
 2,elastic_kinetic_energy,7.34166e+13
 2,plastic_moment,0
-2,total_frictional_work,5.66374e+14
+2,total_frictional_work,2.83187e+14
 2,static_frictional_work,4.58751e+14
-2,seismic_moment,1.8166e+18
+2,seismic_moment,1.81660e+18
 2,plastic_moment,0

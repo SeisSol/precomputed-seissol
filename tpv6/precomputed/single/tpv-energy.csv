@@ -1,4 +1,4 @@
 time,gravitational_energy,acoustic_energy,acoustic_kinetic_energy,elastic_energy,elastic_kinetic_energy,total_frictional_work,static_frictional_work,seismic_moment,plastic_moment
-0,0,0,0,0,0,0,0,0,0
-1,0,0,0,2.99361e+14,1.06377e+14,4.08444e+14,2.46626e+14,5.63512e+17,0
-2,0,0,0,6.76669e+14,2.38743e+14,9.22331e+14,5.84828e+14,1.87387e+18,0
+0,0,0,0,0.00000e+00,0.00000e+00,0.00000e+00,0.00000e+00,0.00000e+00,0
+1,0,0,0,2.99361e+14,1.06377e+14,2.04222e+14,2.46626e+14,5.63512e+17,0
+2,0,0,0,6.76669e+14,2.38743e+14,4.61166e+14,5.84828e+14,1.87387e+18,0
