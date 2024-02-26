@@ -1,0 +1,37 @@
+!Switch
+[rho,mu0,lambda0,gammaR,xi0,mu,lambda,gamma,epsxx_alpha,epsyy_alpha,epszz_alpha,epsxy_alpha,epsyz_alpha,epszx_alpha]: !ConstantMap
+  map:
+    rho:    2760
+    mu0:     32038120320
+    lambda0: 32043759360
+    gammaR:  3.72e10
+    xi0:     0.75
+    mu:     32038120320
+    lambda: 32043759360
+    gamma:  0.00e10
+    epsxx_alpha: -1.8738e-4
+    epsyy_alpha: -1.1225e-3
+    epszz_alpha: -1.8738e-4
+    epsxy_alpha: 1.0909e-3
+    epsyz_alpha: 0.0
+    epszx_alpha: 0.0
+[Cd]: !FunctionMap
+  map:
+    Cd: |
+      rx = sqrt(x*x);
+      rz = sqrt((z+7500)*(z+7500));
+      rx1 = sqrt((x+7500)*(x+7500));
+      rx2 = sqrt((x-7500)*(x-7500));
+      r = max(rx, rz);
+      if (r <= 1800.0) {
+         return 0.000005;
+      }
+      if (max(rx1,rz) <=1800) {
+         return 0.000005;
+      }
+      if (max(rx2,rz) <=1800) {
+         return 0.000005;
+      }
+      return 0.000005;
+
+
