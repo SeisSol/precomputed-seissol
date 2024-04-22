@@ -82,7 +82,7 @@ ClusteredLTS = 1                               ! 1 for Global time stepping, 2,3
 
 &Output
 FaultOutputFlag = 1                            ! DR output (add this line only if DR is active)
-OutputFile = 'output_full/tpv5_C0p5F10VDmd0p43NBre6sCB100UniCd5em5Ga3p7e10' ! tpv5_ISNnlCoTFW0p5Heal5sCd2em5Ga3e10
+OutputFile = 'reference/tpv5_C0p5F10VDmd0p43NBre6sCB100UniCd5em5Ga3p7e10' ! tpv5_ISNnlCoTFW0p5Heal5sCd2em5Ga3e10
 Format = 10                                    ! Format (10= no output, 6=hdf5 output)
 !             |stress     |vel
 iOutputMask = 0 0 0 0 0 0 1 1 1
