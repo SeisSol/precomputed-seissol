@@ -1,7 +1,7 @@
 # Reference for acceptance test of damaged-elastic rheology in SeisSol.
 
 ## Reference version
-Compile SeisSol on commmit aec344da4224aa7869d16225b92100f35d5158ea
+Compile SeisSol on commit aec344da4224aa7869d16225b92100f35d5158ea(earlier version) or on commit ba3b62bea8c4653ff6ba6d5554c2e7e390fb2228(corrected version after merging with an updated branch of master)
 
 Build with `cmake .. -DGEMM_TOOLS_LIST=LIBXSMM -DASAGI=ON -DNETCDF=ON -DORDER=3 -DEQUATIONS="damaged-elastic" -DHOST_ARCH=skx -DCMAKE_BUILD_TYPE=Release -DPRECISION=double`
 
