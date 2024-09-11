@@ -1,0 +1,54 @@
+!Switch
+[mu_d, mu_s, d_c, cohesion, s_xx, s_yy, s_zz, s_yz, s_xz, Tnuc_n, Tnuc_s, Tnuc_d, forced_rupture_time]: !ConstantMap
+  map:
+    mu_d: 0.45
+    mu_s: 0.55
+    d_c: 0.18
+    cohesion: 0.0
+    s_xx: -60000000.0
+    s_yy: -60000000.0
+    s_zz: 0.0
+    s_yz: 0.0
+    s_xz: 0.0
+    Tnuc_n: 0
+    Tnuc_s: 0
+    Tnuc_d: 0
+    forced_rupture_time: 1e10
+[s_xy]: !LuaMap
+  returns: [s_xy]
+  function: |
+      function f (x)
+
+        if (x["x"]<-9800.) then
+          Rx = (-x["x"] - 9800.0)/10000.
+        elseif (x["x"]>1100.0) then
+          Rx = (x["x"]- 1100.0)/10000.
+        else
+          Rx = 0.
+        end
+
+        if (x["z"]<-8000.) then
+          Rz = (-x["z"] - 8000.0)/10000.
+        elseif (x["z"]>-2300.0) then
+            Rz = (x["z"] + 2300.0)/10000.
+        else 
+            Rz = 0.
+        end
+
+        Rt =  math.min(1.0,math.sqrt(Rx^2+Rz^2))
+        radius = math.sqrt((x["x"]+6000)^2 +(x["z"]+6000)^2)
+
+        pi = 4.0 * math.atan (1.0)
+        s_xy0 = 30000000.0*(1.0-Rt)
+        if (radius<=550.0) then
+          s_xy1 = 3150000
+        elseif (radius<=800.0) then
+          s_xy1 = 1575000.*(1.0+math.cos(pi*(radius-550.0)/250.0));
+        else
+          s_xy1 = 0.0
+        end
+
+        return {
+          s_xy = s_xy0 + s_xy1
+        }
+      end
