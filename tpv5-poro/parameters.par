@@ -66,6 +66,7 @@ pickdt = 0.005
 EnergyOutput = 1
 EnergyTerminalOutput = 1
 EnergyOutputInterval = 1.0
+FaultEnergiesFromAcrossFaultVelocities = 1
 
 checkpoint = 0
 /
