@@ -17,7 +17,7 @@ With slight modification: Fault is smaller, but does not break up to the boundar
 Reference computed on August 31, 2023, with commit `7fde4778`.
 
 ## TPV13-fused
-With a very coarse mesh, and order 3: the simulation is not relevant for any physics, but to check fused simulations are not broken.
+With a coarse mesh with approximately 2.7k elements, and order 6: the simulation is not relevant for any physics, but to check fused simulations are not broken.
 Reference computed on June 16, 2025, with commit `0fd3d9e2`
 
 ## TPV16

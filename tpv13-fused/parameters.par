@@ -17,6 +17,10 @@ ModelFileName = 'tpv12_13_fault_0.yaml'
 ModelFileName1 = 'tpv12_13_fault_1.yaml'
 ModelFileName2 = 'tpv12_13_fault_2.yaml'
 ModelFileName3 = 'tpv12_13_fault_3.yaml'
+ModelFileName4 = 'tpv12_13_fault_4.yaml'
+ModelFileName5 = 'tpv12_13_fault_5.yaml'
+ModelFileName6 = 'tpv12_13_fault_6.yaml'
+ModelFileName7 = 'tpv12_13_fault_7.yaml'
 
 
 !characteristic time of the forced nucleation

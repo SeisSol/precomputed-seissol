@@ -4,7 +4,7 @@ set -euo pipefail
 prefix=tpv12_13_example
 # Generate the mesh using gmsh
 #for gmsh, see http://gmsh.info/#Download
-gmsh -3 $prefix.geo -clscale 100
+gmsh -3 $prefix.geo -clscale 10
 
 # Convert the mesh from neu to hdf5 using pumgen
 # for pumgen, see https://github.com/SeisSol/PUMGen/wiki/How-to-compile-PUMGen
