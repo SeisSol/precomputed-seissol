@@ -16,6 +16,10 @@ Reference computed on December 15 2022, with commit `64cc387e`.
 With slight modification: Fault is smaller, but does not break up to the boundaries within 2s.
 Reference computed on August 31, 2023, with commit `7fde4778`.
 
+## TPV13-fused
+With a coarse mesh with approximately 2.7k elements, and order 6: the simulation is not relevant for any physics, but to check fused simulations are not broken.
+Reference computed on June 16, 2025, with commit `0fd3d9e2`
+
 ## TPV16
 Reference computed on July 15 2022, with commit `153338af`.
 
