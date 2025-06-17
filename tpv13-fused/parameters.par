@@ -45,7 +45,7 @@ SlipRateOutputType=1        ! 0: (smoother) slip rate output evaluated from the 
 ! parameterize ascii fault file outputs
 &Pickpoint
 printtimeinterval = 1       ! Index of printed info at timesteps
-OutputMask = 1 1 1 1  ! turn on and off fault outputs
+OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1  ! turn on and off fault outputs
 PPFileName = 'tpv12_13_faultreceivers.dat'
 /
 
