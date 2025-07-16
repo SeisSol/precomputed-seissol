@@ -89,9 +89,9 @@ xdmfWriterBackend = 'posix' ! (optional) The backend used in fault, wavefield,
 ! and free-surface output. The HDF5 backend is only supported when SeisSol is compiled with
 ! HDF5 support.
 
-EnergyOutput = 0 ! Computation of energy, written in csv file
+EnergyOutput = 1 ! Computation of energy, written in csv file
 EnergyTerminalOutput = 0 ! Write energy to standard output
-EnergyOutputInterval = 0.5
+EnergyOutputInterval = 8.0
 /
 
 &AbortCriteria
