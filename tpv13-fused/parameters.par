@@ -2,7 +2,7 @@
 !yaml file defining spatial dependance of material properties
 MaterialFileName = 'tpv12_13_material.yaml'
 !off-fault plasticity parameter (ignored in Plasticity=0)
-Plasticity = 0
+Plasticity = 1
 Tv = 0.03
 /
 
