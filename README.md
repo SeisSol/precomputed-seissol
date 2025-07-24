@@ -68,5 +68,8 @@ Reference computed on June 27, 2023 with commit `2752c6d9`.
 ## TPV6
 Reference computed on July 15 2022, with commit `153338af`.
 
+## TTPV1
+The reference was computed on July 22 2025, using commit `340af314176398c7e9313219ba851144418551b6`, and a dense memory layout.
+
 ## ASl vs ASI
 On the master branch an output variable is wrongly named `ASI`. As a postprocessing step the variable name has been changed to `ASl`.
