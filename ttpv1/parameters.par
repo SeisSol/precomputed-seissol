@@ -16,7 +16,7 @@ ModelFileName = 'fault.yaml'
 t_0 = 0.5
 
 !reference vector for defining strike and dip direction
-XRef = -0.1 !0.0
+XRef = -0.1
 YRef = 0.0
 ZRef = -1.0
 refPointMethod = 1
@@ -67,8 +67,6 @@ WavefieldOutput = 1        ! disable/enable volumne wavefield output (right now,
 Format = 6                                     ! Format (10=no output, 6=hdf5 output)
 !             |stress     |vel
 iOutputMask = 1 1 1 1 1 1 1 1 1
-!                 |strain     |eta
-iPlasticityMask = 0 0 0 0 0 0 1
 TimeInterval =  5.0                           ! Index of printed info at time
 refinement = 1
 
@@ -81,7 +79,7 @@ ReceiverOutput = 1
 pickdt = 0.01                       ! Pickpoint Sampling
 RFileName = 'receivers_elastic_acoustic_interface.dat'      ! Record Points in extra file
 ReceiverOutputInterval = 10.0
-ReceiverComputeStrain = 1 !0
+ReceiverComputeStrain = 1
 
 xdmfWriterBackend = 'hdf5' ! (optional) The backend used in fault, wavefield,
 ! and free-surface output. The HDF5 backend is only supported when SeisSol is compiled with
