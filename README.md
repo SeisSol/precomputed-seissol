@@ -63,7 +63,7 @@ Reference computed on August 31, 2023 with commit `9b1b0ec`.
 ## TPV5-poro
 This is a poroelastic version of TPV5.
 The rupture is nucleated by a fluid pressure pertubation at the initial time.
-Reference computed on June 27, 2023 with commit `2752c6d9`.
+Reference computed on August 19, 2025 with commit `f0b153bfbf69c63e213651470ed8fd3fab412863`.
 
 ## TPV6
 Reference computed on July 15 2022, with commit `153338af`.
