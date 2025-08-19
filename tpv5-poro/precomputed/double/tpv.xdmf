@@ -5,262 +5,109 @@
   <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
    <Grid Name="step_000000000000" GridType="Uniform"><!-- mesh id: 0, mesh step: 0 -->
     <Topology TopologyType="Tetrahedron" NumberOfElements="76732">
-     <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="76732 4">tpv_cell.h5:/mesh0/connect</DataItem>
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="76732 4">tpv_cell/mesh0/connect.bin</DataItem>
     </Topology>
     <Geometry name="geo" GeometryType="XYZ" NumberOfElements="22637">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="22637 3">tpv_vertex.h5:/mesh0/geometry</DataItem>
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="22637 3">tpv_vertex/mesh0/geometry.bin</DataItem>
     </Geometry>
     <Time Value="0"/>
     <Attribute Name="partition" Center="Cell">
-     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="76732">tpv_cell.h5:/mesh0/partition</DataItem>
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/partition.bin</DataItem>
     </Attribute>
     <Attribute Name="clustering" Center="Cell">
-     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="76732">tpv_cell.h5:/mesh0/clustering</DataItem>
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/clustering.bin</DataItem>
     </Attribute>
-    <Attribute Name="sigma_xx" Center="Cell">
+    <Attribute Name="global-id" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/global-id.bin</DataItem>
+    </Attribute>
+    <Attribute Name="v1" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/sigma_xx</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 76732">tpv_cell/mesh0/v1.bin</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="sigma_yy" Center="Cell">
+    <Attribute Name="v2" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/sigma_yy</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 76732">tpv_cell/mesh0/v2.bin</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="sigma_zz" Center="Cell">
+    <Attribute Name="v3" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/sigma_zz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_xy" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/sigma_xy</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_yz" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/sigma_yz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_xz" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/sigma_xz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="u" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/u</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="v" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/v</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="w" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/w</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="p" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/p</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="u_f" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/u_f</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="v_f" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1 76732">tpv_cell.h5:/mesh0/v_f</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 76732">tpv_cell/mesh0/v3.bin</DataItem>
      </DataItem>
     </Attribute>
    </Grid>
    <Grid Name="step_000000000001" GridType="Uniform"><!-- mesh id: 0, mesh step: 1 -->
     <Topology TopologyType="Tetrahedron" NumberOfElements="76732">
-     <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="76732 4">tpv_cell.h5:/mesh0/connect</DataItem>
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="76732 4">tpv_cell/mesh0/connect.bin</DataItem>
     </Topology>
     <Geometry name="geo" GeometryType="XYZ" NumberOfElements="22637">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="22637 3">tpv_vertex.h5:/mesh0/geometry</DataItem>
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="22637 3">tpv_vertex/mesh0/geometry.bin</DataItem>
     </Geometry>
     <Time Value="1"/>
     <Attribute Name="partition" Center="Cell">
-     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="76732">tpv_cell.h5:/mesh0/partition</DataItem>
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/partition.bin</DataItem>
     </Attribute>
     <Attribute Name="clustering" Center="Cell">
-     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="76732">tpv_cell.h5:/mesh0/clustering</DataItem>
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/clustering.bin</DataItem>
     </Attribute>
-    <Attribute Name="sigma_xx" Center="Cell">
+    <Attribute Name="global-id" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/global-id.bin</DataItem>
+    </Attribute>
+    <Attribute Name="v1" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/sigma_xx</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 76732">tpv_cell/mesh0/v1.bin</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="sigma_yy" Center="Cell">
+    <Attribute Name="v2" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/sigma_yy</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 76732">tpv_cell/mesh0/v2.bin</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="sigma_zz" Center="Cell">
+    <Attribute Name="v3" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/sigma_zz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_xy" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/sigma_xy</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_yz" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/sigma_yz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_xz" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/sigma_xz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="u" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/u</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="v" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/v</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="w" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/w</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="p" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/p</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="u_f" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/u_f</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="v_f" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2 76732">tpv_cell.h5:/mesh0/v_f</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 76732">tpv_cell/mesh0/v3.bin</DataItem>
      </DataItem>
     </Attribute>
    </Grid>
    <Grid Name="step_000000000002" GridType="Uniform"><!-- mesh id: 0, mesh step: 2 -->
     <Topology TopologyType="Tetrahedron" NumberOfElements="76732">
-     <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="76732 4">tpv_cell.h5:/mesh0/connect</DataItem>
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="76732 4">tpv_cell/mesh0/connect.bin</DataItem>
     </Topology>
     <Geometry name="geo" GeometryType="XYZ" NumberOfElements="22637">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="22637 3">tpv_vertex.h5:/mesh0/geometry</DataItem>
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="22637 3">tpv_vertex/mesh0/geometry.bin</DataItem>
     </Geometry>
     <Time Value="2"/>
     <Attribute Name="partition" Center="Cell">
-     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="76732">tpv_cell.h5:/mesh0/partition</DataItem>
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/partition.bin</DataItem>
     </Attribute>
     <Attribute Name="clustering" Center="Cell">
-     <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="76732">tpv_cell.h5:/mesh0/clustering</DataItem>
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/clustering.bin</DataItem>
     </Attribute>
-    <Attribute Name="sigma_xx" Center="Cell">
+    <Attribute Name="global-id" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="76732">tpv_cell/mesh0/global-id.bin</DataItem>
+    </Attribute>
+    <Attribute Name="v1" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/sigma_xx</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 76732">tpv_cell/mesh0/v1.bin</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="sigma_yy" Center="Cell">
+    <Attribute Name="v2" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/sigma_yy</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 76732">tpv_cell/mesh0/v2.bin</DataItem>
      </DataItem>
     </Attribute>
-    <Attribute Name="sigma_zz" Center="Cell">
+    <Attribute Name="v3" Center="Cell">
      <DataItem ItemType="HyperSlab" Dimensions="76732">
       <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/sigma_zz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_xy" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/sigma_xy</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_yz" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/sigma_yz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="sigma_xz" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/sigma_xz</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="u" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/u</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="v" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/v</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="w" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/w</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="p" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/p</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="u_f" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/u_f</DataItem>
-     </DataItem>
-    </Attribute>
-    <Attribute Name="v_f" Center="Cell">
-     <DataItem ItemType="HyperSlab" Dimensions="76732">
-      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 76732</DataItem>
-      <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="3 76732">tpv_cell.h5:/mesh0/v_f</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 76732">tpv_cell/mesh0/v3.bin</DataItem>
      </DataItem>
     </Attribute>
    </Grid>
