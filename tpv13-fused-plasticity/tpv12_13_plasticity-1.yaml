@@ -1,0 +1,6 @@
+!Switch
+[plastCo, bulkFriction]: !ConstantMap
+  map:
+    plastCo:          5.0e+06
+    bulkFriction:        0.40
+[s_xx, s_yy, s_zz, s_xy, s_yz, s_xz]: !Include tpv12_13_initial_stress.yaml
