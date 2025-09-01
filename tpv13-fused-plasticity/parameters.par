@@ -98,7 +98,7 @@ xdmfWriterBackend = 'posix' ! (optional) The backend used in fault, wavefield,
 ! HDF5 support.
 
 EnergyOutput = 1 ! Computation of energy, written in csv file
-EnergyTerminalOutput = 0 ! Write energy to standard output
+EnergyTerminalOutput = 1 ! Write energy to standard output
 EnergyOutputInterval = 8.0
 /
 
