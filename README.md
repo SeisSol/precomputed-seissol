@@ -17,7 +17,10 @@ With slight modification: Fault is smaller, but does not break up to the boundar
 Reference computed on August 31, 2023, with commit `7fde4778`.
 
 ## TPV13-fused
-With a coarse mesh with approximately 2.7k elements, and order 6: the simulation is just to verify that the fused simulations give consistent results and the physics may not make sense given the coarse mesh. We have energies and receivers to compare for now. This precomputed solutions consider elastic WP, LSW, and plasticity. Reference computed on July 24, 2025, with commit `2dbe03e5`
+With a coarse mesh with approximately 2.7k elements, and order 6: the simulation is just to verify that the fused simulations give consistent results and the physics may not make sense given the coarse mesh. We have energies and receivers to compare for now. These precomputed solutions consider elastic WP, LSW, and plasticity. Reference computed on July 24, 2025, with commit `2dbe03e5`
+
+## TPV13-fused-plasticity
+With a coarse mesh with approximately 2.7k elements, and order 6: the simulation is to verify that fused simulations with plasticity varying across simulations give consistent results, and the physics may not make sense given the coarse mesh. We have energies and receivers to compare for now. These precomputed solutions consider elastic WP, LSW, and plasticity. Reference computed on August 29, 2025, with commit `34c6c54a`
 
 ## TPV16
 Reference computed on July 15 2022, with commit `153338af`.
