@@ -1,0 +1,32 @@
+!LuaMap
+  returns: [s_xx, s_yy, s_zz, s_xy, s_yz, s_xz, v1, v2, v3]
+  function: |
+    function f (x)
+        omega = 2.0 * math.acos(-1)
+        omegasq = omega * omega
+
+        scalex = math.exp(0.98901344820674908 * omega * x["z"])
+        scaley = math.exp(1.2825031256883821 * omega * x["z"])
+
+        mode = omega * x["t"] - 1.406466352506808 * omega * x["x"]
+
+        sinmode = math.sin(mode)
+        cosmode = math.cos(mode)
+
+        coeffxsin = sinmode * scalex * omegasq
+        coeffysin = sinmode * scaley * omegasq
+        coeffxcos = cosmode * scalex * omegasq
+        coeffycos = cosmode * scaley * omegasq
+
+        return {
+            s_xx = -2.7820282741590652 * coeffxsin + 3.5151973269883681 * coeffysin,
+            s_yy = -6.6613381477509402e-16 * coeffxsin + 0.27315475753283058 * coeffysin,
+            s_zz = 2.7820282741590621 * coeffxsin - 2.4225782968570462 * coeffysin,
+            s_xy = 0,
+            s_yz = 0,
+            s_xz = -2.956295201467618 * coeffxcos + 2.9562952014676029 * coeffycos,
+            v1 = 0.98901344820675241 * coeffxsin - 1.1525489264912381 * coeffysin,
+            v2 = 0,
+            v3 = 1.406466352506812 * coeffxcos - 1.050965490997515 * coeffycos
+        }
+    end

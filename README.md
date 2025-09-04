@@ -76,3 +76,7 @@ The reference was computed on July 22 2025, using commit `340af314176398c7e93132
 
 ## ASl vs ASI
 On the master branch an output variable is wrongly named `ASI`. As a postprocessing step the variable name has been changed to `ASl`.
+
+## LOH1-IC
+LOH1, but with a Scholte wave running on it instead of point sources.
+The reference was computed with `b5266c87a7b6bb7de3aeb9dc2fb6c9053452ece1` on 2025-09-04.
