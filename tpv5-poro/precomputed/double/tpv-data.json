@@ -9,8 +9,7 @@
     },
     "fault": {
         "enabled": true,
-        "epsilon": 0.05,
-        "type": "lsw"
+        "epsilon": 0.05
     },
     "energy": {
         "enabled": false,
@@ -18,6 +17,7 @@
     },
     "receiver": {
         "enabled": true,
-        "epsilon": 0.05
+        "epsilon": 0.05,
+        "mode": "lsw"
     }
 }
