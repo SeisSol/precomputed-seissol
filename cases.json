@@ -1,11 +1,11 @@
 {
     "ahsp/double": {
-        "config": "elastic-p6-f64",
+        "config": "anisotropic-p6-f64",
         "parameters": "ahsp/parameters.par",
         "output": "ahsp/precomputed/double/tpv"
     },
     "ahsp/single": {
-        "config": "elastic-p6-f32",
+        "config": "anisotropic-p6-f32",
         "parameters": "ahsp/parameters.par",
         "output": "ahsp/precomputed/single/tpv"
     },
