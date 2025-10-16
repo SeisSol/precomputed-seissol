@@ -30,14 +30,14 @@ Note: There seems to be something broken with the traction part of the faultrece
 ## TPV33
 Reference computed on September 11 2023, with commit `1786163f`.
 
-## TPVahsp
+## AHSP
 Reference computed on August 31, 2023, with commit `9b1b0ec9`.
 
-This is not a SCEC benchmark, but SISMOWINE benchmark for anisotropic materials. We call it TPVahsp nonetheless, for consistency.
+This is not a SCEC benchmark, but SISMOWINE benchmark for anisotropic materials.
 
-## TPVloh1-fused
+## LOH1-fused
 Reference computed on September 26, 2023 with commit `be34d26c`.
-This is not a SCEC benchmark, but SISMOWINE benchmark for elastic materials. We call it TPVloh1-fused nonetheless, for consistency.
+This is not a SCEC benchmark, but SISMOWINE benchmark for elastic materials.
 In particular this test is aimed at the fused simulation feature. It tests an ensemble of 8 simulations.
 
 ## TPVyoffe
