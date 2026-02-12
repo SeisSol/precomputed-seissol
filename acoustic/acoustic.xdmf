@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+  <Grid Name="puml mesh" GridType="Uniform">
+   <Topology TopologyType="Tetrahedron" NumberOfElements="5005">
+    <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="5005 4">acoustic.puml.h5:/connect</DataItem>
+   </Topology>
+   <Geometry name="geo" GeometryType="XYZ" NumberOfElements="1218">
+    <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="1218 3">acoustic.puml.h5:/geometry</DataItem>
+   </Geometry>
+   <Attribute Name="group" Center="Cell">
+    <DataItem  NumberType="Int" Precision="4" Format="HDF" Dimensions="5005">acoustic.puml.h5:/group</DataItem>
+   </Attribute>
+   <Attribute Name="boundary" Center="Cell">
+    <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="5005">acoustic.puml.h5:/boundary</DataItem>
+   </Attribute>
+  </Grid>
+ </Domain>
+</Xdmf>

@@ -1,4 +1,14 @@
 {
+   "acoustic/double": {
+        "config": "acoustic-p6-f64",
+        "parameters": "acoustic/parameters.par",
+        "output": "acoustic/precomputed/double/tpv"
+    },
+    "acoustic/single": {
+        "config": "acoustic-p6-f32",
+        "parameters": "acoustic/parameters.par",
+        "output": "acoustic/precomputed/single/tpv"
+    },
     "ahsp/double": {
         "config": "anisotropic-p6-f64",
         "parameters": "ahsp/parameters.par",
