@@ -49,6 +49,16 @@
         "parameters": "tpv5/parameters.par",
         "output": "tpv5/precomputed/single/tpv"
     },
+    "tpv5-wiggle/double": {
+        "config": "elastic-p6-f64",
+        "parameters": "tpv5-wiggle/parameters.par",
+        "output": "tpv5-wiggle/precomputed/double/tpv"
+    },
+    "tpv5-wiggle/single": {
+        "config": "elastic-p6-f32",
+        "parameters": "tpv5-wiggle/parameters.par",
+        "output": "tpv5-wiggle/precomputed/single/tpv"
+    },
     "tpv5-nuc/double": {
         "config": "elastic-p6-f64",
         "parameters": "tpv5-nuc/parameters.par",
