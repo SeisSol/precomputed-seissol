@@ -1,221 +1,221 @@
 {
    "acoustic/double": {
-        "config": "acoustic-p6-f64",
+        "config": "acoustic-o6-f64",
         "parameters": "acoustic/parameters.par",
         "output": "acoustic/precomputed/double/tpv"
     },
     "acoustic/single": {
-        "config": "acoustic-p6-f32",
+        "config": "acoustic-o6-f32",
         "parameters": "acoustic/parameters.par",
         "output": "acoustic/precomputed/single/tpv"
     },
     "ahsp/double": {
-        "config": "anisotropic-p6-f64",
+        "config": "anisotropic-o6-f64",
         "parameters": "ahsp/parameters.par",
         "output": "ahsp/precomputed/double/tpv"
     },
     "ahsp/single": {
-        "config": "anisotropic-p6-f32",
+        "config": "anisotropic-o6-f32",
         "parameters": "ahsp/parameters.par",
         "output": "ahsp/precomputed/single/tpv"
     },
     "loh1-fused/double": {
-        "config": "elastic-p6-f64-s8",
+        "config": "elastic-o6-f64-s8",
         "parameters": "loh1-fused/parameters.par",
         "output": "loh1-fused/precomputed/double/tpv"
     },
     "loh1-fused/single": {
-        "config": "elastic-p6-f32-s8",
+        "config": "elastic-o6-f32-s8",
         "parameters": "loh1-fused/parameters.par",
         "output": "loh1-fused/precomputed/single/tpv"
     },
     "loh1-ic/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "loh1-ic/parameters.par",
         "output": "loh1-ic/precomputed/double/tpv"
     },
     "loh1-ic/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "loh1-ic/parameters.par",
         "output": "loh1-ic/precomputed/single/tpv"
     },
     "tpv5/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv5/parameters.par",
         "output": "tpv5/precomputed/double/tpv"
     },
     "tpv5/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv5/parameters.par",
         "output": "tpv5/precomputed/single/tpv"
     },
     "tpv5-wiggle/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv5-wiggle/parameters.par",
         "output": "tpv5-wiggle/precomputed/double/tpv"
     },
     "tpv5-wiggle/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv5-wiggle/parameters.par",
         "output": "tpv5-wiggle/precomputed/single/tpv"
     },
     "tpv5-nuc/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv5-nuc/parameters.par",
         "output": "tpv5-nuc/precomputed/double/tpv"
     },
     "tpv5-nuc/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv5-nuc/parameters.par",
         "output": "tpv5-nuc/precomputed/single/tpv"
     },
     "tpv5-4nuc/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv5-4nuc/parameters.par",
         "output": "tpv5-4nuc/precomputed/double/tpv"
     },
     "tpv5-4nuc/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv5-4nuc/parameters.par",
         "output": "tpv5-4nuc/precomputed/single/tpv"
     },
     "tpv5-poro/double": {
-        "config": "poroelastic-p6-f64",
+        "config": "poroelastic-o6-f64",
         "parameters": "tpv5-poro/parameters.par",
         "output": "tpv5-poro/precomputed/double/tpv"
     },
     "tpv5-poro/single": {
-        "config": "poroelastic-p6-f32",
+        "config": "poroelastic-o6-f32",
         "parameters": "tpv5-poro/parameters.par",
         "output": "tpv5-poro/precomputed/single/tpv"
     },
     "tpv5-visco/double": {
-        "config": "viscoelastic-3-p6-f64",
+        "config": "viscoelastic-3-o6-f64",
         "parameters": "tpv5-visco/parameters.par",
         "output": "tpv5-visco/precomputed/double/tpv"
     },
     "tpv5-visco/single": {
-        "config": "viscoelastic-3-p6-f32",
+        "config": "viscoelastic-3-o6-f32",
         "parameters": "tpv5-visco/parameters.par",
         "output": "tpv5-visco/precomputed/single/tpv"
     },
     "tpv6/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv6/parameters.par",
         "output": "tpv6/precomputed/double/tpv"
     },
     "tpv6/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv6/parameters.par",
         "output": "tpv6/precomputed/single/tpv"
     },
     "tpv13/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv13/parameters.par",
         "output": "tpv13/precomputed/double/tpv"
     },
     "tpv13/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv13/parameters.par",
         "output": "tpv13/precomputed/single/tpv"
     },
     "tpv16/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv16/parameters.par",
         "output": "tpv16/precomputed/double/tpv"
     },
     "tpv16/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv16/parameters.par",
         "output": "tpv16/precomputed/single/tpv"
     },
     "tpv101/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv101/parameters.par",
         "output": "tpv101/precomputed/double/tpv"
     },
     "tpv101/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv101/parameters.par",
         "output": "tpv101/precomputed/single/tpv"
     },
     "tpv101-slip/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv101-slip/parameters.par",
         "output": "tpv101-slip/precomputed/double/tpv"
     },
     "tpv101-slip/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv101-slip/parameters.par",
         "output": "tpv101-slip/precomputed/single/tpv"
     },
     "tpv104/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv104/parameters.par",
         "output": "tpv104/precomputed/double/tpv"
     },
     "tpv104/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv104/parameters.par",
         "output": "tpv104/precomputed/single/tpv"
     },
     "tpv105/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpv105/parameters.par",
         "output": "tpv105/precomputed/double/tpv"
     },
     "tpv105/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpv105/parameters.par",
         "output": "tpv105/precomputed/single/tpv"
     },
     "tpvgaussian/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpvgaussian/parameters.par",
         "output": "tpvgaussian/precomputed/double/tpv"
     },
     "tpvgaussian/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpvgaussian/parameters.par",
         "output": "tpvgaussian/precomputed/single/tpv"
     },
     "tpvyoffe/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "tpvyoffe/parameters.par",
         "output": "tpvyoffe/precomputed/double/tpv"
     },
     "tpvyoffe/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "tpvyoffe/parameters.par",
         "output": "tpvyoffe/precomputed/single/tpv"
     },
     "ttpv1/double": {
-        "config": "elastic-p6-f64",
+        "config": "elastic-o6-f64",
         "parameters": "ttpv1/parameters.par",
         "output": "ttpv1/precomputed/double/tpv"
     },
     "ttpv1/single": {
-        "config": "elastic-p6-f32",
+        "config": "elastic-o6-f32",
         "parameters": "ttpv1/parameters.par",
         "output": "ttpv1/precomputed/single/tpv"
     },
     "tpv13-fused/double": {
-        "config": "elastic-p6-f64-s8",
+        "config": "elastic-o6-f64-s8",
         "parameters": "tpv13-fused/parameters.par",
         "output": "tpv13-fused/precomputed/double/tpv"
     },
     "tpv13-fused/single": {
-        "config": "elastic-p6-f32-s8",
+        "config": "elastic-o6-f32-s8",
         "parameters": "tpv13-fused/parameters.par",
         "output": "tpv13-fused/precomputed/single/tpv"
     },
     "tpv13-fused-plasticity/double": {
-        "config": "elastic-p6-f64-s8",
+        "config": "elastic-o6-f64-s8",
         "parameters": "tpv13-fused-plasticity/parameters.par",
         "output": "tpv13-fused-plasticity/precomputed/double/tpv"
     },
     "tpv13-fused-plasticity/single": {
-        "config": "elastic-p6-f32-s8",
+        "config": "elastic-o6-f32-s8",
         "parameters": "tpv13-fused-plasticity/parameters.par",
         "output": "tpv13-fused-plasticity/precomputed/single/tpv"
     }
