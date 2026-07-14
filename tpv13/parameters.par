@@ -46,7 +46,7 @@ PPFileName = 'tpv12_13_faultreceivers.dat'
 /
             
 &MeshNml
-MeshFile = 'tpv12_13_example.puml.h5'
+MeshFile = '../meshes/tpv13-large.h5'
 meshgenerator = 'PUML'
 /
 

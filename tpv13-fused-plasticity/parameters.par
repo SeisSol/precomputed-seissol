@@ -64,7 +64,7 @@ PPFileName = 'tpv12_13_faultreceivers.dat'
 /
             
 &MeshNml
-MeshFile = 'tpv12_13_example.puml.h5'
+MeshFile = '../meshes/tpv13-small.h5'
 meshgenerator = 'PUML'                         ! Name of meshgenerator (Gambit3D-fast, Netcdf or PUML)
 pumlboundaryformat = 'i32'
 /

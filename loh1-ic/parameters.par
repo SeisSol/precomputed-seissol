@@ -31,7 +31,7 @@ BC_of = 1
 /
 
 &MeshNml
-MeshFile = 'mesh.puml.h5'
+MeshFile = '../meshes/loh1.h5'
 meshgenerator = 'PUML'
 /
 

@@ -28,7 +28,7 @@ FileName = 'source.nrf'
 /
 
 &MeshNml
-MeshFile = 'mesh.puml.h5'
+MeshFile = '../meshes/ahsp.h5'
 meshgenerator = 'PUML'
 /
 

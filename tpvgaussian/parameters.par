@@ -40,7 +40,7 @@ refinement = 1
 /
             
 &MeshNml
-MeshFile = 'mesh_northridge.puml.h5'
+MeshFile = '../meshes/mesh_northridge.puml.h5'
 meshgenerator = 'PUML'
 /
 

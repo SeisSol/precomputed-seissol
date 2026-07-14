@@ -43,7 +43,7 @@ PPFileName = 'FaultReceivers.dat'
 /
             
 &MeshNml
-MeshFile = 'tpv5-20k.h5'
+MeshFile = '../meshes/tpv5-20k.h5'
 meshgenerator = 'PUML'
 /
 

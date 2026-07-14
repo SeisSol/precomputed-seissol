@@ -51,7 +51,7 @@ PPFileName = 'onfault_receivers.dat'
 /
             
 &MeshNml
-MeshFile = 'mesh_WL_small_test_18k'
+MeshFile = '../meshes/mesh_WL_small_test_18k'
 meshgenerator = 'PUML'                         ! Name of meshgenerator (Gambit3D-fast, Netcdf or PUML)
 pumlboundaryformat='i32'                       ! Due to bug
 /
