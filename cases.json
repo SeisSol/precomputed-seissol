@@ -218,5 +218,75 @@
         "config": "elastic-o6-f32-s8",
         "parameters": "tpv13-fused-plasticity/parameters.par",
         "output": "tpv13-fused-plasticity/precomputed/single/tpv"
+    },
+    "damage-planarwave/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-planarwave/parameters.par",
+        "output": "damage-planarwave/precomputed/double/tpv"
+    },
+    "damage-planarwave/single": {
+        "config": "damage-o6-f32",
+        "parameters": "damage-planarwave/parameters.par",
+        "output": "damage-planarwave/precomputed/single/tpv"
+    },
+    "damage-planarwave-granular/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-planarwave/parameters-granular.par",
+        "output": "damage-planarwave/precomputed/granular-double/tpv"
+    },
+    "damage-uniform/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-uniform/parameters.par",
+        "output": "damage-uniform/precomputed/double/tpv"
+    },
+    "damage-uniform/single": {
+        "config": "damage-o6-f32",
+        "parameters": "damage-uniform/parameters.par",
+        "output": "damage-uniform/precomputed/single/tpv"
+    },
+    "damage-uniform-healing/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-uniform/parameters-healing.par",
+        "output": "damage-uniform/precomputed/healing-double/tpv"
+    },
+    "damage-uniform-shear/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-uniform/parameters-shear.par",
+        "output": "damage-uniform/precomputed/shear-double/tpv"
+    },
+    "damage-uniform-saturation/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-uniform/parameters-saturation.par",
+        "output": "damage-uniform/precomputed/saturation-double/tpv"
+    },
+    "damage-uniform-breakage/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-uniform/parameters-breakage.par",
+        "output": "damage-uniform/precomputed/breakage-double/tpv"
+    },
+    "damage-scaling/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-scaling/parameters.par",
+        "output": "damage-scaling/precomputed/double/tpv"
+    },
+    "damage-scaling-double/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-scaling/parameters-double.par",
+        "output": "damage-scaling/precomputed/amplitude2-double/tpv"
+    },
+    "damage-wave/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-wave/parameters.par",
+        "output": "damage-wave/precomputed/double/tpv"
+    },
+    "damage-wave/single": {
+        "config": "damage-o6-f32",
+        "parameters": "damage-wave/parameters.par",
+        "output": "damage-wave/precomputed/single/tpv"
+    },
+    "damage-wave-lts/double": {
+        "config": "damage-o6-f64",
+        "parameters": "damage-wave/parameters-lts.par",
+        "output": "damage-wave/precomputed/lts-double/tpv"
     }
 }

@@ -1,0 +1,22 @@
+!LuaMap
+  returns: [eps_xx, eps_yy, eps_zz, eps_xy, eps_yz, eps_xz, v1, v2, v3, alpha, breakage]
+  function: |
+    function f (x)
+        -- The strain of this scenario lives in the initial strain of the
+        -- material file, not in the state, so the state starts at zero and
+        -- stays there: nothing but the two internal variables moves.
+        -- drive = 160, Cd = 1e-3: alpha = 0.16 t, exactly. Half of that means the Voigt weight of the shear entries was lost.
+        return {
+            eps_xx = 0.0,
+            eps_yy = 0.0,
+            eps_zz = 0.0,
+            eps_xy = 0.0,
+            eps_yz = 0.0,
+            eps_xz = 0.0,
+            v1 = 0.0,
+            v2 = 0.0,
+            v3 = 0.0,
+            alpha = 0.16 * x["t"],
+            breakage = 0.0
+        }
+    end

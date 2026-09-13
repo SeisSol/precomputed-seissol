@@ -1,0 +1,98 @@
+&equations
+!The elastic limit of the damaged material on the TPV5 geometry: alpha starts
+!at zero, Cd is zero and the initial strain is zero, so the medium is linear
+!elastic with the TPV5 moduli and the run is read against the elastic TPV5
+!reference in this repository. It is the first thing about damage and dynamic
+!rupture worth asking, and it does not need the model to be calibrated.
+MaterialFileName = 'material-elastic-limit.yaml'
+breakagerate = 0.0
+healingrate = 0.0
+betaalpha = 1.0
+ab0 = 0.0
+ab1 = 0.0
+ab2 = 0.0
+ab3 = 0.0
+/
+
+&IniCondition
+/
+
+&Boundaries
+BC_fs = 1
+BC_dr = 1
+BC_of = 1
+/
+
+&DynamicRupture
+FL = 16
+ModelFileName = 'fault.yaml'
+
+XRef = 0.0
+YRef = -1.0
+ZRef = 0.0
+
+RF_output_on = 1
+OutputPointType = 5
+/
+
+&Elementwise
+printIntervalCriterion = 2
+printtimeinterval_sec = 1.0
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 0
+refinement_strategy = 2
+refinement = 1
+/
+
+&Pickpoint
+printtimeinterval = 1
+OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
+nOutpoints = 4
+PPFileName = 'FaultReceivers.dat'
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = 'tpv5-20k.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 2
+/
+
+&Output
+FaultOutputFlag = 1
+OutputFile = 'output/tpv'
+Format = 6
+!             |strain           |vel   |a |B
+iOutputMask = 0 0 0 0 0 0 1 1 1 0 0
+TimeInterval = 1.
+refinement = 1
+
+RFileName = 'Receivers.dat'
+pickdt = 0.005
+pickDtType = 1
+printIntervalCriterion = 2
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 1.0
+FaultEnergiesFromAcrossFaultVelocities = 1
+energyterminalprecision = 16
+/
+
+&AbortCriteria
+EndTime = 2.0
+/
+
+&Analysis
+/
+
+&Debugging
+/

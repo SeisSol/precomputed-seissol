@@ -1,0 +1,30 @@
+!LuaMap
+  returns: [eps_xx, eps_yy, eps_zz, eps_xy, eps_yz, eps_xz, v1, v2, v3, alpha, breakage]
+  function: |
+    function f (x)
+        -- The same field at amplitude 2.0. Not a solution of anything: the
+        -- medium is damaged and therefore nonlinear, so this runs off into
+        -- something else. What the test asks is only that the something else
+        -- scales with the amplitude, which the constitutive law guarantees --
+        -- it is positively homogeneous of degree one in the strain.
+        -- The damage is not scaled: it is not a strain.
+        cp = math.sqrt((3.0e10 + 2.0 * 3.0e10) / 2700.0)
+        k = 2.0 * math.acos(-1) / 1000.0
+        amplitude = 2.0
+
+        wave = amplitude * math.cos(k * x["x"])
+
+        return {
+            eps_xx = -wave / cp,
+            eps_yy = 0.0,
+            eps_zz = 0.0,
+            eps_xy = 0.0,
+            eps_yz = 0.0,
+            eps_xz = 0.0,
+            v1 = wave,
+            v2 = 0.0,
+            v3 = 0.0,
+            alpha = 0.3,
+            breakage = 0.0
+        }
+    end

@@ -1,0 +1,69 @@
+&equations
+!Local time stepping at rate two. The mesh is graded so that the clusters
+!are actually populated, and the comparison against the global run is the one
+!the documentation lists as not yet made: a cell reconstructs a subinterval of
+!its neighbours step from a second expansion, and whether that reconstruction
+!holds to the order of the scheme is what this answers.
+MaterialFileName = 'material.yaml'
+breakagerate = 0.0
+healingrate = 0.0
+betaalpha = 1.0
+ab0 = 0.0
+ab1 = 0.0
+ab2 = 0.0
+ab3 = 0.0
+/
+
+&IniCondition
+cictype = 'easi'
+filename = 'ic.yaml'
+hastime = 0
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = 'cube.puml.h5'
+meshgenerator = 'PUML'
+pumlboundaryformat = 'i32x4'
+pumltopologyformat = 'identify-vertex'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 2
+/
+
+&Output
+OutputFile = 'output/tpv'
+wavefieldoutput = 1
+Format = 6
+!             |strain           |vel   |a |B
+iOutputMask = 1 1 1 1 1 1 1 1 1 1 1
+TimeInterval = 0.1
+refinement = 0
+
+ReceiverOutput = 1
+RFileName = 'Receivers.dat'
+pickdt = 0.0005
+pickDtType = 1
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.025
+energyterminalprecision = 16
+/
+
+&AbortCriteria
+EndTime = 0.5
+/
+
+&Analysis
+/
+
+&Debugging
+/

@@ -83,3 +83,77 @@ The reference was computed with `b5266c87a7b6bb7de3aeb9dc2fb6c9053452ece1` on 20
 
 ## TPV5-4NUC
 A tpv5 mesh with four nucleations in different regions in the fault, triggering sequentially. Computed with `84a1862a570eedc7835da63f28788475c8afc0f9`, but the Yateto submodule as of `3bca92b35c35225f104a4093825717746f5d0982`.
+
+## Damage
+
+Five scenario directories for the continuum damage-breakage rheology, ordered
+by how much of the implementation they involve. Each one is built around a
+single question with an answer that does not come from another run of SeisSol
+where that is possible at all:
+
+| directory           | what it pins down                                              | measured against          |
+|---------------------|----------------------------------------------------------------|---------------------------|
+| `damage-planarwave` | the elastic limit, and the granular branch reproducing Hooke   | analytic, per resolution  |
+| `damage-uniform`    | both source branches, the guards, the Voigt weight, `alpha_cr` | closed form, and an ODE   |
+| `damage-scaling`    | the constitutive law being homogeneous of degree one           | itself, to roundoff       |
+| `damage-wave`       | the feedback, and global against local time stepping           | its own global run        |
+| `damage-tpv5`       | dynamic rupture, and the background stress-strain consistency  | the elastic `tpv5` case   |
+
+The first three have exact answers because they avoid what makes the model
+nonlinear in one of two ways: by keeping the damage at zero, or by keeping the
+state uniform so that the flux drops out and only the sources are left. There
+is no third way -- a plane wave in a medium with `gammaR * alpha > 0` is not a
+solution, because the coupling term turns a pure shear strain into an
+isotropic stress and drives a P motion out of it. Everything beyond those
+three is a comparison between runs.
+
+### Meshes
+
+`mkcube.py` writes the structured periodic cubes the first four scenarios use.
+The generator built into SeisSol would do, but it refuses to run ("The cube
+generator is (currently) not supported"), and a meshed box is not an
+alternative here: a free surface reflects and an outflow boundary does not
+absorb exactly, either of which turns a state that should stay constant into a
+wave. Periodicity is topological, through the `identify-vertex` format, and
+needs at least three cells per periodic direction -- with two, the topological
+mesh holds two distinct faces with the same vertices and a cell neighbours
+itself across the seam. The script checks that and refuses.
+
+The meshes are small on purpose: 162 cells for the uniform case, 1152 for the
+graded one. They are the scale the CTest verification pipeline wants, and the
+low resolution is a feature -- a drift shows up in a coarse run long before it
+shows up in a converged one.
+
+### What is not covered
+
+- **Energy.** The stored energy of this rheology carries a square root of the
+  second strain invariant and terms of third order in the state, and the
+  moments the energy output is built on reach second order, so it is absent
+  rather than approximated. Only the kinetic energy and the two means are
+  checked, and those are exact.
+
+- **`a1` and `a3`.** The granular branch is pinned only where it coincides
+  with Hooke's law, which is `a0` and `a2`. The two odd coefficients have no
+  elastic counterpart and no closed form to be read against; they would need a
+  reference solution from outside SeisSol.
+
+- **Plasticity.** Not supported by the material, and not meaningful with it:
+  the rheology already carries the inelastic part.
+
+- **Single precision.** All five run in single precision, but two of them
+  change character: the floor under the second invariant is `eps^2` of the
+  working precision, which is `1.4e-14` rather than `5e-32`, and the exactness
+  claims of `damage-scaling` and of the zero crossings in `damage-planarwave`
+  hold to about `1e-6` there instead of to roundoff.
+
+### Adding them to the matrix
+
+The `cases.json` entries are in place. The configuration name is `damage`, so
+the executables are `seissol-damage-o6-f64` and
+`seissol-damage-o6-f32`; the equation has to be added to the CI matrix with
+`fault: false` everywhere except `damage-tpv5`, which stays out of the matrix
+until the material supports dynamic rupture.
+
+`damage-planarwave`, `damage-uniform`, `damage-scaling` and `damage-wave` have
+no face without a neighbour and therefore also run on a GPU build, which
+refuses one at setup.

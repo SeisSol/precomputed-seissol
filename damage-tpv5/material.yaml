@@ -1,0 +1,19 @@
+!ConstantMap
+map:
+  rho:     2760.0
+  lambda0: 32043759360.0
+  mu0:     32038120320.0
+  gammaR:  1.0e10
+  xi0:     0.25
+  Cd:      3.0e-5
+  # The strain that carries the background stress of the fault file,
+  # sigma_yy = -120 MPa and sigma_xy = 70 MPa, at alpha = 0. Produced by
+  #   initial_strain.py --stress "0, -120e6, 0, 70e6, 0, 0" --alpha 0.0
+  # and not to be edited by hand: it has to agree with fault.yaml, and
+  # nothing in a run reports it if it does not.
+  eps_xx0: 3.745801763801e-04
+  eps_yy0: -1.498188868767e-03
+  eps_zz0: 3.745801763801e-04
+  eps_xy0: 1.092448609669e-03
+  eps_yz0: 0.000000000000e+00
+  eps_xz0: 0.000000000000e+00

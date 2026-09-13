@@ -1,0 +1,35 @@
+!LuaMap
+  returns: [eps_xx, eps_yy, eps_zz, eps_xy, eps_yz, eps_xz, v1, v2, v3, alpha, breakage]
+  function: |
+    function f (x)
+        -- A right-going Gaussian P pulse in an undamaged medium. Under
+        -- uniaxial strain the invariant ratio is +1 where the pulse pulls and
+        -- -1 where it pushes, so with an onset at xi = -xi0 the damage grows
+        -- in the extensional half of the pulse and not in the other: the
+        -- asymmetry is the observable, and it is a statement about the sign
+        -- convention of xi0 as much as about the rate.
+        --
+        -- The pulse is narrow enough that it is zero at both ends of the
+        -- domain to roundoff, so the periodic seam does not cut it.
+        cp = math.sqrt((3.0e10 + 2.0 * 3.0e10) / 2700.0)
+        amplitude = 5.0
+        centre = 600.0
+        width = 100.0
+
+        offset = (x["x"] - centre) / width
+        pulse = amplitude * math.exp(-offset * offset)
+
+        return {
+            eps_xx = -pulse / cp,
+            eps_yy = 0.0,
+            eps_zz = 0.0,
+            eps_xy = 0.0,
+            eps_yz = 0.0,
+            eps_xz = 0.0,
+            v1 = pulse,
+            v2 = 0.0,
+            v3 = 0.0,
+            alpha = 0.0,
+            breakage = 0.0
+        }
+    end

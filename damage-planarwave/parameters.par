@@ -1,0 +1,72 @@
+&equations
+!Damaged material in its elastic limit: alpha starts at zero and Cd is zero,
+!so every term the damage enters is exactly zero and the system is linear
+!elastic in the strain variables. gammaR is deliberately not zero -- it may
+!only ever appear multiplied by alpha.
+MaterialFileName = 'material.yaml'
+breakagerate = 0.0
+healingrate = 0.0
+betaalpha = 1.0
+ab0 = 0.0
+ab1 = 0.0
+ab2 = 0.0
+ab3 = 0.0
+/
+
+&IniCondition
+!An exact P wave of the undamaged material, one wavelength across the domain.
+!Read at t=0 as the initial condition and re-evaluated at the end time by the
+!analysis output, which is what turns this into a convergence test.
+cictype = 'easi'
+filename = 'ic.yaml'
+hastime = 1
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = 'cube.puml.h5'
+meshgenerator = 'PUML'
+pumlboundaryformat = 'i32x4'
+pumltopologyformat = 'identify-vertex'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 1
+/
+
+&Output
+OutputFile = 'output/tpv'
+wavefieldoutput = 0
+Format = 6
+!             |strain           |vel   |a |B
+iOutputMask = 0 0 0 0 0 0 1 1 1 1 1
+TimeInterval = 0.05
+refinement = 0
+
+ReceiverOutput = 1
+RFileName = 'Receivers.dat'
+pickdt = 0.001
+pickDtType = 1
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.05
+energyterminalprecision = 16
+/
+
+&AbortCriteria
+!One period: sqrt(3)/10 s, the time the P wave needs for 1000 m.
+EndTime = 0.17320508075688772
+/
+
+&Analysis
+/
+
+&Debugging
+/

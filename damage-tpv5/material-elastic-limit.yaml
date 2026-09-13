@@ -1,0 +1,14 @@
+!ConstantMap
+map:
+  rho:     2760.0
+  lambda0: 32043759360.0
+  mu0:     32038120320.0
+  gammaR:  1.0e10
+  xi0:     0.25
+  Cd:      0.0
+  eps_xx0: 0.0
+  eps_yy0: 0.0
+  eps_zz0: 0.0
+  eps_xy0: 0.0
+  eps_yz0: 0.0
+  eps_xz0: 0.0

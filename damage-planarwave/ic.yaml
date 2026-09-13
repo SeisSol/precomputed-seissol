@@ -1,0 +1,27 @@
+!LuaMap
+  returns: [eps_xx, eps_yy, eps_zz, eps_xy, eps_yz, eps_xz, v1, v2, v3, alpha, breakage]
+  function: |
+    function f (x)
+        -- P wave of the undamaged material: v1 = A cos(k (x - cp t)),
+        -- eps_xx = -A/cp cos(k (x - cp t)). Exact for as long as alpha and
+        -- breakage stay at zero, which the parameter file arranges.
+        cp = math.sqrt((3.0e10 + 2.0 * 3.0e10) / 2700.0)
+        k = 2.0 * math.acos(-1) / 1000.0
+        amplitude = 1.0
+
+        wave = amplitude * math.cos(k * (x["x"] - cp * x["t"]))
+
+        return {
+            eps_xx = -wave / cp,
+            eps_yy = 0.0,
+            eps_zz = 0.0,
+            eps_xy = 0.0,
+            eps_yz = 0.0,
+            eps_xz = 0.0,
+            v1 = wave,
+            v2 = 0.0,
+            v3 = 0.0,
+            alpha = 0.0,
+            breakage = 0.0
+        }
+    end

@@ -1,0 +1,73 @@
+&equations
+!Frozen damage: alpha is set by the initial condition and neither rate can
+!move it, so the constitutive law is exercised at alpha = 0.3 while staying
+!homogeneous in the strain. With Cd > 0 the homogeneity would break by
+!construction -- the drive is quadratic in the strain -- which is the point of
+!freezing it here rather than of testing something else.
+MaterialFileName = 'material.yaml'
+breakagerate = 0.0
+healingrate = 0.0
+betaalpha = 1.0
+ab0 = 0.0
+ab1 = 0.0
+ab2 = 0.0
+ab3 = 0.0
+/
+
+&IniCondition
+cictype = 'easi'
+filename = 'ic-a1.yaml'
+hastime = 0
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = 'cube.puml.h5'
+meshgenerator = 'PUML'
+pumlboundaryformat = 'i32x4'
+pumltopologyformat = 'identify-vertex'
+/
+
+&Discretization
+CFL = 0.5
+!Fixed, and well below what the CFL condition gives, so that both runs take
+!the same steps at the same times. The bound the material reports does not
+!depend on the state, so they would anyway; this removes the question.
+FixTimeStep = 1.0e-4
+ClusteredLTS = 1
+/
+
+&Output
+OutputFile = 'output/tpv'
+wavefieldoutput = 0
+Format = 6
+!             |strain           |vel   |a |B
+iOutputMask = 0 0 0 0 0 0 1 1 1 1 1
+TimeInterval = 0.05
+refinement = 0
+
+ReceiverOutput = 1
+RFileName = 'Receivers.dat'
+pickdt = 1.0e-4
+pickDtType = 1
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.01
+energyterminalprecision = 16
+/
+
+&AbortCriteria
+EndTime = 0.05
+/
+
+&Analysis
+/
+
+&Debugging
+/

@@ -1,0 +1,99 @@
+&equations
+!TPV5 in a damaged medium. The background of the fault file is carried in the
+!material as a strain, so that the stress the constitutive relation forms is
+!the stress the friction law was written against -- see initial_strain.py. The
+!rupture then lifts the invariant ratio above the onset near the fault and
+!nowhere else, which is what puts a damage zone around the fault rather than
+!everywhere.
+MaterialFileName = 'material.yaml'
+breakagerate = 0.0
+healingrate = 0.0
+betaalpha = 1.0
+ab0 = 0.0
+ab1 = 0.0
+ab2 = 0.0
+ab3 = 0.0
+/
+
+&IniCondition
+/
+
+&Boundaries
+BC_fs = 1
+BC_dr = 1
+BC_of = 1
+/
+
+&DynamicRupture
+FL = 16
+ModelFileName = 'fault.yaml'
+
+XRef = 0.0
+YRef = -1.0
+ZRef = 0.0
+
+RF_output_on = 1
+OutputPointType = 5
+/
+
+&Elementwise
+printIntervalCriterion = 2
+printtimeinterval_sec = 1.0
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 0
+refinement_strategy = 2
+refinement = 1
+/
+
+&Pickpoint
+printtimeinterval = 1
+OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
+nOutpoints = 4
+PPFileName = 'FaultReceivers.dat'
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = 'tpv5-20k.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 2
+/
+
+&Output
+FaultOutputFlag = 1
+OutputFile = 'output/tpv'
+Format = 6
+!             |strain           |vel   |a |B
+iOutputMask = 0 0 0 0 0 0 1 1 1 1 1
+TimeInterval = 1.
+refinement = 1
+
+RFileName = 'Receivers.dat'
+pickdt = 0.005
+pickDtType = 1
+printIntervalCriterion = 2
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 1.0
+FaultEnergiesFromAcrossFaultVelocities = 1
+energyterminalprecision = 16
+/
+
+&AbortCriteria
+EndTime = 2.0
+/
+
+&Analysis
+/
+
+&Debugging
+/
