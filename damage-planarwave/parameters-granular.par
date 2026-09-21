@@ -1,14 +1,14 @@
 &equations
 !The same wave, carried entirely by the granular branch: breakage starts at
 !one, so the solid branch is switched off by the (1 - B) factor. With a1 = a3
-!= 0 the granular stress is 3*a0*eps + 2*a2*I1*1, which is Hooke's law with
-!2 mu = 3 a0 and lambda = 2 a2. Choosing a0 = 2*mu0/3 and a2 = lambda0/2
+!= 0 the granular stress is 2*a0*eps + 2*a2*I1*1, which is Hooke's law with
+!2 mu = 2 a0 and lambda = 2 a2. Choosing a0 = mu0 and a2 = lambda0/2
 !therefore has to reproduce the run against the same analytic solution.
 MaterialFileName = 'material.yaml'
 breakagerate = 0.0
 healingrate = 0.0
 betaalpha = 1.0
-ab0 = 2.0e10
+ab0 = 3.0e10
 ab1 = 0.0
 ab2 = 1.5e10
 ab3 = 0.0

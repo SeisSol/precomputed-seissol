@@ -31,21 +31,28 @@ solution, but with `breakage = 1` from the start: the `(1 - B)` factor
 switches the solid branch off entirely and the stress comes from the granular
 branch alone. With `a1 = a3 = 0` that branch is
 
-    sigma = 3 a0 eps + 2 a2 I1 1
+    sigma = 2 a0 eps + 2 a2 I1 1
 
-which is Hooke's law with `2 mu = 3 a0` and `lambda = 2 a2`. The file therefore
-sets `a0 = 2 mu0 / 3 = 2e10` and `a2 = lambda0 / 2 = 1.5e10`, and the run has
+which is Hooke's law with `2 mu = 2 a0` and `lambda = 2 a2`. The file therefore
+sets `a0 = mu0 = 3e10` and `a2 = lambda0 / 2 = 1.5e10`, and the run has
 to reproduce the solid-branch errors -- the same wave, carried by the other
 half of the constitutive law. It pins `a0`, `a2` and the blend; `a1` and `a3`
 have no elastic counterpart and cannot be pinned this way.
 
-Two things about it are worth knowing. `growing` requires a mean breakage
-below one, so `B` stays at one and nothing evolves. And the timestep bound the
-material reports is formed from `lambda0`, `mu0`, `gammaR` and `xi0` only: it
-does not see the granular branch at all. Here the two branches carry the same
-speed, so the bound holds; a case with `3 a0` above `2 mu0 + gammaR (sqrt(3) -
-2 xi0)` would run past its own stability limit, and that is a question about
-the bound rather than a bug in this scenario.
+Two things about it are worth knowing. `growing` requires a mean breakage below
+one, so `B` stays at one and nothing evolves. And this case is the only one that
+reads the granular branch through anything but the stress: the operator the
+predictor transports by and the two bounds a face scales its dissipation with are
+blended the same way the stress is, so both branches have to be right for the
+errors below to come out. They did once come out with `a0` set for a factor the
+kernel does not have, which is worth knowing because nothing about a wrong
+`a0` looks wrong -- the wave simply travels at the wrong speed and the error
+stops converging. Setting `a0 = mu0` reproduces the solid errors to the digit;
+`a0 = 2 mu0 / 3` gives `0.65` at every resolution.
+
+The timestep bound covers both branches, so a granular branch stiffer than the
+solid one shortens the step rather than being run past. Here the two carry the
+same speed and the step is the solid one.
 
 ## Running it
 

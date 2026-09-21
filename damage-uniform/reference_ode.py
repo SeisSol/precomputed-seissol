@@ -71,7 +71,15 @@ def critical(material, xi):
 def sources(material, state, i2, xi):
     alpha, breakage = state
     drive = material["gammaR"] * (1.0 - breakage) * i2 * (xi + material["xi0"])
-    growing = (xi + material["xi0"]) > 0.0 and alpha < 1.0 and breakage < 1.0
+    # The damage saturates at the critical damage rather than at one: past it
+    # the solid branch no longer describes anything and the breakage takes over.
+    # The kernel's guard reads the same bound, which is what keeps this an
+    # answer to the run rather than to a different model.
+    growing = (
+        (xi + material["xi0"]) > 0.0
+        and alpha < critical(material, xi)
+        and breakage < 1.0
+    )
     rate = material["Cd"] if growing else material["healingrate"]
     sigmoid = 1.0 / (
         1.0 + np.exp((critical(material, xi) - alpha) / material["betaalpha"])

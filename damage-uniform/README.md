@@ -22,7 +22,7 @@ integrates them, and prints what the receivers have to show:
 | `parameters-saturation.par` | +1 | 180   | `alpha(6 s) = 1` + one step     |
 | `parameters-healing.par`  | -1   | -20   | `alpha(2 s) = 0.10`             |
 | `parameters-shear.par`    | 0    | 160   | `alpha(2 s) = 0.32`             |
-| `parameters-breakage.par` | 0    | 960   | `alpha(5 s) = 0.794051`, `B = 0.358556` |
+| `parameters-breakage.par` | 0    | 960   | `alpha(5 s) = 0.431781`, `B = 0.010148` |
 
 What each one is for:
 
@@ -56,19 +56,40 @@ What each one is for:
   its own easi file -- the analysis output for it is meaningless and should be
   ignored.
 
+  It is also the only case that says what the guard is for. The damage
+  saturates at `alpha_cr` and not at one, so the run freezes at `0.4318` with
+  the breakage still small. Read against a guard at one it looks as though the
+  case had been cut short -- it is the other way round: with that guard the run
+  drove `alpha` to `0.58` by two seconds, and past `0.464` the compressional
+  family of this material has no real speed left. What a run of it showed was
+  not a wrong number but a uniform state that would not stay uniform, at a rate
+  that did not care what the timestep was. `reference_ode.py` carries the same
+  guard, which is what keeps it an answer to this run.
+
 The granular coefficients `a0` to `a3` are zero in all five. They enter the
 stress and nothing else, and in a scenario where the stress has no divergence
 they are unobservable; `damage-planarwave` pins them instead.
 
 ## An open question this exposes
 
-The healing branch has no floor. `alpha` reaches zero at `t = 2.5 s` in the
-healing case and keeps going negative, and a negative damage *stiffens* the
-material -- `2 mu0 - gammaR alpha (2 xi0 + xi)` grows -- so the state leaves
-the model's range rather than returning to the undamaged one. The end time is
-2 s to stay inside it. Whether the guard should clamp at zero the way it
-clamps at one is a decision, not a bug, but the scenario is set up so that
-raising the end time to 3 s asks the question.
+The guard bounds the damage above and not below. Above, it saturates at the
+critical damage, which is where the solid branch stops describing anything.
+Below, nothing stops the healing branch: `alpha` reaches zero at `t = 2.5 s` in
+the healing case and keeps going negative, and a negative damage *stiffens* the
+material -- `2 mu0 - gammaR alpha (2 xi0 + xi)` grows -- so the state leaves the
+model's range rather than returning to the undamaged one. The end time is 2 s to
+stay inside it.
+
+Raising it to 3.5 s is how the scenario asks the question, and the answer is
+worth knowing before deciding: nothing goes wrong to look at. `alpha` follows
+`0.5 - 0.2 t` to `-0.20` exactly, and the strain and the velocity stay at
+roundoff throughout -- a stiffer medium is still a hyperbolic one, so the run
+neither diverges nor reports anything. What it has left is the range the model
+is defined on, quietly. Two consequences are worth writing down: the bound the
+timestep is taken over covers `alpha` in `[0, 1]` and says nothing about a
+negative one, and the effective moduli a negative damage produces are not moduli
+the rheology was fitted for. Whether the guard should clamp at zero is a
+decision about the model, not a bug in the implementation.
 
 ## Running it
 

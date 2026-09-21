@@ -19,13 +19,26 @@ case can: that the sign of the threshold survives being embedded in a wave.
 ## Global against local time stepping
 
 `parameters.par` and `parameters-lts.par` differ in `ClusteredLTS` and in
-nothing else. The documentation of the material lists local time stepping as
-"mechanism complete, not verified", and this is the comparison that is missing:
-a cell hands its neighbours a second expansion of its stress, projected onto a
-Legendre basis in time, and a neighbour on a coarser cluster reconstructs a
-subinterval of it from there rather than rebuilding it from its own material.
-Whether that reconstruction holds to the order of the scheme is what the two
-runs say when their receivers are compared.
+nothing else. A cell hands its neighbours a second expansion of its stress,
+projected onto a Legendre basis in time, and a neighbour on a coarser cluster
+reconstructs a subinterval of it from there rather than rebuilding it from its
+own material. Whether that reconstruction holds to the order of the scheme is
+what the two runs say.
+
+It has been asked, and the answer is that the second expansion is not what
+limits it. Read in the elastic limit -- `Cd = 0`, so the difference between the
+two runs is a truncation error and not two nonlinear trajectories parting -- the
+kinetic energy at a synchronisation point differs by `3.5e8` at `CFL = 0.5`,
+`1.4e8` at a quarter and `6.7e7` at an eighth: first order in the timestep. The
+linear elastic solver on the same mesh differs from itself by `3.1e8`, `1.4e8`
+and `6.8e7`, which is the same number to within ten percent and the same order.
+So the clustered scheme is what is first order here, for either material, and
+this scenario says that carrying a second expansion costs nothing beyond it.
+
+Comparing receivers instead of an energy is the wrong probe for this, and it is
+worth saying why: at a fixed sample time the two runs evaluate different steps'
+expansions, so the comparison picks up a reconstruction error that is not the
+difference between the schemes. It reads as a ratio that will not settle.
 
 The mesh is graded in x -- the widest cell is 3.7 times the narrowest -- which
 is what gives the clustering something to do; a uniform cube has one cluster

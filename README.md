@@ -135,7 +135,17 @@ shows up in a converged one.
 - **`a1` and `a3`.** The granular branch is pinned only where it coincides
   with Hooke's law, which is `a0` and `a2`. The two odd coefficients have no
   elastic counterpart and no closed form to be read against; they would need a
-  reference solution from outside SeisSol.
+  reference solution from outside SeisSol. They are also the only place where the
+  tangent of the granular branch is not an isotropic pair, so they are the only
+  place where the operator the predictor transports by and the bound a face
+  scales its dissipation with are exercised in their general form.
+
+- **A medium past its range.** Two of the guards have no test that they hold
+  rather than that they are there: the damage has no floor, so the healing branch
+  carries `alpha` negative (`damage-uniform` says what that looks like), and the
+  critical damage caps against the shear modulus and not against the
+  compressional family, which can lose its speed first. Both are states outside
+  what the rheology is defined on, and nothing in a run reports reaching one.
 
 - **Plasticity.** Not supported by the material, and not meaningful with it:
   the rheology already carries the inelastic part.
@@ -149,10 +159,13 @@ shows up in a converged one.
 ### Adding them to the matrix
 
 The `cases.json` entries are in place. The configuration name is `damage`, so
-the executables are `seissol-damage-o6-f64` and
-`seissol-damage-o6-f32`; the equation has to be added to the CI matrix with
-`fault: false` everywhere except `damage-tpv5`, which stays out of the matrix
-until the material supports dynamic rupture.
+the executables are `seissol-damage-o6-f64` and `seissol-damage-o6-f32`; the
+equation has to be added to the CI matrix with `fault: false` everywhere except
+`damage-tpv5`, which has a fault and needs `fault: true`. Its elastic-limit stage
+is the one to put in first: it is read against the `tpv5` case in this repository
+and agrees with it to better than `0.2` percent. Its damaged stage states the
+background stress twice as written and does not rupture -- see that directory's
+README -- so it is not a check on anything yet.
 
 `damage-planarwave`, `damage-uniform`, `damage-scaling` and `damage-wave` have
 no face without a neighbour and therefore also run on a GPU build, which

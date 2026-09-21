@@ -2,16 +2,16 @@
 
 TPV5 on a damaged medium, in two stages.
 
-Dynamic rupture and this material do not meet yet: `DamageMaterial` reports
-`SupportsDR = false`, and a mesh with a rupture face is refused when the cell
-local matrices are set up. The material says so rather than handing the
-friction laws a traction it does not have -- the traction here is derived from
-the state instead of being part of it, so joining the two means evaluating the
-constitutive relation on the fault's quadrature points and letting the friction
-laws read the result. Until that exists, both runs below abort at setup, and
-that abort is itself worth keeping: it has to happen at setup, with a message
-about the material, and not halfway into a run on values that look like
-tractions.
+Dynamic rupture and this material do meet. The traction here is derived from the
+state instead of being part of it, so the constitutive relation is evaluated on
+the fault's quadrature points and the friction laws read the result; the
+impedance a node scales its Riemann problem with is a matrix and not four
+scalars, because the tangent of this stress is not isotropic, and it belongs to
+a point and an instant rather than to the face.
+
+Both runs use `ClusteredLTS = 2`, and the fault is spread over two clusters --
+200 faces in one and 892 in the other -- so this is also the only scenario in
+the suite that exercises dynamic rupture and local time stepping together.
 
 ## Stage one: the elastic limit
 
@@ -21,14 +21,21 @@ medium with the TPV5 moduli. It uses the mesh, the fault file and the receiver
 positions of the `tpv5` case in this repository, so its output is read against
 that reference directly.
 
-This is the first question worth asking about damage and dynamic rupture, and
-it needs no calibration of the model: does the rupture on a damaged material
+This is the first question worth asking about damage and dynamic rupture, and it
+needs no calibration of the model: does the rupture on a damaged material
 reproduce the rupture on an elastic one when the damage is not there. Expect
 agreement to the discretisation error rather than bit-for-bit -- the solver
-integrates its step by a nodal rule in time and closes its faces with a
-Rusanov flux, where the elastic reference uses the ADER expansion and a
-Godunov flux, so the two differ at the order of the scheme even on the same
+integrates its step by a nodal rule in time where the elastic reference uses the
+ADER expansion, so the two differ at the order of the scheme even on the same
 mesh and the same data.
+
+They do: against a current elastic run on the same mesh and the same clustering,
+the rupture time agrees to better than `0.1` percent at all four fault
+receivers, the peak slip rate to `0.2` percent and the accumulated slip to
+`0.02`. Read it against a reference computed with an older SeisSol and the same
+numbers come out at one to four percent, which says more about the reference than
+about this scenario -- worth knowing before concluding anything from a
+disagreement of that size.
 
 ## Stage two: the damaged run
 
@@ -44,6 +51,32 @@ relation so they agree --
 
 -- and `material.yaml` carries what it printed. Editing those six numbers by
 hand is how this scenario breaks.
+
+### As written, the background is counted twice
+
+It breaks the other way as well, and this is where it stands. A friction law
+compares the fault file's initial stress *plus* the interpolated traction
+against the strength, and the interpolated traction is the stress the
+constitutive relation forms -- which the initial strain already contributes to.
+Stating the background in both places therefore states it twice: at half a second
+the fault receivers report `Ts0 = 1.40e8` against the `70e6` of the fault file
+and `Pn0 = -2.40e8` against its `-120e6`, exactly a factor of two of each.
+
+Shear and strength double together, so the ratio the nucleation patch has to
+overcome does not change and the fault never breaks: the run completes its two
+seconds with the slip rate at zero, the friction at its initial value and the
+volume state at `1e-17`. Nothing reports it. The elastic-limit run does rupture,
+because its initial strain is zero and only the fault file carries the
+background -- which is what makes the pair of runs diagnose this at all.
+
+One of the two has to carry it. Letting the material carry it is the option that
+suits a rheology whose stress is not part of its state: the friction law then
+reads a traction the constitutive relation formed, the invariant ratio of the
+medium is the ratio of the real background, and `fault.yaml` keeps the
+nucleation perturbation and the friction parameters and nothing else. Letting the
+fault file carry it keeps TPV5's own convention, at the price of a medium whose
+damage does not see the background it is under -- which is the thing this
+scenario was written to look at.
 
 ### What the inversion says about the calibration
 
