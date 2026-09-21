@@ -61,4 +61,4 @@ same speed and the step is the solid one.
     ./convergence.sh seissol-damage-o6-f64
 
 All faces are interior, so this case also runs on a GPU build, where a face
-without a neighbour is refused at setup.
+without a neighbor is refused at setup.

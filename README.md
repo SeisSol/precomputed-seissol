@@ -116,7 +116,7 @@ alternative here: a free surface reflects and an outflow boundary does not
 absorb exactly, either of which turns a state that should stay constant into a
 wave. Periodicity is topological, through the `identify-vertex` format, and
 needs at least three cells per periodic direction -- with two, the topological
-mesh holds two distinct faces with the same vertices and a cell neighbours
+mesh holds two distinct faces with the same vertices and a cell neighbors
 itself across the seam. The script checks that and refuses.
 
 The meshes are small on purpose: 162 cells for the uniform case, 1152 for the
@@ -168,5 +168,5 @@ background stress twice as written and does not rupture -- see that directory's
 README -- so it is not a check on anything yet.
 
 `damage-planarwave`, `damage-uniform`, `damage-scaling` and `damage-wave` have
-no face without a neighbour and therefore also run on a GPU build, which
+no face without a neighbor and therefore also run on a GPU build, which
 refuses one at setup.

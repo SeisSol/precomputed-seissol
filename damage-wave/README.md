@@ -19,8 +19,8 @@ case can: that the sign of the threshold survives being embedded in a wave.
 ## Global against local time stepping
 
 `parameters.par` and `parameters-lts.par` differ in `ClusteredLTS` and in
-nothing else. A cell hands its neighbours a second expansion of its stress,
-projected onto a Legendre basis in time, and a neighbour on a coarser cluster
+nothing else. A cell hands its neighbors a second expansion of its stress,
+projected onto a Legendre basis in time, and a neighbor on a coarser cluster
 reconstructs a subinterval of it from there rather than rebuilding it from its
 own material. Whether that reconstruction holds to the order of the scheme is
 what the two runs say.
