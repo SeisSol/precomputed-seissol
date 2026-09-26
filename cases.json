@@ -132,7 +132,7 @@
     "tpv33/double": {
         "config": "elastic-o6-f64",
         "parameters": "tpv33/parameters.par",
-        "output": { "directory": "tpv33/precomputed/double", "prefix": "tpv" }
+        "output": { "directory": "tpv33/precomputed/double", "prefix": "tpv5" }
     },
     "tpv33/single": {
         "config": "elastic-o6-f32",

@@ -1,5 +1,5 @@
 &equations
-!yaml file defining spatial dependance of material properties
+!yaml file defining spatial dependence of material properties
 MaterialFileName = 'tpv12_13_material.yaml'
 !off-fault plasticity parameter (ignored in Plasticity=0)
 Plasticity = 1
@@ -20,7 +20,7 @@ PlasticityFileName7 = 'tpv12_13_plasticity-7.yaml'
 &DynamicRupture
 FL = 16                                        ! Friction law  
 !0: none, 2:LSW  16:LSW (with forced_rupture_time), 103: RS with strong velocity weakening
-!yaml file defining spatial dependance of fault properties
+!yaml file defining spatial dependence of fault properties
 ModelFileName = 'tpv12_13_fault_0.yaml'
 ModelFileName1 = 'tpv12_13_fault_1.yaml'
 ModelFileName2 = 'tpv12_13_fault_2.yaml'
@@ -40,7 +40,7 @@ YRef = -1.0
 ZRef = 0.0
 refPointMethod = 1
 
-OutputPointType = 3                            ! Type (0: no output, 3: ascii file, 4: paraview file, 5: 3+4)
+OutputPointType = 5                            ! Type (0: no output, 3: ascii file, 4: paraview file, 5: 3+4)
 SlipRateOutputType=1        ! 0: (smoother) slip rate output evaluated from the difference between the velocity on both side of the fault
                             ! 1: slip rate output evaluated from the fault tractions and the failure criterion (less smooth but usually more accurate where the rupture front is well developped)
 /
@@ -77,7 +77,7 @@ ClusteredLTS = 2                               ! 1 for Global time stepping, 2,3
 
 &Output
 OutputFile = 'output/tpv'
-wavefieldoutput = 0                                    ! Format (0= no output, 1=output on)
+wavefieldoutput = 1                                    ! Format (0= no output, 1=output on)
 !             |stress     |vel
 iOutputMask = 0 0 0 0 0 0 1 1 1
 !                 |strain     |eta
@@ -86,7 +86,7 @@ TimeInterval =  5.                           ! Index of printed info at time
 refinement = 1
 
 ! Free surface output
-SurfaceOutput = 0
+SurfaceOutput = 1
 SurfaceOutputRefinement = 1
 SurfaceOutputInterval = 10.0
 
