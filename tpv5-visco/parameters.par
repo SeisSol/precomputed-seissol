@@ -35,6 +35,7 @@ refinement = 1
 printtimeinterval = 1
 OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
 PPFileName = 'FaultReceivers.dat'
+format = 'hdf5'
 /
 
 &SourceType
@@ -63,6 +64,7 @@ TimeInterval = 1.
 refinement = 1
 
 RFileName = 'Receivers.dat'
+ReceiverFormat = 'hdf5'
 pickdt = 0.005
 
 EnergyOutput = 1

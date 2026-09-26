@@ -55,6 +55,7 @@ SlipRateOutputType=1        ! 0: (smoother) slip rate output evaluated from the 
 printtimeinterval = 1       ! Index of printed info at timesteps
 OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1  ! turn on and off fault outputs
 PPFileName = 'tpv12_13_faultreceivers.dat'
+format = 'hdf5'
 /
 
 &SourceType
@@ -92,6 +93,7 @@ SurfaceOutputInterval = 4.0
 
 pickdt = 0.005                       ! Pickpoint Sampling
 RFileName = 'tpv12_13_receivers.dat'      ! Record Points in extra file
+ReceiverFormat = 'hdf5'
 
 xdmfWriterBackend = 'hdf5'
 hdfcompress = 1

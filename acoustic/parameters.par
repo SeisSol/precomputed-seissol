@@ -42,6 +42,7 @@ SurfaceOutputInterval = 0.5
 ReceiverOutput = 1
 pickdt = 0.0005                      ! Pickpoint Sampling
 RFileName = 'receiver.dat'       ! Record Points in extra file
+ReceiverFormat = 'hdf5'
 
 xdmfWriterBackend = 'hdf5'
 hdfcompress = 1

@@ -46,6 +46,7 @@ TimeInterval = 1.
 refinement = 1
 
 RFileName = 'Receivers.dat'
+ReceiverFormat = 'hdf5'
 pickdt = 0.005
 
 EnergyOutput = 1

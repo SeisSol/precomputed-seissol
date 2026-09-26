@@ -45,6 +45,7 @@ printtimeinterval = 100       ! Index of printed info at timesteps
 OutputMask = 1 1 1 1 1 1 1 1 1 1 1 1        ! turn on and off fault outputs
 !pickdt = 0.005 ! not yet implemented
 PPFileName = 'onfault_receivers.dat'
+format = 'hdf5'
 /
 
 &SourceType
@@ -77,6 +78,7 @@ SurfaceOutputInterval = 5.0
 ReceiverOutput = 1
 pickdt = 0.01                       ! Pickpoint Sampling
 RFileName = 'receivers_elastic_acoustic_interface.dat'      ! Record Points in extra file
+ReceiverFormat = 'hdf5'
 ReceiverOutputInterval = 10.0
 ReceiverComputeStrainRate = 1
 
