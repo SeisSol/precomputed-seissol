@@ -19,7 +19,6 @@ XRef = 0.0
 YRef = -1.0
 ZRef = 0.0
 
-RF_output_on = 1
 OutputPointType = 5
 
 RS_f0 = 0.6
@@ -31,7 +30,6 @@ t_0 = 1.0
 /
 
 &Elementwise
-printIntervalCriterion = 2
 printtimeinterval_sec = 1.0
 OutputMask = 1 1 1 1 1 1 1 1 1 1 0 0 
 refinement_strategy = 2
@@ -41,7 +39,6 @@ refinement = 1
 &Pickpoint
 printtimeinterval = 1       ! Index of printed info at timesteps
 OutputMask = 1 0 1 1 1 1 1 1 1 1 1 1
-nOutpoints = 4
 PPFileName = 'FaultReceivers.dat'
 /
 
@@ -62,9 +59,8 @@ ClusteredLTS = 2
 /
 
 &Output
-FaultOutputFlag = 1
 OutputFile = 'output/tpv'
-Format = 6
+wavefieldoutput = 1
 !             |stress     |vel  
 iOutputMask = 0 0 0 0 0 0 1 1 1 
 TimeInterval = 1.
@@ -72,13 +68,16 @@ refinement = 1
 
 RFileName = 'Receivers.dat'
 pickdt = 0.005
-pickDtType = 1
-printIntervalCriterion = 2
 
 EnergyOutput = 1
 EnergyTerminalOutput = 1
 EnergyOutputInterval = 1.0
 FaultEnergiesFromAcrossFaultVelocities = 1
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+SurfaceOutput = 1
+SurfaceOutputRefinement = 1
+SurfaceOutputInterval = 1.
 /
 
 &AbortCriteria

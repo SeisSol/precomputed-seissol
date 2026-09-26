@@ -39,7 +39,7 @@ ClusteredLTS = 2
 
 &Output
 OutputFile = 'output/tpv'
-Format = 6
+wavefieldoutput = 1
 !             |stress     |vel  
 iOutputMask = 0 0 0 0 0 0 1 1 1 
 TimeInterval = 1.
@@ -47,12 +47,15 @@ refinement = 1
 
 RFileName = 'Receivers.dat'
 pickdt = 0.005
-pickDtType = 1
-printIntervalCriterion = 2
 
 EnergyOutput = 1
 EnergyTerminalOutput = 1
 EnergyOutputInterval = 1.0
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+SurfaceOutput = 1
+SurfaceOutputRefinement = 1
+SurfaceOutputInterval = 1.
 /
 
 &AbortCriteria

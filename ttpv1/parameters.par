@@ -63,8 +63,7 @@ ClusteredLTS = 2                               ! Enable local time-stepping
 
 &Output
 OutputFile = 'output/tpv' ! keep "tpv" for compatibility reasons
-WavefieldOutput = 1        ! disable/enable volumne wavefield output (right now, format=6 needs to be set as well)
-Format = 6                                     ! Format (10=no output, 6=hdf5 output)
+WavefieldOutput = 1  ! disable/enable the volume wavefield output
 !             |stress     |vel
 iOutputMask = 1 1 1 1 1 1 1 1 1
 TimeInterval =  5.0                           ! Index of printed info at time
@@ -79,11 +78,10 @@ ReceiverOutput = 1
 pickdt = 0.01                       ! Pickpoint Sampling
 RFileName = 'receivers_elastic_acoustic_interface.dat'      ! Record Points in extra file
 ReceiverOutputInterval = 10.0
-ReceiverComputeStrain = 1
+ReceiverComputeStrainRate = 1
 
-xdmfWriterBackend = 'hdf5' ! (optional) The backend used in fault, wavefield,
-! and free-surface output. The HDF5 backend is only supported when SeisSol is compiled with
-! HDF5 support.
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
 
 EnergyOutput = 1 ! Computation of energy, written in csv file
 EnergyTerminalOutput = 1 ! Write energy to standard output

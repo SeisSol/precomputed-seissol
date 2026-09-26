@@ -62,7 +62,6 @@ ClusteredLTS = 2
 /
 
 &Output
-FaultOutputFlag = 1
 OutputFile = 'output/tpv'
 wavefieldoutput = 1
 !             |stress     |vel  
@@ -76,6 +75,11 @@ pickdt = 0.005
 EnergyOutput = 1
 EnergyTerminalOutput = 1
 EnergyOutputInterval = 0.5
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+SurfaceOutput = 1
+SurfaceOutputRefinement = 1
+SurfaceOutputInterval = 1.
 /
 
 &AbortCriteria

@@ -35,7 +35,7 @@ TimeInterval =  0.5                           ! Index of printed info at time
 refinement = 1
 
 ! Free surface output
-SurfaceOutput = 0
+SurfaceOutput = 1
 SurfaceOutputRefinement = 0
 SurfaceOutputInterval = 0.5
 
@@ -43,9 +43,11 @@ ReceiverOutput = 1
 pickdt = 0.0005                      ! Pickpoint Sampling
 RFileName = 'receiver.dat'       ! Record Points in extra file
 
-xdmfWriterBackend = 'posix' ! (optional) The backend used in fault, wavefield,
-! and free-surface output. The HDF5 backend is only supported when SeisSol is compiled with
-! HDF5 support.
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.5
 /
 
 &AbortCriteria
