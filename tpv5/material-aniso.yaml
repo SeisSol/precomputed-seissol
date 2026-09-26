@@ -1,0 +1,27 @@
+# The isotropic material of material.yaml written as a stiffness tensor, for the
+# anisotropic build: c11 = lambda + 2 mu, c12 = lambda, c44 = mu. The anisotropic
+# dynamic rupture then has to reproduce the elastic solution.
+!ConstantMap
+map:
+  rho: 2760
+  c11: 96120000000
+  c12: 32043759360
+  c13: 32043759360
+  c14: 0
+  c15: 0
+  c16: 0
+  c22: 96120000000
+  c23: 32043759360
+  c24: 0
+  c25: 0
+  c26: 0
+  c33: 96120000000
+  c34: 0
+  c35: 0
+  c36: 0
+  c44: 32038120320
+  c45: 0
+  c46: 0
+  c55: 32038120320
+  c56: 0
+  c66: 32038120320

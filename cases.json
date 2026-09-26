@@ -19,6 +19,26 @@
         "parameters": "ahsp/parameters.par",
         "reference": "ahsp/double"
     },
+    "aniso-oblique/double": {
+        "config": "anisotropic-o6-f64",
+        "parameters": "aniso-oblique/parameters.par",
+        "output": { "directory": "aniso-oblique/precomputed/double", "prefix": "tpv" }
+    },
+    "aniso-oblique/single": {
+        "config": "anisotropic-o6-f32",
+        "parameters": "aniso-oblique/parameters.par",
+        "reference": "aniso-oblique/double"
+    },
+    "aniso-bimaterial/double": {
+        "config": "anisotropic-o6-f64",
+        "parameters": "aniso-bimaterial/parameters.par",
+        "output": { "directory": "aniso-bimaterial/precomputed/double", "prefix": "tpv" }
+    },
+    "aniso-bimaterial/single": {
+        "config": "anisotropic-o6-f32",
+        "parameters": "aniso-bimaterial/parameters.par",
+        "reference": "aniso-bimaterial/double"
+    },
     "loh1-fused/double": {
         "config": "elastic-o3-f64-s8",
         "parameters": "loh1-fused/parameters.par",
@@ -47,6 +67,16 @@
     "tpv5/single": {
         "config": "elastic-o6-f32",
         "parameters": "tpv5/parameters.par",
+        "reference": "tpv5/double"
+    },
+    "tpv5/aniso-double": {
+        "config": "anisotropic-o6-f64",
+        "parameters": "tpv5/parameters-aniso.par",
+        "reference": "tpv5/double"
+    },
+    "tpv5/aniso-single": {
+        "config": "anisotropic-o6-f32",
+        "parameters": "tpv5/parameters-aniso.par",
         "reference": "tpv5/double"
     },
     "tpv5-wiggle/double": {

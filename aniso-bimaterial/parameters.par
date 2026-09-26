@@ -1,0 +1,85 @@
+! Anisotropic bimaterial dynamic rupture (test 2.6 of the anisotropic DR suite).
+! A vertical strike-slip fault at y = 0 between an isotropic medium (y < 0, written as a
+! stiffness tensor) and a VTI one (y > 0) of the same density: the two sides have different
+! impedances, Z+ != Z-, which makes the rupture run asymmetrically. A TPV6-style overstressed
+! patch nucleates; the whole plane y = 0 is fault.
+&equations
+MaterialFileName = 'material.yaml'
+/
+
+&IniCondition
+/
+
+&DynamicRupture
+FL = 16
+ModelFileName = 'fault.yaml'
+
+XRef = 0.0
+YRef = -1.0e6
+ZRef = 0.0
+
+OutputPointType = 5
+SlipRateOutputType = 1
+/
+
+&Elementwise
+printtimeinterval_sec = 0.5
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 1
+refinement_strategy = 2
+refinement = 1
+/
+
+&Pickpoint
+printtimeinterval = 1
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 1
+PPFileName = 'FaultReceivers.dat'
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = '../meshes/aniso-bimaterial.puml.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 2
+/
+
+&Output
+OutputFile = 'output/tpv'
+wavefieldoutput = 1
+!             |stress     |vel
+iOutputMask = 0 0 0 0 0 0 1 1 1
+TimeInterval = 1.0
+refinement = 1
+
+SurfaceOutput = 1
+SurfaceOutputRefinement = 1
+SurfaceOutputInterval = 1.0
+
+RFileName = 'Receivers.dat'
+pickdt = 0.005
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.1
+
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+/
+
+&AbortCriteria
+EndTime = 3.0
+/
+
+&Analysis
+/
+
+&Debugging
+/

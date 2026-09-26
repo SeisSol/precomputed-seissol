@@ -1,0 +1,57 @@
+# Test 2.5 — oblique fault stress.
+# Initial stress applied as pure strike-slip in the global frame
+# (s_xy active, s_yz = 0). After projection onto the tilted fault, the
+# trial traction has a strike component but the resulting slip will
+# acquire a dip component because of the off-diagonal Z_sd.
+#
+# Note: the geometry filter uses the oblique-fault local rectangle
+# spanned by  -1500 < x < 1500  and  0 < t < 3000  along the dip axis
+# (0, cos45, -sin45).  Translated to the box, this corresponds to:
+#   |x| < 1500
+#   y in [0, 2121]
+#   z in [-2121, 0]   (with y = -z on the fault plane)
+!Any
+components:
+  - !AxisAlignedCuboidalDomainFilter
+    limits:
+      x: [-1500.0, 1500.0]
+      y: [    0.0, 2200.0]
+      z: [-2200.0,    0.0]
+    components: !ConstantMap
+      map:
+        s_xx: -1.20e8
+        s_yy: -1.20e8
+        s_zz: -1.20e8
+        s_xy: -1.1540e8
+        s_yz:  0.0
+        s_xz:  0.0
+        nuc_xx: 0
+        nuc_xy: 0
+        nuc_xz: 0
+        nuc_yy: 0
+        nuc_yz: 0
+        nuc_zz: 0
+        mu_s: 0.677
+        mu_d: 0.525
+        d_c:  0.40
+        cohesion: 0.0
+        forced_rupture_time: 1.0e9
+  - !ConstantMap
+    map:
+      s_xx: -1.20e8
+      s_yy: -1.20e8
+      s_zz: -1.20e8
+      s_xy: -9.8995e7
+      s_yz:  0.0
+      s_xz:  0.0
+      nuc_xx: 0
+      nuc_xy: 0
+      nuc_xz: 0
+      nuc_yy: 0
+      nuc_yz: 0
+      nuc_zz: 0
+      mu_s: 0.677
+      mu_d: 0.525
+      d_c:  0.40
+      cohesion: 0.0
+      forced_rupture_time: 1.0e9

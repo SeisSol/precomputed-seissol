@@ -1,0 +1,85 @@
+! Anisotropic dynamic rupture on an oblique fault (test 2.5 of the anisotropic DR suite).
+! A VTI medium (Thomsen eps = 0.2, delta = 0.1, gamma = 0.1, symmetry axis z) with a planar fault
+! dipping 45 degrees, from the free surface down to 2.1 km: with the fault normal out of the
+! isotropy plane, the fault-local impedance is a full 3 x 3 matrix (Z_nd != 0), so a pure
+! strike-slip load also develops dip slip. An overstressed patch at the surface nucleates.
+&equations
+MaterialFileName = 'material.yaml'
+/
+
+&IniCondition
+/
+
+&DynamicRupture
+FL = 16
+ModelFileName = 'fault.yaml'
+
+XRef = 0.0
+YRef = -1.0e6
+ZRef = 0.0
+
+OutputPointType = 5
+SlipRateOutputType = 1
+/
+
+&Elementwise
+printtimeinterval_sec = 0.5
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 1
+refinement_strategy = 2
+refinement = 1
+/
+
+&Pickpoint
+printtimeinterval = 1
+OutputMask = 1 1 1 1 1 1 1 1 1 1 1 1
+PPFileName = 'FaultReceivers.dat'
+/
+
+&SourceType
+/
+
+&SpongeLayer
+/
+
+&MeshNml
+MeshFile = '../meshes/aniso-oblique.puml.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.5
+ClusteredLTS = 2
+/
+
+&Output
+OutputFile = 'output/tpv'
+wavefieldoutput = 1
+!             |stress     |vel
+iOutputMask = 0 0 0 0 0 0 1 1 1
+TimeInterval = 1.0
+refinement = 1
+
+SurfaceOutput = 1
+SurfaceOutputRefinement = 1
+SurfaceOutputInterval = 1.0
+
+RFileName = 'Receivers.dat'
+pickdt = 0.005
+
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.1
+
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+/
+
+&AbortCriteria
+EndTime = 3.0
+/
+
+&Analysis
+/
+
+&Debugging
+/
