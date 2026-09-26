@@ -1,0 +1,1807 @@
+{
+  "volume": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 1e-08
+    },
+    "quantities": {
+      "eta-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "eta-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "fault": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 1e-08
+    },
+    "quantities": {
+      "Mud-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Mud-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Pn0-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRd-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "SRs-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sld-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Sls-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_s-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Td0-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Ts0-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u_n-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "surface": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 1e-08
+    },
+    "quantities": {
+      "u1-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u1-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-3": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-4": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-5": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-6": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-7": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3-8": {
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "energy": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "elastic_kinetic_energy[0]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[1]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[2]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[3]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[4]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[5]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[6]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_kinetic_energy[7]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[0]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[1]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[2]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[3]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[4]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[5]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[6]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy[7]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[0]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[1]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[2]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[3]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[4]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[5]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[6]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "plastic_moment[7]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[0]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[1]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[2]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[3]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[4]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[5]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[6]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment[7]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[0]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[1]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[2]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[3]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[4]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[5]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[6]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work[7]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[0]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[1]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[2]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[3]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[4]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[5]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[6]": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work[7]": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  },
+  "receiver": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.00011
+    },
+    "quantities": {
+      "faultreceiver:ASl-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:ASl-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr-1": {
+        "default": 1e-06,
+        "single": 0.00011
+      },
+      "faultreceiver:Vr-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr-5": {
+        "default": 1e-06,
+        "single": 0.00011
+      },
+      "faultreceiver:Vr-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n-8": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz4": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz5": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz6": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz7": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v10": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v11": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v12": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v13": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v14": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v15": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v16": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v17": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v20": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v21": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v22": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v23": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v24": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v25": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v26": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v27": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v30": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v31": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v32": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v33": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v34": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v35": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v36": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v37": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  }
+}

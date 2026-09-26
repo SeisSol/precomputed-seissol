@@ -1,0 +1,102 @@
+{
+  "volume": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 6.3e-08
+    },
+    "quantities": {
+      "pprime": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1": {
+        "default": 1e-12,
+        "single": 3.4e-08
+      },
+      "v2": {
+        "default": 1e-12,
+        "single": 6.3e-08
+      },
+      "v3": {
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "surface": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 0.057
+    },
+    "quantities": {
+      "u1": {
+        "default": 1e-12,
+        "single": 0.021
+      },
+      "u2": {
+        "default": 1e-12,
+        "single": 0.057
+      },
+      "u3": {
+        "default": 1e-12,
+        "single": 8e-08
+      },
+      "v1": {
+        "default": 1e-12,
+        "single": 2.5e-05
+      },
+      "v2": {
+        "default": 1e-12,
+        "single": 4e-05
+      },
+      "v3": {
+        "default": 1e-12,
+        "single": 5e-08
+      }
+    }
+  },
+  "energy": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "acoustic_kinetic_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "acoustic_potential_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  },
+  "receiver": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "receiver:pprime": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v3": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "acoustic/double": {
+    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "configs": [
+      "acoustic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "ahsp/double": {
+    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "configs": [
+      "anisotropic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "aniso-bimaterial/double": {
+    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "configs": [
+      "anisotropic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "aniso-oblique/double": {
+    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "configs": [
+      "anisotropic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "loh1-fused/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o3-f64-s8"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "loh1-ic/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv101-slip/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv101/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv104/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv105/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv13-fused-plasticity/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o3-f64-s8"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv13-fused/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o3-f64-s8"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv13/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv16/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv33/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv5-4nuc/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv5-nuc/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv5-poro/double": {
+    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "configs": [
+      "poroelastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv5-visco/double": {
+    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "configs": [
+      "viscoelastic-3-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv5-wiggle/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv5/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpv6/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpvgaussian/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "tpvyoffe/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  },
+  "ttpv1/double": {
+    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-09-26",
+    "note": "re-recorded after merging master: HDF5 output, surface output"
+  }
+}

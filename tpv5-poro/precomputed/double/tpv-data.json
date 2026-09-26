@@ -1,0 +1,295 @@
+{
+  "volume": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 1.5e-08
+    },
+    "quantities": {
+      "v1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3": {
+        "default": 1e-12,
+        "single": 1.5e-08
+      }
+    }
+  },
+  "fault": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 3.1e-05
+    },
+    "quantities": {
+      "ASl": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "DS": {
+        "default": 1e-12,
+        "single": 5.2e-08
+      },
+      "Mud": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "PSR": {
+        "default": 1e-12,
+        "single": 1.4e-08
+      },
+      "P_n": {
+        "default": 1e-12,
+        "single": 2.8e-06
+      },
+      "Pn0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "RT": {
+        "default": 1e-12,
+        "single": 4e-08
+      },
+      "SRd": {
+        "default": 1e-12,
+        "single": 3.1e-07
+      },
+      "SRs": {
+        "default": 1e-12,
+        "single": 5.7e-08
+      },
+      "Sld": {
+        "default": 1e-12,
+        "single": 1.8e-07
+      },
+      "Sls": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d": {
+        "default": 1e-12,
+        "single": 5.5e-08
+      },
+      "T_s": {
+        "default": 1e-12,
+        "single": 3.4e-08
+      },
+      "Td0": {
+        "default": 1e-12,
+        "single": 5.5e-08
+      },
+      "Ts0": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Vr": {
+        "default": 1e-12,
+        "single": 3.1e-05
+      },
+      "u_n": {
+        "default": 1e-12,
+        "single": 7.5e-08
+      }
+    }
+  },
+  "surface": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 8.1e-08
+    },
+    "quantities": {
+      "u1": {
+        "default": 1e-12,
+        "single": 1.5e-08
+      },
+      "u2": {
+        "default": 1e-12,
+        "single": 1.6e-08
+      },
+      "u3": {
+        "default": 1e-12,
+        "single": 1.1e-08
+      },
+      "v1": {
+        "default": 1e-12,
+        "single": 8.1e-08
+      },
+      "v2": {
+        "default": 1e-12,
+        "single": 1.4e-08
+      },
+      "v3": {
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "energy": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "poroelastic_kinetic_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "poroelastic_strain_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  },
+  "receiver": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.00043
+    },
+    "quantities": {
+      "faultreceiver:ASl": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs": {
+        "default": 1e-06,
+        "single": 0.0002
+      },
+      "faultreceiver:Sld": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:p": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v1_f": {
+        "default": 1e-06,
+        "single": 0.00043
+      },
+      "receiver:v2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v2_f": {
+        "default": 1e-06,
+        "single": 0.00024
+      },
+      "receiver:v3": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v3_f": {
+        "default": 1e-06,
+        "single": 0.00034
+      }
+    }
+  }
+}

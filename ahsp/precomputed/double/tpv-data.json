@@ -1,0 +1,85 @@
+{
+  "volume": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 4.6e-05
+    },
+    "quantities": {
+      "v1": {
+        "default": 1e-12,
+        "single": 4.6e-05
+      },
+      "v2": {
+        "default": 1e-12,
+        "single": 3.2e-05
+      },
+      "v3": {
+        "default": 1e-12,
+        "single": 8.3e-06
+      }
+    }
+  },
+  "energy": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.00013
+    },
+    "quantities": {
+      "elastic_kinetic_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy": {
+        "default": 1e-06,
+        "single": 0.00013
+      }
+    }
+  },
+  "receiver": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0019
+    },
+    "quantities": {
+      "receiver:s_xx": {
+        "default": 1e-06,
+        "single": 0.00045
+      },
+      "receiver:s_xy": {
+        "default": 1e-06,
+        "single": 0.0014
+      },
+      "receiver:s_xz": {
+        "default": 1e-06,
+        "single": 0.00027
+      },
+      "receiver:s_yy": {
+        "default": 1e-06,
+        "single": 0.00059
+      },
+      "receiver:s_yz": {
+        "default": 1e-06,
+        "single": 0.00044
+      },
+      "receiver:s_zz": {
+        "default": 1e-06,
+        "single": 0.00055
+      },
+      "receiver:v1": {
+        "default": 1e-06,
+        "single": 0.0018
+      },
+      "receiver:v2": {
+        "default": 1e-06,
+        "single": 0.0019
+      },
+      "receiver:v3": {
+        "default": 1e-06,
+        "single": 0.0017
+      }
+    }
+  }
+}

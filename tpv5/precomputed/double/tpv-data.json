@@ -1,0 +1,405 @@
+{
+  "volume": {
+    "enabled": true,
+    "epsilon": {
+      "aniso-double": 1.4e-12,
+      "aniso-single": 1e-08,
+      "default": 1e-12,
+      "single": 1e-08
+    },
+    "quantities": {
+      "v1": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3": {
+        "aniso-double": 1.4e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "fault": {
+    "enabled": true,
+    "epsilon": {
+      "aniso-double": 2.5e-06,
+      "aniso-single": 6.4e-06,
+      "default": 1e-12,
+      "single": 4.9e-06
+    },
+    "quantities": {
+      "ASl": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "DS": {
+        "aniso-double": 7.1e-12,
+        "aniso-single": 3.7e-08,
+        "default": 1e-12,
+        "single": 3.7e-08
+      },
+      "Mud": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "PSR": {
+        "aniso-double": 5.1e-11,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "P_n": {
+        "aniso-double": 2.7e-11,
+        "aniso-single": 6.4e-06,
+        "default": 1e-12,
+        "single": 4.9e-06
+      },
+      "Pn0": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "RT": {
+        "aniso-double": 5.1e-09,
+        "aniso-single": 1.2e-08,
+        "default": 1e-12,
+        "single": 1.3e-08
+      },
+      "SRd": {
+        "aniso-double": 2.8e-11,
+        "aniso-single": 6.8e-08,
+        "default": 1e-12,
+        "single": 1.2e-07
+      },
+      "SRs": {
+        "aniso-double": 2.2e-12,
+        "aniso-single": 2.9e-08,
+        "default": 1e-12,
+        "single": 2.9e-08
+      },
+      "Sld": {
+        "aniso-double": 1e-12,
+        "aniso-single": 4.9e-07,
+        "default": 1e-12,
+        "single": 4.8e-07
+      },
+      "Sls": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "StV": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "T_d": {
+        "aniso-double": 1.2e-11,
+        "aniso-single": 1.3e-07,
+        "default": 1e-12,
+        "single": 1.1e-07
+      },
+      "T_s": {
+        "aniso-double": 1e-12,
+        "aniso-single": 2.1e-08,
+        "default": 1e-12,
+        "single": 1.9e-08
+      },
+      "Td0": {
+        "aniso-double": 1.2e-11,
+        "aniso-single": 1.3e-07,
+        "default": 1e-12,
+        "single": 1.1e-07
+      },
+      "Ts0": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "Vr": {
+        "aniso-double": 2.5e-06,
+        "aniso-single": 1.6e-06,
+        "default": 1e-12,
+        "single": 3.1e-06
+      },
+      "u_n": {
+        "aniso-double": 1.4e-11,
+        "aniso-single": 1.6e-08,
+        "default": 1e-12,
+        "single": 1.6e-08
+      }
+    }
+  },
+  "surface": {
+    "enabled": true,
+    "epsilon": {
+      "aniso-double": 1e-12,
+      "aniso-single": 1e-08,
+      "default": 1e-12,
+      "single": 1e-08
+    },
+    "quantities": {
+      "u1": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u2": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "u3": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3": {
+        "aniso-double": 1e-12,
+        "aniso-single": 1e-08,
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "energy": {
+    "enabled": true,
+    "epsilon": {
+      "aniso-double": 2.4e-06,
+      "aniso-single": 0.0001,
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "elastic_kinetic_energy": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "seismic_moment": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "static_frictional_work": {
+        "aniso-double": 2.4e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "total_frictional_work": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  },
+  "receiver": {
+    "enabled": true,
+    "epsilon": {
+      "aniso-double": 4.5e-05,
+      "aniso-single": 0.0001,
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "faultreceiver:ASl": {
+        "aniso-double": 5.2e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:DS": {
+        "aniso-double": 5.8e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Mud": {
+        "aniso-double": 1.9e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:PSR": {
+        "aniso-double": 3.6e-05,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:P_f": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Pn0": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:RT": {
+        "aniso-double": 5.8e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRd": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:SRs": {
+        "aniso-double": 3e-05,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sld": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Sls": {
+        "aniso-double": 5.2e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:StV": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Td0": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Tmp": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Ts0": {
+        "aniso-double": 1.3e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:Vr": {
+        "aniso-double": 3.2e-05,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "faultreceiver:u_n": {
+        "aniso-double": 4.5e-05,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xx": {
+        "aniso-double": 2.2e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy": {
+        "aniso-double": 2.6e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy": {
+        "aniso-double": 1.9e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz": {
+        "aniso-double": 1e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz": {
+        "aniso-double": 1.2e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v1": {
+        "aniso-double": 4.4e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v2": {
+        "aniso-double": 4.3e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v3": {
+        "aniso-double": 1.9e-06,
+        "aniso-single": 0.0001,
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  }
+}
