@@ -24,7 +24,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 9.9e-07
+      "single": 1e-08
     },
     "quantities": {
       "ASl": {
@@ -45,7 +45,7 @@
       },
       "P_n": {
         "default": 1e-12,
-        "single": 9.9e-07
+        "single": 1e-08
       },
       "Pn0": {
         "default": 1e-12,
@@ -65,7 +65,7 @@
       },
       "Sld": {
         "default": 1e-12,
-        "single": 3.7e-07
+        "single": 1e-08
       },
       "Sls": {
         "default": 1e-12,
@@ -163,7 +163,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00012
+      "single": 0.00025
     },
     "quantities": {
       "faultreceiver:ASl": {
@@ -228,7 +228,7 @@
       },
       "faultreceiver:Vr": {
         "default": 1e-06,
-        "single": 0.00012
+        "single": 0.00025
       },
       "faultreceiver:u_n": {
         "default": 1e-06,

@@ -3,20 +3,20 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 2.7e-07
+      "single": 4.4e-08
     },
     "quantities": {
       "v1": {
         "default": 1e-12,
-        "single": 1.1e-07
+        "single": 3.5e-08
       },
       "v2": {
         "default": 1e-12,
-        "single": 2.6e-07
+        "single": 4.4e-08
       },
       "v3": {
         "default": 1e-12,
-        "single": 2.7e-07
+        "single": 1e-08
       }
     }
   },
@@ -24,7 +24,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 5.1e-06
+      "single": 2.8e-07
     },
     "quantities": {
       "ASl": {
@@ -33,15 +33,15 @@
       },
       "Mud": {
         "default": 1e-12,
-        "single": 2.1e-08
+        "single": 1e-08
       },
       "PSR": {
         "default": 1e-12,
-        "single": 5.6e-08
+        "single": 2.3e-08
       },
       "P_n": {
         "default": 1e-12,
-        "single": 5.1e-06
+        "single": 1e-08
       },
       "Pn0": {
         "default": 1e-12,
@@ -49,19 +49,19 @@
       },
       "RT": {
         "default": 1e-12,
-        "single": 2.8e-07
+        "single": 1e-08
       },
       "SRd": {
         "default": 1e-12,
-        "single": 1.9e-06
+        "single": 1e-08
       },
       "SRs": {
         "default": 1e-12,
-        "single": 6.2e-07
+        "single": 2.3e-07
       },
       "Sld": {
         "default": 1e-12,
-        "single": 1.3e-07
+        "single": 1e-08
       },
       "Sls": {
         "default": 1e-12,
@@ -73,23 +73,23 @@
       },
       "T_d": {
         "default": 1e-12,
-        "single": 7.3e-07
+        "single": 1e-08
       },
       "T_s": {
         "default": 1e-12,
-        "single": 3.2e-07
+        "single": 1.3e-07
       },
       "Td0": {
         "default": 1e-12,
-        "single": 7.3e-07
+        "single": 1e-08
       },
       "Ts0": {
         "default": 1e-12,
-        "single": 2.2e-08
+        "single": 1e-08
       },
       "u_n": {
         "default": 1e-12,
-        "single": 7.6e-07
+        "single": 2.8e-07
       }
     }
   },
@@ -97,32 +97,32 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 1.7e-06
+      "single": 4.5e-07
     },
     "quantities": {
       "u1": {
         "default": 1e-12,
-        "single": 1.4e-06
+        "single": 5.2e-08
       },
       "u2": {
         "default": 1e-12,
-        "single": 1.6e-06
+        "single": 6.8e-08
       },
       "u3": {
         "default": 1e-12,
-        "single": 1.3e-06
+        "single": 4.5e-07
       },
       "v1": {
         "default": 1e-12,
-        "single": 1.7e-06
+        "single": 7.6e-08
       },
       "v2": {
         "default": 1e-12,
-        "single": 1.2e-06
+        "single": 6.7e-08
       },
       "v3": {
         "default": 1e-12,
-        "single": 7.8e-07
+        "single": 2.8e-07
       }
     }
   },
@@ -130,28 +130,28 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00048
+      "single": 0.00028
     },
     "quantities": {
       "elastic_kinetic_energy": {
         "default": 1e-06,
-        "single": 0.00044
+        "single": 0.00025
       },
       "elastic_strain_energy": {
         "default": 1e-06,
-        "single": 0.00048
+        "single": 0.00028
       },
       "seismic_moment": {
         "default": 1e-06,
-        "single": 0.00046
+        "single": 0.00027
       },
       "static_frictional_work": {
         "default": 1e-06,
-        "single": 0.00043
+        "single": 0.00024
       },
       "total_frictional_work": {
         "default": 1e-06,
-        "single": 0.00047
+        "single": 0.00027
       }
     }
   },
@@ -159,12 +159,12 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.067
+      "single": 0.00048
     },
     "quantities": {
       "faultreceiver:ASl": {
         "default": 1e-06,
-        "single": 0.00013
+        "single": 0.0001
       },
       "faultreceiver:DS": {
         "default": 1e-06,
@@ -172,11 +172,11 @@
       },
       "faultreceiver:Mud": {
         "default": 1e-06,
-        "single": 0.00021
+        "single": 0.00013
       },
       "faultreceiver:PSR": {
         "default": 1e-06,
-        "single": 0.00023
+        "single": 0.00013
       },
       "faultreceiver:P_f": {
         "default": 1e-06,
@@ -196,7 +196,7 @@
       },
       "faultreceiver:SRs": {
         "default": 1e-06,
-        "single": 0.00038
+        "single": 0.00022
       },
       "faultreceiver:Sld": {
         "default": 1e-06,
@@ -204,11 +204,11 @@
       },
       "faultreceiver:Sls": {
         "default": 1e-06,
-        "single": 0.00014
+        "single": 0.0001
       },
       "faultreceiver:StV": {
         "default": 1e-06,
-        "single": 0.00026
+        "single": 0.00016
       },
       "faultreceiver:Td0": {
         "default": 1e-06,
@@ -224,19 +224,19 @@
       },
       "faultreceiver:Vr": {
         "default": 1e-06,
-        "single": 0.067
+        "single": 0.00012
       },
       "faultreceiver:u_n": {
         "default": 1e-06,
-        "single": 0.00084
+        "single": 0.00048
       },
       "receiver:s_xx": {
         "default": 1e-06,
-        "single": 0.0002
+        "single": 0.00013
       },
       "receiver:s_xy": {
         "default": 1e-06,
-        "single": 0.00034
+        "single": 0.0002
       },
       "receiver:s_xz": {
         "default": 1e-06,
@@ -244,7 +244,7 @@
       },
       "receiver:s_yy": {
         "default": 1e-06,
-        "single": 0.00015
+        "single": 0.0001
       },
       "receiver:s_yz": {
         "default": 1e-06,
@@ -256,11 +256,11 @@
       },
       "receiver:v1": {
         "default": 1e-06,
-        "single": 0.00034
+        "single": 0.0002
       },
       "receiver:v2": {
         "default": 1e-06,
-        "single": 0.00038
+        "single": 0.00022
       },
       "receiver:v3": {
         "default": 1e-06,

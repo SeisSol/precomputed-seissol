@@ -24,7 +24,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 4e-08
+      "single": 1e-08
     },
     "quantities": {
       "ASl": {
@@ -57,7 +57,7 @@
       },
       "SRd": {
         "default": 1e-12,
-        "single": 1.8e-08
+        "single": 1e-08
       },
       "SRs": {
         "default": 1e-12,
@@ -65,7 +65,7 @@
       },
       "Sld": {
         "default": 1e-12,
-        "single": 4e-08
+        "single": 1e-08
       },
       "Sls": {
         "default": 1e-12,
@@ -167,12 +167,12 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.0019
+      "single": 0.00016
     },
     "quantities": {
       "faultreceiver:ASl": {
         "default": 1e-06,
-        "single": 0.0018
+        "single": 0.0001
       },
       "faultreceiver:DS": {
         "default": 1e-06,
@@ -184,11 +184,11 @@
       },
       "faultreceiver:PSR": {
         "default": 1e-06,
-        "single": 0.0019
+        "single": 0.0001
       },
       "faultreceiver:P_f": {
         "default": 1e-06,
-        "single": 0.0018
+        "single": 0.00016
       },
       "faultreceiver:Pn0": {
         "default": 1e-06,
@@ -204,15 +204,15 @@
       },
       "faultreceiver:SRs": {
         "default": 1e-06,
-        "single": 0.00016
+        "single": 0.0001
       },
       "faultreceiver:Sld": {
         "default": 1e-06,
-        "single": 0.0002
+        "single": 0.0001
       },
       "faultreceiver:Sls": {
         "default": 1e-06,
-        "single": 0.0018
+        "single": 0.0001
       },
       "faultreceiver:StV": {
         "default": 1e-06,

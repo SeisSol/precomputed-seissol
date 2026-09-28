@@ -7,8 +7,8 @@
     <Topology TopologyType="Tetrahedron" NumberOfElements="63276">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="63276 4">tpv-wavefield-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="19721">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19721 3">tpv-wavefield-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="19678">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19678 3">tpv-wavefield-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="63276">tpv-wavefield-data.h5:/dataset2</DataItem>
@@ -43,8 +43,8 @@
     <Topology TopologyType="Tetrahedron" NumberOfElements="63276">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="63276 4">tpv-wavefield-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="19721">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19721 3">tpv-wavefield-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="19678">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19678 3">tpv-wavefield-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="63276">tpv-wavefield-data.h5:/dataset2</DataItem>
@@ -79,8 +79,8 @@
     <Topology TopologyType="Tetrahedron" NumberOfElements="63276">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="63276 4">tpv-wavefield-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="19721">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19721 3">tpv-wavefield-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="19678">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19678 3">tpv-wavefield-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="63276">tpv-wavefield-data.h5:/dataset2</DataItem>
@@ -115,8 +115,8 @@
     <Topology TopologyType="Tetrahedron" NumberOfElements="63276">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="63276 4">tpv-wavefield-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="19721">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19721 3">tpv-wavefield-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="19678">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="19678 3">tpv-wavefield-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="63276">tpv-wavefield-data.h5:/dataset2</DataItem>

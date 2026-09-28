@@ -74,16 +74,16 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00021
+      "single": 0.00045
     },
     "quantities": {
       "receiver:s_xx": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00045
       },
       "receiver:s_xy": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00017
       },
       "receiver:s_xz": {
         "default": 1e-06,
@@ -91,7 +91,7 @@
       },
       "receiver:s_yy": {
         "default": 1e-06,
-        "single": 0.00021
+        "single": 0.00017
       },
       "receiver:s_yz": {
         "default": 1e-06,

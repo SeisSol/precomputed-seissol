@@ -24,7 +24,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 0.0044
+      "single": 2.8e-05
     },
     "quantities": {
       "ASl": {
@@ -37,15 +37,15 @@
       },
       "RT": {
         "default": 1e-12,
-        "single": 1.2e-08
+        "single": 1e-08
       },
       "SRd": {
         "default": 1e-12,
-        "single": 9.9e-05
+        "single": 2.8e-05
       },
       "SRs": {
         "default": 1e-12,
-        "single": 0.00034
+        "single": 1.2e-05
       },
       "Sld": {
         "default": 1e-12,
@@ -53,11 +53,11 @@
       },
       "Sls": {
         "default": 1e-12,
-        "single": 0.0044
+        "single": 1e-08
       },
       "Vr": {
         "default": 1e-12,
-        "single": 9.2e-05
+        "single": 3.8e-08
       }
     }
   },
@@ -98,7 +98,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00038
+      "single": 0.0001
     },
     "quantities": {
       "elastic_kinetic_energy": {
@@ -111,7 +111,7 @@
       },
       "seismic_moment": {
         "default": 1e-06,
-        "single": 0.00038
+        "single": 0.0001
       },
       "static_frictional_work": {
         "default": 1e-06,

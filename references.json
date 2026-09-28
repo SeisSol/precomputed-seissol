@@ -1,202 +1,202 @@
 {
   "acoustic/double": {
-    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "acoustic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "ahsp/double": {
-    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "aniso-bimaterial/double": {
-    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "aniso-oblique/double": {
-    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "loh1-fused/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "loh1-ic/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv101-slip/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv101/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv104/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv105/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv13-fused-plasticity/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv13-fused/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv13/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv16/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv33/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv5-4nuc/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv5-nuc/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv5-poro/double": {
-    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "poroelastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv5-visco/double": {
-    "commit": "6667a144f7ece81a231740dd034416e0e4dc7071",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "viscoelastic-3-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv5-wiggle/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv5/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv6/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpvgaussian/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpvyoffe/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "ttpv1/double": {
-    "commit": "b767dbd43028f2b61b50939450ae02dc38f4194e",
+    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-26",
-    "note": "re-recorded after merging master: HDF5 output, surface output"
+    "date": "2026-09-28",
+    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   }
 }

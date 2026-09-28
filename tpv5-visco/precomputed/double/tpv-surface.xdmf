@@ -7,8 +7,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="3960">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="3960 3">tpv-surface-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="2146">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2146 3">tpv-surface-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="2142">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2142 3">tpv-surface-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="3960">tpv-surface-data.h5:/dataset2</DataItem>
@@ -61,8 +61,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="3960">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="3960 3">tpv-surface-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="2146">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2146 3">tpv-surface-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="2142">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2142 3">tpv-surface-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="3960">tpv-surface-data.h5:/dataset2</DataItem>
@@ -115,8 +115,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="3960">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="3960 3">tpv-surface-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="2146">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2146 3">tpv-surface-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="2142">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2142 3">tpv-surface-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="3960">tpv-surface-data.h5:/dataset2</DataItem>

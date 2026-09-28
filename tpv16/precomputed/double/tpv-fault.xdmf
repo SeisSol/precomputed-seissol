@@ -7,8 +7,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="16448">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="16448 3">tpv-fault-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="8578">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8578 3">tpv-fault-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="8592">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8592 3">tpv-fault-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="16448">tpv-fault-data.h5:/dataset2</DataItem>
@@ -133,8 +133,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="16448">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="16448 3">tpv-fault-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="8578">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8578 3">tpv-fault-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="8592">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="8592 3">tpv-fault-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="16448">tpv-fault-data.h5:/dataset2</DataItem>

@@ -7,8 +7,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="4368">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="4368 3">tpv-fault-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="2418">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2418 3">tpv-fault-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="2417">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2417 3">tpv-fault-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="4368">tpv-fault-data.h5:/dataset2</DataItem>
@@ -127,8 +127,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="4368">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="4368 3">tpv-fault-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="2418">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2418 3">tpv-fault-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="2417">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2417 3">tpv-fault-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="4368">tpv-fault-data.h5:/dataset2</DataItem>
@@ -247,8 +247,8 @@
     <Topology TopologyType="Triangle" NumberOfElements="4368">
      <DataItem NumberType="Int" Precision="8" Format="HDF" Dimensions="4368 3">tpv-fault-data.h5:/dataset0</DataItem>
     </Topology>
-    <Geometry GeometryType="XYZ" NumberOfElements="2418">
-     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2418 3">tpv-fault-data.h5:/dataset1</DataItem>
+    <Geometry GeometryType="XYZ" NumberOfElements="2417">
+     <DataItem NumberType="Float" Precision="8" Format="HDF" Dimensions="2417 3">tpv-fault-data.h5:/dataset1</DataItem>
     </Geometry>
     <Attribute Name="partition" Center="Cell">
      <DataItem NumberType="Int" Precision="4" Format="HDF" Dimensions="4368">tpv-fault-data.h5:/dataset2</DataItem>

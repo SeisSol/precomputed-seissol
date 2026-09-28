@@ -3,20 +3,20 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 4.6e-05
+      "single": 2.3e-06
     },
     "quantities": {
       "v1": {
         "default": 1e-12,
-        "single": 4.6e-05
+        "single": 2.3e-06
       },
       "v2": {
         "default": 1e-12,
-        "single": 3.2e-05
+        "single": 2.1e-06
       },
       "v3": {
         "default": 1e-12,
-        "single": 8.3e-06
+        "single": 1.3e-06
       }
     }
   },
@@ -24,7 +24,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00013
+      "single": 0.0001
     },
     "quantities": {
       "elastic_kinetic_energy": {
@@ -33,7 +33,7 @@
       },
       "elastic_strain_energy": {
         "default": 1e-06,
-        "single": 0.00013
+        "single": 0.0001
       }
     }
   },
@@ -41,44 +41,44 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.0019
+      "single": 0.00067
     },
     "quantities": {
       "receiver:s_xx": {
         "default": 1e-06,
-        "single": 0.00045
+        "single": 0.00023
       },
       "receiver:s_xy": {
         "default": 1e-06,
-        "single": 0.0014
+        "single": 0.00051
       },
       "receiver:s_xz": {
         "default": 1e-06,
-        "single": 0.00027
+        "single": 0.00012
       },
       "receiver:s_yy": {
         "default": 1e-06,
-        "single": 0.00059
+        "single": 0.00028
       },
       "receiver:s_yz": {
         "default": 1e-06,
-        "single": 0.00044
+        "single": 0.00017
       },
       "receiver:s_zz": {
         "default": 1e-06,
-        "single": 0.00055
+        "single": 0.00023
       },
       "receiver:v1": {
         "default": 1e-06,
-        "single": 0.0018
+        "single": 0.00065
       },
       "receiver:v2": {
         "default": 1e-06,
-        "single": 0.0019
+        "single": 0.00067
       },
       "receiver:v3": {
         "default": 1e-06,
-        "single": 0.0017
+        "single": 0.00051
       }
     }
   }

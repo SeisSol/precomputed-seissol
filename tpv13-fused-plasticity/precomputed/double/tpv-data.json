@@ -140,7 +140,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 3.5e-08
+      "single": 1e-08
     },
     "quantities": {
       "Mud-0": {
@@ -341,7 +341,7 @@
       },
       "Sls-1": {
         "default": 1e-12,
-        "single": 3.5e-08
+        "single": 1e-08
       },
       "Sls-2": {
         "default": 1e-12,
@@ -766,7 +766,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.0001
+      "single": 0.00013
     },
     "quantities": {
       "elastic_kinetic_energy[0]": {
@@ -883,7 +883,7 @@
       },
       "seismic_moment[4]": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00013
       },
       "seismic_moment[5]": {
         "default": 1e-06,
@@ -967,7 +967,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00098
+      "single": 0.0012
     },
     "quantities": {
       "faultreceiver:ASl-1": {
@@ -976,7 +976,7 @@
       },
       "faultreceiver:ASl-2": {
         "default": 1e-06,
-        "single": 0.00072
+        "single": 0.0011
       },
       "faultreceiver:ASl-3": {
         "default": 1e-06,
@@ -988,7 +988,7 @@
       },
       "faultreceiver:ASl-5": {
         "default": 1e-06,
-        "single": 0.0009
+        "single": 0.00035
       },
       "faultreceiver:ASl-6": {
         "default": 1e-06,
@@ -1072,7 +1072,7 @@
       },
       "faultreceiver:PSR-2": {
         "default": 1e-06,
-        "single": 0.00021
+        "single": 0.00066
       },
       "faultreceiver:PSR-3": {
         "default": 1e-06,
@@ -1084,7 +1084,7 @@
       },
       "faultreceiver:PSR-5": {
         "default": 1e-06,
-        "single": 0.00053
+        "single": 0.00021
       },
       "faultreceiver:PSR-6": {
         "default": 1e-06,
@@ -1200,7 +1200,7 @@
       },
       "faultreceiver:SRd-2": {
         "default": 1e-06,
-        "single": 0.00064
+        "single": 0.0012
       },
       "faultreceiver:SRd-3": {
         "default": 1e-06,
@@ -1212,7 +1212,7 @@
       },
       "faultreceiver:SRd-5": {
         "default": 1e-06,
-        "single": 0.00055
+        "single": 0.00083
       },
       "faultreceiver:SRd-6": {
         "default": 1e-06,
@@ -1232,7 +1232,7 @@
       },
       "faultreceiver:SRs-2": {
         "default": 1e-06,
-        "single": 0.00083
+        "single": 0.00014
       },
       "faultreceiver:SRs-3": {
         "default": 1e-06,
@@ -1244,7 +1244,7 @@
       },
       "faultreceiver:SRs-5": {
         "default": 1e-06,
-        "single": 0.0007
+        "single": 0.00048
       },
       "faultreceiver:SRs-6": {
         "default": 1e-06,
@@ -1264,7 +1264,7 @@
       },
       "faultreceiver:Sld-2": {
         "default": 1e-06,
-        "single": 0.00098
+        "single": 0.0011
       },
       "faultreceiver:Sld-3": {
         "default": 1e-06,
@@ -1276,7 +1276,7 @@
       },
       "faultreceiver:Sld-5": {
         "default": 1e-06,
-        "single": 0.00063
+        "single": 0.00042
       },
       "faultreceiver:Sld-6": {
         "default": 1e-06,
@@ -1296,7 +1296,7 @@
       },
       "faultreceiver:Sls-2": {
         "default": 1e-06,
-        "single": 0.00033
+        "single": 0.0001
       },
       "faultreceiver:Sls-3": {
         "default": 1e-06,
@@ -1308,7 +1308,7 @@
       },
       "faultreceiver:Sls-5": {
         "default": 1e-06,
-        "single": 0.00081
+        "single": 0.00021
       },
       "faultreceiver:Sls-6": {
         "default": 1e-06,
@@ -1452,7 +1452,7 @@
       },
       "faultreceiver:Vr-1": {
         "default": 1e-06,
-        "single": 0.00011
+        "single": 0.0001
       },
       "faultreceiver:Vr-2": {
         "default": 1e-06,
@@ -1488,7 +1488,7 @@
       },
       "faultreceiver:u_n-2": {
         "default": 1e-06,
-        "single": 0.00011
+        "single": 0.0001
       },
       "faultreceiver:u_n-3": {
         "default": 1e-06,
@@ -1524,7 +1524,7 @@
       },
       "receiver:s_xx2": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00011
       },
       "receiver:s_xx3": {
         "default": 1e-06,
@@ -1612,35 +1612,35 @@
       },
       "receiver:s_yy0": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00015
       },
       "receiver:s_yy1": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00011
       },
       "receiver:s_yy2": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00016
       },
       "receiver:s_yy3": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00012
       },
       "receiver:s_yy4": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00012
       },
       "receiver:s_yy5": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00017
       },
       "receiver:s_yy6": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00013
       },
       "receiver:s_yy7": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "receiver:s_yz0": {
         "default": 1e-06,

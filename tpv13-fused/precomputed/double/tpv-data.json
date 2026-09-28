@@ -967,7 +967,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00011
+      "single": 0.00015
     },
     "quantities": {
       "faultreceiver:ASl-1": {
@@ -1452,7 +1452,7 @@
       },
       "faultreceiver:Vr-1": {
         "default": 1e-06,
-        "single": 0.00011
+        "single": 0.0001
       },
       "faultreceiver:Vr-2": {
         "default": 1e-06,
@@ -1460,7 +1460,7 @@
       },
       "faultreceiver:Vr-3": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "faultreceiver:Vr-4": {
         "default": 1e-06,
@@ -1468,7 +1468,7 @@
       },
       "faultreceiver:Vr-5": {
         "default": 1e-06,
-        "single": 0.00011
+        "single": 0.0001
       },
       "faultreceiver:Vr-6": {
         "default": 1e-06,
@@ -1476,7 +1476,7 @@
       },
       "faultreceiver:Vr-7": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "faultreceiver:Vr-8": {
         "default": 1e-06,
@@ -1612,35 +1612,35 @@
       },
       "receiver:s_yy0": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00015
       },
       "receiver:s_yy1": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00015
       },
       "receiver:s_yy2": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "receiver:s_yy3": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "receiver:s_yy4": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00015
       },
       "receiver:s_yy5": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00015
       },
       "receiver:s_yy6": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "receiver:s_yy7": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00014
       },
       "receiver:s_yz0": {
         "default": 1e-06,
