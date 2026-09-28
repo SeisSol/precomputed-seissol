@@ -2,13 +2,17 @@
   returns: [s_xx, s_yy, s_zz, s_xy, s_yz, s_xz, v1, v2, v3]
   function: |
     function f (x)
+        -- lengths in units of 10 km: the loh1 mesh has edges of 1 to 6 km, on which the wave
+        -- has to be resolved for the projection not to depend on where its quadrature points lie
+        xx = x["x"] / 10000
+        z = x["z"] / 10000
         omega = 2.0 * math.acos(-1)
         omegasq = omega * omega
 
-        scalex = math.exp(0.98901344820674908 * omega * x["z"])
-        scaley = math.exp(1.2825031256883821 * omega * x["z"])
+        scalex = math.exp(0.98901344820674908 * omega * z)
+        scaley = math.exp(1.2825031256883821 * omega * z)
 
-        mode = omega * x["t"] - 1.406466352506808 * omega * x["x"]
+        mode = omega * x["t"] - 1.406466352506808 * omega * xx
 
         sinmode = math.sin(mode)
         cosmode = math.cos(mode)
