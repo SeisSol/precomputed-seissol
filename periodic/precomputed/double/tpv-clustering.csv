@@ -1,0 +1,17 @@
+"profilingId","localId","layerType","size","dynamicRuptureSize","rank","localRank"
+1,0,"Copy",1,0,0,0
+2,0,"Interior",0,0,0,0
+4,1,"Copy",139,0,0,0
+5,1,"Interior",193,0,0,0
+1,0,"Copy",11,0,1,1
+2,0,"Interior",74,0,1,1
+4,1,"Copy",132,0,1,1
+5,1,"Interior",233,0,1,1
+1,0,"Copy",4,0,2,2
+2,0,"Interior",22,0,2,2
+4,1,"Copy",120,0,2,2
+5,1,"Interior",168,0,2,2
+1,0,"Copy",0,0,3,3
+2,0,"Interior",6,0,3,3
+4,1,"Copy",117,0,3,3
+5,1,"Interior",199,0,3,3

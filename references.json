@@ -47,6 +47,14 @@
     "date": "2026-09-28",
     "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
+  "periodic/double": {
+    "commit": "f5bbc1e35a6d752f4ea722c85509709af50c1409",
+    "configs": [
+      "elastic-o6-f64"
+    ],
+    "date": "2026-10-13",
+    "note": "a planar wave on a fully periodic mesh, with local time stepping"
+  },
   "tpv101-slip/double": {
     "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
     "configs": [

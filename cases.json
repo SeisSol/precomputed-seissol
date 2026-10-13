@@ -59,6 +59,16 @@
         "parameters": "loh1-ic/parameters.par",
         "reference": "loh1-ic/double"
     },
+    "periodic/double": {
+        "config": "elastic-o6-f64",
+        "parameters": "periodic/parameters.par",
+        "output": { "directory": "periodic/precomputed/double", "prefix": "tpv" }
+    },
+    "periodic/single": {
+        "config": "elastic-o6-f32",
+        "parameters": "periodic/parameters.par",
+        "reference": "periodic/double"
+    },
     "tpv5/double": {
         "config": "elastic-o6-f64",
         "parameters": "tpv5/parameters.par",

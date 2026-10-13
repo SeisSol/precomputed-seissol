@@ -1,0 +1,109 @@
+{
+  "volume": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-12,
+      "single": 1e-08
+    },
+    "quantities": {
+      "s_xx": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "s_xy": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "s_xz": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "s_yy": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "s_yz": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "s_zz": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v1": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v2": {
+        "default": 1e-12,
+        "single": 1e-08
+      },
+      "v3": {
+        "default": 1e-12,
+        "single": 1e-08
+      }
+    }
+  },
+  "energy": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "elastic_kinetic_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "elastic_strain_energy": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  },
+  "receiver": {
+    "enabled": true,
+    "epsilon": {
+      "default": 1e-06,
+      "single": 0.0001
+    },
+    "quantities": {
+      "receiver:s_xx": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_xz": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yy": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_yz": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:s_zz": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v1": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v2": {
+        "default": 1e-06,
+        "single": 0.0001
+      },
+      "receiver:v3": {
+        "default": 1e-06,
+        "single": 0.0001
+      }
+    }
+  }
+}

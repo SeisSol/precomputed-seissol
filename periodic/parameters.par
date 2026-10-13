@@ -1,0 +1,55 @@
+&equations
+MaterialFileName = 'material.yaml'
+/
+
+&IniCondition
+! a planar wave with the wave vector (pi, pi, pi): the cube [-1, 1]^3, periodic along every
+! axis, holds one wavelength along each of them
+cICType = 'Planarwave'
+/
+
+&Boundaries
+/
+
+&MeshNml
+! fully periodic: every boundary face is identified with the one opposite (see periodic.geo)
+MeshFile = '../meshes/periodic.puml.h5'
+meshgenerator = 'PUML'
+/
+
+&Discretization
+CFL = 0.5
+! local time stepping, so that clusters meet across the periodic faces as well
+ClusteredLTS = 2
+/
+
+&Output
+OutputFile = 'output/tpv'
+wavefieldoutput = 1
+!             |stress     |vel
+iOutputMask = 1 1 1 1 1 1 1 1 1
+TimeInterval = 0.5
+refinement = 1
+
+ReceiverOutput = 1
+pickdt = 0.005
+RFileName = 'receivers.dat'
+ReceiverFormat = 'hdf5'
+
+xdmfWriterBackend = 'hdf5'
+hdfcompress = 1
+EnergyOutput = 1
+EnergyTerminalOutput = 1
+EnergyOutputInterval = 0.25
+energyterminalprecision = 16
+/
+
+&AbortCriteria
+EndTime = 1.0
+/
+
+&Analysis
+/
+
+&Debugging
+/
