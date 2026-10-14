@@ -88,28 +88,28 @@
     "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "tpv13-fused-plasticity/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "a038699d7583c19523c0feebc30abf742357b8c0",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-14",
+    "note": "re-recorded with the plastic correction at the points of the symmetric quadrature rule (PLASTICITY_METHOD=sq), the default since the merge of master in a038699d7"
   },
   "tpv13-fused/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "a038699d7583c19523c0feebc30abf742357b8c0",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-14",
+    "note": "re-recorded with the plastic correction at the points of the symmetric quadrature rule (PLASTICITY_METHOD=sq), the default since the merge of master in a038699d7"
   },
   "tpv13/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "a038699d7583c19523c0feebc30abf742357b8c0",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-14",
+    "note": "re-recorded with the plastic correction at the points of the symmetric quadrature rule (PLASTICITY_METHOD=sq), the default since the merge of master in a038699d7"
   },
   "tpv16/double": {
     "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",

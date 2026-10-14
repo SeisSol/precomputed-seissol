@@ -967,7 +967,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00015
+      "single": 0.00029
     },
     "quantities": {
       "faultreceiver:ASl-1": {
@@ -1452,7 +1452,7 @@
       },
       "faultreceiver:Vr-1": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00012
       },
       "faultreceiver:Vr-2": {
         "default": 1e-06,
@@ -1460,7 +1460,7 @@
       },
       "faultreceiver:Vr-3": {
         "default": 1e-06,
-        "single": 0.00014
+        "single": 0.00029
       },
       "faultreceiver:Vr-4": {
         "default": 1e-06,
@@ -1468,7 +1468,7 @@
       },
       "faultreceiver:Vr-5": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00012
       },
       "faultreceiver:Vr-6": {
         "default": 1e-06,
@@ -1476,7 +1476,7 @@
       },
       "faultreceiver:Vr-7": {
         "default": 1e-06,
-        "single": 0.00014
+        "single": 0.00029
       },
       "faultreceiver:Vr-8": {
         "default": 1e-06,
@@ -1548,11 +1548,11 @@
       },
       "receiver:s_xy0": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00011
       },
       "receiver:s_xy1": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00011
       },
       "receiver:s_xy2": {
         "default": 1e-06,
@@ -1560,15 +1560,15 @@
       },
       "receiver:s_xy3": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00012
       },
       "receiver:s_xy4": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00011
       },
       "receiver:s_xy5": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00011
       },
       "receiver:s_xy6": {
         "default": 1e-06,
@@ -1576,7 +1576,7 @@
       },
       "receiver:s_xy7": {
         "default": 1e-06,
-        "single": 0.0001
+        "single": 0.00012
       },
       "receiver:s_xz0": {
         "default": 1e-06,
@@ -1612,15 +1612,15 @@
       },
       "receiver:s_yy0": {
         "default": 1e-06,
-        "single": 0.00015
+        "single": 0.00014
       },
       "receiver:s_yy1": {
         "default": 1e-06,
-        "single": 0.00015
+        "single": 0.00011
       },
       "receiver:s_yy2": {
         "default": 1e-06,
-        "single": 0.00014
+        "single": 0.00013
       },
       "receiver:s_yy3": {
         "default": 1e-06,
@@ -1628,15 +1628,15 @@
       },
       "receiver:s_yy4": {
         "default": 1e-06,
-        "single": 0.00015
+        "single": 0.00014
       },
       "receiver:s_yy5": {
         "default": 1e-06,
-        "single": 0.00015
+        "single": 0.00011
       },
       "receiver:s_yy6": {
         "default": 1e-06,
-        "single": 0.00014
+        "single": 0.00013
       },
       "receiver:s_yy7": {
         "default": 1e-06,
