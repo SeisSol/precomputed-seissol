@@ -239,7 +239,7 @@
     "enabled": true,
     "epsilon": {
       "aniso-double": 1e-06,
-      "aniso-single": 0.00012,
+      "aniso-single": 0.00013,
       "default": 1e-06,
       "single": 0.00011
     },
@@ -336,7 +336,7 @@
       },
       "faultreceiver:Vr": {
         "aniso-double": 1e-06,
-        "aniso-single": 0.00012,
+        "aniso-single": 0.00013,
         "default": 1e-06,
         "single": 0.00011
       },

@@ -16,20 +16,20 @@
     "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "aniso-bimaterial/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "aniso-oblique/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "loh1-fused/double": {
     "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
@@ -56,155 +56,155 @@
     "note": "a planar wave on a fully periodic mesh, with local time stepping"
   },
   "tpv101-slip/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv101/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv104/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv105/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv13-fused-plasticity/double": {
-    "commit": "a038699d7583c19523c0feebc30abf742357b8c0",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-10-14",
-    "note": "re-recorded with the plastic correction at the points of the symmetric quadrature rule (PLASTICITY_METHOD=sq), the default since the merge of master in a038699d7"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv13-fused/double": {
-    "commit": "a038699d7583c19523c0feebc30abf742357b8c0",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-10-14",
-    "note": "re-recorded with the plastic correction at the points of the symmetric quadrature rule (PLASTICITY_METHOD=sq), the default since the merge of master in a038699d7"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv13/double": {
-    "commit": "a038699d7583c19523c0feebc30abf742357b8c0",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-14",
-    "note": "re-recorded with the plastic correction at the points of the symmetric quadrature rule (PLASTICITY_METHOD=sq), the default since the merge of master in a038699d7"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv16/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv33/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-4nuc/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-nuc/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-poro/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "poroelastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-visco/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "viscoelastic-3-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-wiggle/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv6/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpvgaussian/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpvyoffe/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "ttpv1/double": {
-    "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
+    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-09-28",
-    "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
+    "date": "2026-10-22",
+    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   }
 }

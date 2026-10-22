@@ -232,11 +232,11 @@
       },
       "faultreceiver:Vr": {
         "default": 1e-06,
-        "single": 0.00018
+        "single": 0.00019
       },
       "faultreceiver:u_n": {
         "default": 1e-06,
-        "single": 0.00012
+        "single": 0.00014
       },
       "receiver:s_xx": {
         "default": 1e-06,

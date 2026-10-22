@@ -1,0 +1,528 @@
+{
+  "schema": "seissol-run-summary/1",
+  "runId": "e8f4641c-236f-4eca-91b1-b829cabb59d1",
+  "status": "completed",
+  "stage": "finished",
+  "started": "2026-10-22T10:15:00Z",
+  "updated": "2026-10-22T10:17:11Z",
+  "build": {
+    "version": "(unknown)",
+    "commit": "(unknown)",
+    "commitTimestamp": "9999-12-31T00:00:00+00:00",
+    "hostArch": "hsw",
+    "deviceBackend": "none",
+    "deviceArch": "none",
+    "compiler": {
+      "id": "Clang",
+      "version": "19.1.7"
+    },
+    "buildType": "Release",
+    "configurations": [
+      "elastic-linearck-o6-f64-stroud",
+      "acoustic-linearck-o6-f64-stroud",
+      "anisotropic-linearck-o6-f64-stroud",
+      "poroelastic-stp-o6-f64-stroud",
+      "viscoelastic-linearckanelastic-m3-o6-f64-stroud",
+      "viscoacoustic-linearckanelastic-m3-o6-f64-stroud",
+      "elastic-linearck-o3-f64-stroud-s8",
+      "elastic-linearck-o6-f32-stroud",
+      "acoustic-linearck-o6-f32-stroud",
+      "anisotropic-linearck-o6-f32-stroud",
+      "poroelastic-stp-o6-f32-stroud",
+      "viscoelastic-linearckanelastic-m3-o6-f32-stroud",
+      "viscoacoustic-linearckanelastic-m3-o6-f32-stroud",
+      "elastic-linearck-o3-f32-stroud-s8"
+    ]
+  },
+  "parallel": {
+    "ranks": 1,
+    "nodes": 1,
+    "ranksPerNode": {
+      "min": 1,
+      "max": 1,
+      "mean": 1,
+      "median": 1,
+      "std": 0,
+      "sum": 1
+    },
+    "threadsPerRank": {
+      "min": 6,
+      "max": 6,
+      "mean": 6,
+      "median": 6,
+      "std": 0,
+      "sum": 6
+    },
+    "mpiLibrary": "Open MPI v4.1.6, package: Debian OpenMPI, ident: 4.1.6, repo rev: v4.1.6, Sep 30, 2023",
+    "commThread": false,
+    "asyncMode": "sync",
+    "asyncAuto": false
+  },
+  "environment": {
+    "OMPI_MCA_rmaps_base_oversubscribe": "1",
+    "OMPI_MCA_accelerator": "cuda",
+    "OMPI_MCA_hwloc_base_binding_policy": "none",
+    "SEISSOL_MINI_NUM_ELEMENTS": "100",
+    "CUDA_PATH": "/opt/cuda",
+    "SEISSOL_COMMTHREAD": "false",
+    "OMP_NUM_THREADS": "6",
+    "SEISSOL_CONFIGURATION": "elastic-linearck-o6-f64-stroud",
+    "OMPI_MCA_mpi_oversubscribe": "0"
+  },
+  "invocation": {
+    "executable": "/build/install/bin/seissol",
+    "parameterFile": "/build/pcs/tpv33/parameters.par",
+    "workingDirectory": "/build/pcs/tpv33",
+    "overrides": {},
+    "checkpoint": null
+  },
+  "configurations": [
+    "elastic-linearck-o6-f64-stroud"
+  ],
+  "time": {
+    "init": {
+      "meshRead": {
+        "min": 0.6487605820000001,
+        "max": 0.6487605820000001,
+        "mean": 0.6487605820000001,
+        "median": 0.6487605820000001,
+        "std": 0,
+        "sum": 0.6487605820000001
+      },
+      "mesh": {
+        "min": 0.651168953,
+        "max": 0.651168953,
+        "mean": 0.651168953,
+        "median": 0.651168953,
+        "std": 0,
+        "sum": 0.651168953
+      },
+      "layout": {
+        "min": 0.076041598,
+        "max": 0.076041598,
+        "mean": 0.076041598,
+        "median": 0.076041598,
+        "std": 0,
+        "sum": 0.076041598
+      },
+      "model": {
+        "min": 0.727461788,
+        "max": 0.727461788,
+        "mean": 0.727461788,
+        "median": 0.727461788,
+        "std": 0,
+        "sum": 0.727461788
+      },
+      "sideConditions": {
+        "min": 0.00042694,
+        "max": 0.00042694,
+        "mean": 0.00042694,
+        "median": 0.00042694,
+        "std": 0,
+        "sum": 0.00042694
+      },
+      "io": {
+        "min": 0.08573048600000001,
+        "max": 0.08573048600000001,
+        "mean": 0.08573048600000001,
+        "median": 0.08573048600000001,
+        "std": 0,
+        "sum": 0.08573048600000001
+      },
+      "total": {
+        "min": 1.545824718,
+        "max": 1.545824718,
+        "mean": 1.545824718,
+        "median": 1.545824718,
+        "std": 0,
+        "sum": 1.545824718
+      }
+    },
+    "simulation": {
+      "initialIo": {
+        "min": 0.10836056200000001,
+        "max": 0.10836056200000001,
+        "mean": 0.10836056200000001,
+        "median": 0.10836056200000001,
+        "std": 0,
+        "sum": 0.10836056200000001
+      },
+      "elapsed": {
+        "min": 129.703772609,
+        "max": 129.703772609,
+        "mean": 129.703772609,
+        "median": 129.703772609,
+        "std": 0,
+        "sum": 129.703772609
+      },
+      "total": {
+        "min": 129.76219052800002,
+        "max": 129.76219052800002,
+        "mean": 129.76219052800002,
+        "median": 129.76219052800002,
+        "std": 0,
+        "sum": 129.76219052800002
+      },
+      "compute": {
+        "min": 128.865993518,
+        "max": 128.865993518,
+        "mean": 128.865993518,
+        "median": 128.865993518,
+        "std": 0,
+        "sum": 128.865993518
+      },
+      "io": {
+        "min": 0.8907473090000001,
+        "max": 0.8907473090000001,
+        "mean": 0.8907473090000001,
+        "median": 0.8907473090000001,
+        "std": 0,
+        "sum": 0.8907473090000001
+      },
+      "outsideKernels": {
+        "min": 1.03479490099987,
+        "max": 1.03479490099987,
+        "mean": 1.03479490099987,
+        "median": 1.03479490099987,
+        "std": 0,
+        "sum": 1.03479490099987
+      }
+    }
+  },
+  "mesh": {
+    "cells": {
+      "min": 16532,
+      "max": 16532,
+      "mean": 16532,
+      "median": 16532,
+      "std": 0,
+      "sum": 16532
+    },
+    "copyCells": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "std": 0,
+      "sum": 0
+    },
+    "ghostCells": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "std": 0,
+      "sum": 0
+    },
+    "faultFaces": {
+      "min": 1548,
+      "max": 1548,
+      "mean": 1548,
+      "median": 1548,
+      "std": 0,
+      "sum": 1548
+    },
+    "neighborRanks": {
+      "min": 0,
+      "max": 0,
+      "mean": 0,
+      "median": 0,
+      "std": 0,
+      "sum": 0
+    }
+  },
+  "lts": {
+    "minimumTimestep": 0.0010586097695874258,
+    "rates": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "minimumCellTimestep": 0.0010586097695874258,
+    "wiggleFactor": 1,
+    "theoreticalSpeedup": {
+      "elementwise": 3.490081580297015,
+      "clustered": 2.4796643933534885
+    },
+    "clusters": [
+      {
+        "id": 0,
+        "timestep": 0.0010586097695874258,
+        "updateFactor": 1,
+        "cells": 804,
+        "dynamicRuptureFaces": 81,
+        "cellUpdates": 3042336,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 306504
+      },
+      {
+        "id": 1,
+        "timestep": 0.0021172195391748515,
+        "updateFactor": 2,
+        "cells": 9378,
+        "dynamicRuptureFaces": 1467,
+        "cellUpdates": 17780688,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 2781432
+      },
+      {
+        "id": 2,
+        "timestep": 0.004234439078349703,
+        "updateFactor": 4,
+        "cells": 3743,
+        "dynamicRuptureFaces": 0,
+        "cellUpdates": 3563336,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 0
+      },
+      {
+        "id": 3,
+        "timestep": 0.008468878156699406,
+        "updateFactor": 8,
+        "cells": 1475,
+        "dynamicRuptureFaces": 0,
+        "cellUpdates": 708000,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 0
+      },
+      {
+        "id": 4,
+        "timestep": 0.016937756313398812,
+        "updateFactor": 16,
+        "cells": 622,
+        "dynamicRuptureFaces": 0,
+        "cellUpdates": 149280,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 0
+      },
+      {
+        "id": 5,
+        "timestep": 0.033875512626797624,
+        "updateFactor": 32,
+        "cells": 452,
+        "dynamicRuptureFaces": 0,
+        "cellUpdates": 54240,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 0
+      },
+      {
+        "id": 6,
+        "timestep": 0.06775102525359525,
+        "updateFactor": 64,
+        "cells": 58,
+        "dynamicRuptureFaces": 0,
+        "cellUpdates": 3712,
+        "duplicateCellUpdates": 0,
+        "dynamicRuptureFaceUpdates": 0
+      }
+    ]
+  },
+  "memory": {
+    "afterInit": {
+      "hostPeak": {
+        "min": 829247488,
+        "max": 829247488,
+        "mean": 829247488,
+        "median": 829247488,
+        "std": 0,
+        "sum": 829247488
+      }
+    },
+    "atEnd": {
+      "hostPeak": {
+        "min": 829247488,
+        "max": 829247488,
+        "mean": 829247488,
+        "median": 829247488,
+        "std": 0,
+        "sum": 829247488
+      }
+    }
+  },
+  "simulation": {
+    "startTime": 0,
+    "endTime": 4,
+    "currentTime": 4,
+    "progress": 1,
+    "epochs": 8,
+    "aborted": false,
+    "cellUpdates": 25301592,
+    "duplicateCellUpdates": 0,
+    "dynamicRuptureFaceUpdates": 3087936
+  },
+  "kernels": {
+    "total": {
+      "min": 127.83119861700014,
+      "max": 127.83119861700014,
+      "mean": 127.83119861700014,
+      "median": 127.83119861700014,
+      "std": 0,
+      "sum": 127.83119861700014
+    },
+    "loadImbalance": 0,
+    "regions": {
+      "Synced": {
+        "includedInTotal": false,
+        "time": {
+          "min": 32.96260861900001,
+          "max": 32.96260861900001,
+          "mean": 32.96260861900001,
+          "median": 32.96260861900001,
+          "std": 0,
+          "sum": 32.96260861900001
+        },
+        "iterations": 144,
+        "samples": 144
+      },
+      "Corrected": {
+        "includedInTotal": false,
+        "time": {
+          "min": 817.0356030570005,
+          "max": 817.0356030570005,
+          "mean": 817.0356030570005,
+          "median": 817.0356030570005,
+          "std": 0,
+          "sum": 817.0356030570005
+        },
+        "iterations": 20880,
+        "samples": 20880
+      },
+      "Predicted": {
+        "includedInTotal": false,
+        "time": {
+          "min": 1239.2976317409991,
+          "max": 1239.2976317409991,
+          "mean": 1239.2976317409991,
+          "median": 1239.2976317409991,
+          "std": 0,
+          "sum": 1239.2976317409991
+        },
+        "iterations": 20752,
+        "samples": 20752
+      },
+      "computeLocalIntegration": {
+        "includedInTotal": true,
+        "time": {
+          "min": 51.33681530800005,
+          "max": 51.33681530800005,
+          "mean": 51.33681530800005,
+          "median": 51.33681530800005,
+          "std": 0,
+          "sum": 51.33681530800005
+        },
+        "iterations": 25301592,
+        "samples": 7536,
+        "regression": {
+          "constant": -9.785536092923172e-05,
+          "perElement": 2.0581413733951103e-06,
+          "standardError": 1.0494773131962652e-08
+        },
+        "throughput": {
+          "hardwareFlopPerSecond": 124881713792.65399,
+          "kernelBytesPerSecond": 27340369555.7499
+        }
+      },
+      "computeNeighboringIntegration": {
+        "includedInTotal": true,
+        "time": {
+          "min": 42.613145480000036,
+          "max": 42.613145480000036,
+          "mean": 42.613145480000036,
+          "median": 42.613145480000036,
+          "std": 0,
+          "sum": 42.613145480000036
+        },
+        "iterations": 25301592,
+        "samples": 7536,
+        "regression": {
+          "constant": 0.0007412006734006242,
+          "perElement": 1.4634437708604633e-06,
+          "standardError": 1.0595578123971999e-08
+        },
+        "throughput": {
+          "hardwareFlopPerSecond": 73100265177.23276,
+          "kernelBytesPerSecond": 20434299030.67553
+        }
+      },
+      "computeDynamicRupture": {
+        "includedInTotal": true,
+        "time": {
+          "min": 33.88123782900006,
+          "max": 33.88123782900006,
+          "mean": 33.88123782900006,
+          "median": 33.88123782900006,
+          "std": 0,
+          "sum": 33.88123782900006
+        },
+        "iterations": 3087936,
+        "samples": 5680,
+        "regression": {
+          "constant": -0.00010763614537082005,
+          "perElement": 1.117011853053506e-05,
+          "standardError": 4.477590096704614e-08
+        },
+        "throughput": {
+          "hardwareFlopPerSecond": 64374004471.9721,
+          "kernelBytesPerSecond": 23702232839.22153
+        }
+      },
+      "computePointSources": {
+        "includedInTotal": true,
+        "time": {
+          "min": 0,
+          "max": 0,
+          "mean": 0,
+          "median": 0,
+          "std": 0,
+          "sum": 0
+        },
+        "iterations": 0,
+        "samples": 0,
+        "regression": {
+          "constant": null,
+          "perElement": null,
+          "standardError": null
+        }
+      }
+    },
+    "activity": {
+      "threadLoops": {
+        "min": 0.8222073755228497,
+        "max": 0.8222073755228497,
+        "mean": 0.8222073755228497,
+        "median": 0.8222073755228497,
+        "std": 0,
+        "sum": 0.8222073755228497
+      }
+    }
+  },
+  "performance": {
+    "hardwareFlop": 11711367780084,
+    "nonzeroFlop": 8566768776222,
+    "kernelBytes": 3079389265920,
+    "hardwareFlopPerSecond": 90252543768.1859,
+    "nonzeroFlopPerSecond": 66018990133.90551,
+    "kernelBytesPerSecond": 23731020980.687984,
+    "categories": {
+      "DR": {
+        "hardwareFlop": 2538135171072,
+        "nonzeroFlop": 2258720194176,
+        "kernelBytes": 855086533632
+      },
+      "PL": {
+        "hardwareFlop": 0,
+        "nonzeroFlop": 0,
+        "kernelBytes": 0
+      },
+      "WP": {
+        "hardwareFlop": 9173232609012,
+        "nonzeroFlop": 6308048582046,
+        "kernelBytes": 2224302732288
+      }
+    },
+    "cellUpdatesPerSecond": 194984.31628695753
+  }
+}

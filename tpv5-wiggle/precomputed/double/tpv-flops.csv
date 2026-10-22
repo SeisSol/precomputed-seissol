@@ -1,3 +1,3 @@
-time,rank_0_hw_accumulated,rank_1_hw_accumulated,rank_2_hw_accumulated,rank_3_hw_accumulated,rank_0_hw_epoch,rank_1_hw_epoch,rank_2_hw_epoch,rank_3_hw_epoch,rank_0_nz_accumulated,rank_1_nz_accumulated,rank_2_nz_accumulated,rank_3_nz_accumulated,rank_0_nz_epoch,rank_1_nz_epoch,rank_2_nz_epoch,rank_3_nz_epoch,rank_0_kb_accumulated,rank_1_kb_accumulated,rank_2_kb_accumulated,rank_3_kb_accumulated,rank_0_kb_epoch,rank_1_kb_epoch,rank_2_kb_epoch,rank_3_kb_epoch,
-9.17196,68.4966,75.0126,68.2405,75.4496,68.4966,75.0126,68.2405,75.4496,49.4671,53.1312,49.056,52.8336,49.4671,53.1312,49.056,52.8336,18.0266,19.2934,17.8867,19.189,18.0266,19.2934,17.8867,19.189,
-17.67,71.1089,77.8732,70.8426,78.3269,73.9284,80.9606,73.6511,81.4323,51.3537,55.1574,50.9266,54.8484,53.3898,57.3442,52.9455,57.023,18.7141,20.0291,18.5688,19.9207,19.4561,20.8232,19.3049,20.7105,
+time,rank_0_hw_accumulated,rank_0_hw_epoch,rank_0_nz_accumulated,rank_0_nz_epoch,rank_0_kb_accumulated,rank_0_kb_epoch,runId
+18.9121,138.57,138.57,98.6338,98.6338,35.8774,35.8774,33ffa538-448b-4cd0-8eb6-e9614a2d9920
+35.2882,148.529,160.03,105.722,113.909,38.4558,41.4335,33ffa538-448b-4cd0-8eb6-e9614a2d9920

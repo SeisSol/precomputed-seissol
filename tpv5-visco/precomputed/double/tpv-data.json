@@ -171,7 +171,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00012
+      "single": 0.00013
     },
     "quantities": {
       "faultreceiver:ASl": {
@@ -236,7 +236,7 @@
       },
       "faultreceiver:Vr": {
         "default": 1e-06,
-        "single": 0.00012
+        "single": 0.00013
       },
       "faultreceiver:u_n": {
         "default": 1e-06,

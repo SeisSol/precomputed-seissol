@@ -151,7 +151,7 @@
       },
       "static_frictional_work": {
         "default": 1e-06,
-        "single": 0.00038
+        "single": 0.00037
       },
       "total_frictional_work": {
         "default": 1e-06,
@@ -180,7 +180,7 @@
       },
       "faultreceiver:PSR": {
         "default": 1e-06,
-        "single": 0.0003
+        "single": 0.00031
       },
       "faultreceiver:P_f": {
         "default": 1e-06,
@@ -200,7 +200,7 @@
       },
       "faultreceiver:SRs": {
         "default": 1e-06,
-        "single": 0.00048
+        "single": 0.00047
       },
       "faultreceiver:Sld": {
         "default": 1e-06,
@@ -208,7 +208,7 @@
       },
       "faultreceiver:Sls": {
         "default": 1e-06,
-        "single": 0.00023
+        "single": 0.00024
       },
       "faultreceiver:StV": {
         "default": 1e-06,
@@ -228,7 +228,7 @@
       },
       "faultreceiver:Vr": {
         "default": 1e-06,
-        "single": 0.0003
+        "single": 0.00028
       },
       "faultreceiver:u_n": {
         "default": 1e-06,

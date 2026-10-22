@@ -180,7 +180,7 @@
       },
       "faultreceiver:PSR": {
         "default": 1e-06,
-        "single": 0.00015
+        "single": 0.00014
       },
       "faultreceiver:P_f": {
         "default": 1e-06,
@@ -200,7 +200,7 @@
       },
       "faultreceiver:SRs": {
         "default": 1e-06,
-        "single": 0.00036
+        "single": 0.00035
       },
       "faultreceiver:Sld": {
         "default": 1e-06,
@@ -228,7 +228,7 @@
       },
       "faultreceiver:Vr": {
         "default": 1e-06,
-        "single": 0.00021
+        "single": 0.00019
       },
       "faultreceiver:u_n": {
         "default": 1e-06,
