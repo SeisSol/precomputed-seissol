@@ -52,12 +52,14 @@
     "loh1-ic/double": {
         "config": "elastic-o6-f64",
         "parameters": "loh1-ic/parameters.par",
-        "output": { "directory": "loh1-ic/precomputed/double", "prefix": "tpv" }
+        "output": { "directory": "loh1-ic/precomputed/double", "prefix": "tpv" },
+        "xfail": [{ "when": {}, "reason": "the easi of the CI images is older than 1.5.0, which time-dependent initial conditions need" }]
     },
     "loh1-ic/single": {
         "config": "elastic-o6-f32",
         "parameters": "loh1-ic/parameters.par",
-        "reference": "loh1-ic/double"
+        "reference": "loh1-ic/double",
+        "xfail": [{ "when": {}, "reason": "the easi of the CI images is older than 1.5.0, which time-dependent initial conditions need" }]
     },
     "periodic/double": {
         "config": "elastic-o6-f64",
