@@ -1,2 +1,2 @@
 "hostname","device","rank","localRank","workermask","workernuma","commthread_mask","commthread_numa","nproc","runId"
-"davpc","",0,0,"6,7,8,9,10,11","0,0,0,0,0,0","no-info","no-info",24,"391e3d13-db7c-49d9-8f3f-b99a4ff9d71f"
+"davpc","",0,0,"0,1,2,3,4,5","0,0,0,0,0,0","no-info","no-info",24,"3c1956b0-f044-4cc1-b1ad-afebbb54d4ed"

@@ -24,7 +24,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 3.6e-06
+      "single": 3.4e-06
     },
     "quantities": {
       "ASl": {
@@ -41,7 +41,7 @@
       },
       "PSR": {
         "default": 1e-12,
-        "single": 1.4e-08
+        "single": 1.5e-08
       },
       "P_n": {
         "default": 1e-12,
@@ -61,7 +61,7 @@
       },
       "SRs": {
         "default": 1e-12,
-        "single": 6.4e-08
+        "single": 5.5e-08
       },
       "Sld": {
         "default": 1e-12,
@@ -81,7 +81,7 @@
       },
       "T_s": {
         "default": 1e-12,
-        "single": 3.6e-08
+        "single": 3.1e-08
       },
       "Td0": {
         "default": 1e-12,
@@ -93,11 +93,11 @@
       },
       "Vr": {
         "default": 1e-12,
-        "single": 3.6e-06
+        "single": 3.4e-06
       },
       "u_n": {
         "default": 1e-12,
-        "single": 7.4e-08
+        "single": 7.8e-08
       }
     }
   },
@@ -105,7 +105,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-12,
-      "single": 1.7e-08
+      "single": 1.6e-08
     },
     "quantities": {
       "u1": {
@@ -118,11 +118,11 @@
       },
       "u3": {
         "default": 1e-12,
-        "single": 1.2e-08
+        "single": 1.1e-08
       },
       "v1": {
         "default": 1e-12,
-        "single": 1.7e-08
+        "single": 1.6e-08
       },
       "v2": {
         "default": 1e-12,
@@ -167,7 +167,7 @@
     "enabled": true,
     "epsilon": {
       "default": 1e-06,
-      "single": 0.00039
+      "single": 0.00037
     },
     "quantities": {
       "faultreceiver:ASl": {
@@ -272,7 +272,7 @@
       },
       "receiver:v1_f": {
         "default": 1e-06,
-        "single": 0.00038
+        "single": 0.00036
       },
       "receiver:v2": {
         "default": 1e-06,
@@ -280,7 +280,7 @@
       },
       "receiver:v2_f": {
         "default": 1e-06,
-        "single": 0.00039
+        "single": 0.00034
       },
       "receiver:v3": {
         "default": 1e-06,
@@ -288,7 +288,7 @@
       },
       "receiver:v3_f": {
         "default": 1e-06,
-        "single": 0.0003
+        "single": 0.00037
       }
     }
   }

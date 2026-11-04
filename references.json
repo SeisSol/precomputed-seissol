@@ -16,22 +16,22 @@
     "note": "re-recorded after merging master (canonical vertex order), with the rupture and dynamic stress times interpolated; loh1-ic with its initial condition in units of 10 km"
   },
   "aniso-bimaterial/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "aniso-oblique/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "anisotropic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "loh1-fused/double": {
     "commit": "3fc8c627bc41e05b500a23d51d6d2b7f40d8f8f8",
@@ -58,174 +58,174 @@
     "note": "a planar wave on a fully periodic mesh, with local time stepping"
   },
   "tpv101-slip/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv101/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv104/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv105/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv13-fused-plasticity/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv13-fused/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o3-f64-s8"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv13/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv16/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv33/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv5-4nuc/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv5-nuc/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv5-poro/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "poroelastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv5-visco/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "viscoelastic-m3-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv5-wiggle/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv5/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpv6/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpvgaussian/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "tpvyoffe/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   },
   "ttpv1/double": {
-    "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
+    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-10-22",
-    "drQuadRule": "stroud",
-    "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
+    "date": "2026-11-04",
+    "drQuadRule": "dunavant",
+    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
   }
 }

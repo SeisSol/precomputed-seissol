@@ -1,10 +1,10 @@
 {
   "schema": "seissol-run-summary/1",
-  "runId": "24d91926-6f62-43bf-ad57-bc72d14f08c9",
+  "runId": "c5cb5897-0fad-422c-968b-467057c6a3d9",
   "status": "completed",
   "stage": "finished",
-  "started": "2026-10-22T10:18:20Z",
-  "updated": "2026-10-22T10:19:08Z",
+  "started": "2026-11-04T09:58:24Z",
+  "updated": "2026-11-04T09:59:12Z",
   "build": {
     "version": "(unknown)",
     "commit": "(unknown)",
@@ -18,20 +18,20 @@
     },
     "buildType": "Release",
     "configurations": [
-      "elastic-linearck-o6-f64-stroud",
-      "acoustic-linearck-o6-f64-stroud",
-      "anisotropic-linearck-o6-f64-stroud",
-      "poroelastic-stp-o6-f64-stroud",
-      "viscoelastic-linearckanelastic-m3-o6-f64-stroud",
-      "viscoacoustic-linearckanelastic-m3-o6-f64-stroud",
-      "elastic-linearck-o3-f64-stroud-s8",
-      "elastic-linearck-o6-f32-stroud",
-      "acoustic-linearck-o6-f32-stroud",
-      "anisotropic-linearck-o6-f32-stroud",
-      "poroelastic-stp-o6-f32-stroud",
-      "viscoelastic-linearckanelastic-m3-o6-f32-stroud",
-      "viscoacoustic-linearckanelastic-m3-o6-f32-stroud",
-      "elastic-linearck-o3-f32-stroud-s8"
+      "elastic-o6-f64",
+      "acoustic-o6-f64",
+      "anisotropic-o6-f64",
+      "poroelastic-o6-f64",
+      "viscoelastic-m3-o6-f64",
+      "viscoacoustic-m3-o6-f64",
+      "elastic-o3-f64-s8",
+      "elastic-o6-f32",
+      "acoustic-o6-f32",
+      "anisotropic-o6-f32",
+      "poroelastic-o6-f32",
+      "viscoelastic-m3-o6-f32",
+      "viscoacoustic-m3-o6-f32",
+      "elastic-o3-f32-s8"
     ]
   },
   "parallel": {
@@ -64,9 +64,9 @@
     "OMPI_MCA_hwloc_base_binding_policy": "none",
     "SEISSOL_MINI_NUM_ELEMENTS": "100",
     "CUDA_PATH": "/opt/cuda",
-    "SEISSOL_COMMTHREAD": "false",
+    "SEISSOL_COMMTHREAD": "0",
     "OMP_NUM_THREADS": "6",
-    "SEISSOL_CONFIGURATION": "elastic-linearck-o6-f64-stroud",
+    "SEISSOL_CONFIGURATION": "elastic-o6-f64",
     "OMPI_MCA_mpi_oversubscribe": "0"
   },
   "invocation": {
@@ -77,115 +77,115 @@
     "checkpoint": null
   },
   "configurations": [
-    "elastic-linearck-o6-f64-stroud"
+    "elastic-o6-f64"
   ],
   "time": {
     "init": {
       "meshRead": {
-        "min": 0.161093081,
-        "max": 0.161093081,
-        "mean": 0.161093081,
-        "median": 0.161093081,
+        "min": 0.196345143,
+        "max": 0.196345143,
+        "mean": 0.196345143,
+        "median": 0.196345143,
         "std": 0,
-        "sum": 0.161093081
+        "sum": 0.196345143
       },
       "mesh": {
-        "min": 0.162763664,
-        "max": 0.162763664,
-        "mean": 0.162763664,
-        "median": 0.162763664,
+        "min": 0.19867489500000002,
+        "max": 0.19867489500000002,
+        "mean": 0.19867489500000002,
+        "median": 0.19867489500000002,
         "std": 0,
-        "sum": 0.162763664
+        "sum": 0.19867489500000002
       },
       "layout": {
-        "min": 0.029545959,
-        "max": 0.029545959,
-        "mean": 0.029545959,
-        "median": 0.029545959,
+        "min": 0.036629573000000006,
+        "max": 0.036629573000000006,
+        "mean": 0.036629573000000006,
+        "median": 0.036629573000000006,
         "std": 0,
-        "sum": 0.029545959
+        "sum": 0.036629573000000006
       },
       "model": {
-        "min": 0.377511831,
-        "max": 0.377511831,
-        "mean": 0.377511831,
-        "median": 0.377511831,
+        "min": 0.36002631500000004,
+        "max": 0.36002631500000004,
+        "mean": 0.36002631500000004,
+        "median": 0.36002631500000004,
         "std": 0,
-        "sum": 0.377511831
+        "sum": 0.36002631500000004
       },
       "sideConditions": {
-        "min": 0.00029440200000000003,
-        "max": 0.00029440200000000003,
-        "mean": 0.00029440200000000003,
-        "median": 0.00029440200000000003,
+        "min": 0.00039981,
+        "max": 0.00039981,
+        "mean": 0.00039981,
+        "median": 0.00039981,
         "std": 0,
-        "sum": 0.00029440200000000003
+        "sum": 0.00039981
       },
       "io": {
-        "min": 0.030276869,
-        "max": 0.030276869,
-        "mean": 0.030276869,
-        "median": 0.030276869,
+        "min": 0.039192883000000005,
+        "max": 0.039192883000000005,
+        "mean": 0.039192883000000005,
+        "median": 0.039192883000000005,
         "std": 0,
-        "sum": 0.030276869
+        "sum": 0.039192883000000005
       },
       "total": {
-        "min": 0.605209047,
-        "max": 0.605209047,
-        "mean": 0.605209047,
-        "median": 0.605209047,
+        "min": 0.6400401,
+        "max": 0.6400401,
+        "mean": 0.6400401,
+        "median": 0.6400401,
         "std": 0,
-        "sum": 0.605209047
+        "sum": 0.6400401
       }
     },
     "simulation": {
       "initialIo": {
-        "min": 0.058395132,
-        "max": 0.058395132,
-        "mean": 0.058395132,
-        "median": 0.058395132,
+        "min": 0.08210300400000001,
+        "max": 0.08210300400000001,
+        "mean": 0.08210300400000001,
+        "median": 0.08210300400000001,
         "std": 0,
-        "sum": 0.058395132
+        "sum": 0.08210300400000001
       },
       "elapsed": {
-        "min": 46.610509218000004,
-        "max": 46.610509218000004,
-        "mean": 46.610509218000004,
-        "median": 46.610509218000004,
+        "min": 47.52334587,
+        "max": 47.52334587,
+        "mean": 47.52334587,
+        "median": 47.52334587,
         "std": 0,
-        "sum": 46.610509218000004
+        "sum": 47.52334587
       },
       "total": {
-        "min": 46.637009906,
-        "max": 46.637009906,
-        "mean": 46.637009906,
-        "median": 46.637009906,
+        "min": 47.549521968,
+        "max": 47.549521968,
+        "mean": 47.549521968,
+        "median": 47.549521968,
         "std": 0,
-        "sum": 46.637009906
+        "sum": 47.549521968
       },
       "compute": {
-        "min": 46.078084931,
-        "max": 46.078084931,
-        "mean": 46.078084931,
-        "median": 46.078084931,
+        "min": 47.008255247,
+        "max": 47.008255247,
+        "mean": 47.008255247,
+        "median": 47.008255247,
         "std": 0,
-        "sum": 46.078084931
+        "sum": 47.008255247
       },
       "io": {
-        "min": 0.557282245,
-        "max": 0.557282245,
-        "mean": 0.557282245,
-        "median": 0.557282245,
+        "min": 0.5393055800000001,
+        "max": 0.5393055800000001,
+        "mean": 0.5393055800000001,
+        "median": 0.5393055800000001,
         "std": 0,
-        "sum": 0.557282245
+        "sum": 0.5393055800000001
       },
       "outsideKernels": {
-        "min": 0.6350493639999826,
-        "max": 0.6350493639999826,
-        "mean": 0.6350493639999826,
-        "median": 0.6350493639999826,
+        "min": 0.6684190890000181,
+        "max": 0.6684190890000181,
+        "mean": 0.6684190890000181,
+        "median": 0.6684190890000181,
         "std": 0,
-        "sum": 0.6350493639999826
+        "sum": 0.6684190890000181
       }
     }
   },
@@ -312,22 +312,22 @@
   "memory": {
     "afterInit": {
       "hostPeak": {
-        "min": 887558144,
-        "max": 887558144,
-        "mean": 887558144,
-        "median": 887558144,
+        "min": 861425664,
+        "max": 861425664,
+        "mean": 861425664,
+        "median": 861425664,
         "std": 0,
-        "sum": 887558144
+        "sum": 861425664
       }
     },
     "atEnd": {
       "hostPeak": {
-        "min": 887558144,
-        "max": 887558144,
-        "mean": 887558144,
-        "median": 887558144,
+        "min": 861425664,
+        "max": 861425664,
+        "mean": 861425664,
+        "median": 861425664,
         "std": 0,
-        "sum": 887558144
+        "sum": 861425664
       }
     }
   },
@@ -344,118 +344,106 @@
   },
   "kernels": {
     "total": {
-      "min": 45.44303556700002,
-      "max": 45.44303556700002,
-      "mean": 45.44303556700002,
-      "median": 45.44303556700002,
+      "min": 46.33983615799998,
+      "max": 46.33983615799998,
+      "mean": 46.33983615799998,
+      "median": 46.33983615799998,
       "std": 0,
-      "sum": 45.44303556700002
+      "sum": 46.33983615799998
     },
     "loadImbalance": 0,
     "regions": {
       "Synced": {
         "includedInTotal": false,
         "time": {
-          "min": 15.194045730000001,
-          "max": 15.194045730000001,
-          "mean": 15.194045730000001,
-          "median": 15.194045730000001,
+          "min": 15.873140794,
+          "max": 15.873140794,
+          "mean": 15.873140794,
+          "median": 15.873140794,
           "std": 0,
-          "sum": 15.194045730000001
+          "sum": 15.873140794
         },
-        "iterations": 98,
-        "samples": 98
+        "iterations": 84,
+        "samples": 84
       },
       "Corrected": {
         "includedInTotal": false,
         "time": {
-          "min": 265.23356239899937,
-          "max": 265.23356239899937,
-          "mean": 265.23356239899937,
-          "median": 265.23356239899937,
+          "min": 189.40780293299977,
+          "max": 189.40780293299977,
+          "mean": 189.40780293299977,
+          "median": 189.40780293299977,
           "std": 0,
-          "sum": 265.23356239899937
+          "sum": 189.40780293299977
         },
-        "iterations": 11430,
-        "samples": 11430
+        "iterations": 8292,
+        "samples": 8292
       },
       "Predicted": {
         "includedInTotal": false,
         "time": {
-          "min": 378.2759477949994,
-          "max": 378.2759477949994,
-          "mean": 378.2759477949994,
-          "median": 378.2759477949994,
+          "min": 370.1735016190009,
+          "max": 370.1735016190009,
+          "mean": 370.1735016190009,
+          "median": 370.1735016190009,
           "std": 0,
-          "sum": 378.2759477949994
+          "sum": 370.1735016190009
         },
-        "iterations": 11346,
-        "samples": 11346
+        "iterations": 8220,
+        "samples": 8220
       },
       "computeLocalIntegration": {
         "includedInTotal": true,
         "time": {
-          "min": 21.065511009000044,
-          "max": 21.065511009000044,
-          "mean": 21.065511009000044,
-          "median": 21.065511009000044,
+          "min": 23.733119222999978,
+          "max": 23.733119222999978,
+          "mean": 23.733119222999978,
+          "median": 23.733119222999978,
           "std": 0,
-          "sum": 21.065511009000044
+          "sum": 23.733119222999978
         },
         "iterations": 13802832,
         "samples": 4110,
         "regression": {
-          "constant": 1.826297892086067e-05,
-          "perElement": 1.5207350321756657e-06,
+          "constant": 7.423087826242673e-05,
+          "perElement": 1.6973350333715143e-06,
           "standardError": null
-        },
-        "throughput": {
-          "hardwareFlopPerSecond": 165963400054.73032,
-          "kernelBytesPerSecond": 36626773692.71305
         }
       },
       "computeNeighboringIntegration": {
         "includedInTotal": true,
         "time": {
-          "min": 13.53281883,
-          "max": 13.53281883,
-          "mean": 13.53281883,
-          "median": 13.53281883,
+          "min": 13.485410909000011,
+          "max": 13.485410909000011,
+          "mean": 13.485410909000011,
+          "median": 13.485410909000011,
           "std": 0,
-          "sum": 13.53281883
+          "sum": 13.485410909000011
         },
         "iterations": 13802832,
         "samples": 4110,
         "regression": {
-          "constant": 0.0006342143279789657,
-          "perElement": 7.915910258131413e-07,
-          "standardError": null
-        },
-        "throughput": {
-          "hardwareFlopPerSecond": 122201532319.78204,
-          "kernelBytesPerSecond": 35084131634.384705
+          "constant": 0.00045432262733166156,
+          "perElement": 8.417218227873007e-07,
+          "standardError": 1.1704652918352124e-09
         }
       },
       "computeDynamicRupture": {
         "includedInTotal": true,
         "time": {
-          "min": 10.844705727999974,
-          "max": 10.844705727999974,
-          "mean": 10.844705727999974,
-          "median": 10.844705727999974,
+          "min": 9.121306025999992,
+          "max": 9.121306025999992,
+          "mean": 9.121306025999992,
+          "median": 9.121306025999992,
           "std": 0,
-          "sum": 10.844705727999974
+          "sum": 9.121306025999992
         },
         "iterations": 1347648,
         "samples": 3126,
         "regression": {
-          "constant": -8.947871989513996e-05,
-          "perElement": 8.25468980504715e-06,
+          "constant": 3.371986184703758e-05,
+          "perElement": 6.6900984069031015e-06,
           "standardError": null
-        },
-        "throughput": {
-          "hardwareFlopPerSecond": 87772850571.90279,
-          "kernelBytesPerSecond": 32317587794.670017
         }
       },
       "computePointSources": {
@@ -476,30 +464,20 @@
           "standardError": null
         }
       }
-    },
-    "activity": {
-      "threadLoops": {
-        "min": 0.82311497546544,
-        "max": 0.82311497546544,
-        "mean": 0.82311497546544,
-        "median": 0.82311497546544,
-        "std": 0,
-        "sum": 0.82311497546544
-      }
     }
   },
   "performance": {
-    "hardwareFlop": 6102040429584,
-    "nonzeroFlop": 4385929411188,
-    "kernelBytes": 1596959909088,
-    "hardwareFlopPerSecond": 130841159025.4836,
-    "nonzeroFlopPerSecond": 94043966798.64624,
-    "kernelBytesPerSecond": 34242330550.49582,
+    "hardwareFlop": 5767478727696,
+    "nonzeroFlop": 4070967901812,
+    "kernelBytes": 1575225042144,
+    "hardwareFlopPerSecond": 121294147427.54749,
+    "nonzeroFlopPerSecond": 85615327627.30382,
+    "kernelBytesPerSecond": 33128094183.661804,
     "categories": {
       "DR": {
-        "hardwareFlop": 1107701968896,
-        "nonzeroFlop": 985758691968,
-        "kernelBytes": 373179902976
+        "hardwareFlop": 773140267008,
+        "nonzeroFlop": 670797182592,
+        "kernelBytes": 351445036032
       },
       "PL": {
         "hardwareFlop": 0,
@@ -512,6 +490,6 @@
         "kernelBytes": 1223780006112
       }
     },
-    "cellUpdatesPerSecond": 295963.0565471613
+    "cellUpdatesPerSecond": 290283.2968392209
   }
 }

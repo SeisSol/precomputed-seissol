@@ -45,7 +45,7 @@
       },
       "SRs": {
         "default": 1e-12,
-        "single": 8.8e-06
+        "single": 7.1e-06
       },
       "Sld": {
         "default": 1e-12,
@@ -57,7 +57,7 @@
       },
       "Vr": {
         "default": 1e-12,
-        "single": 1.8e-08
+        "single": 2.4e-08
       }
     }
   },
