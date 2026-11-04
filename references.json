@@ -21,6 +21,7 @@
       "anisotropic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "aniso-oblique/double": {
@@ -29,6 +30,7 @@
       "anisotropic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "loh1-fused/double": {
@@ -61,6 +63,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv101/double": {
@@ -69,6 +72,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv104/double": {
@@ -77,6 +81,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv105/double": {
@@ -85,6 +90,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv13-fused-plasticity/double": {
@@ -93,6 +99,7 @@
       "elastic-o3-f64-s8"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv13-fused/double": {
@@ -101,6 +108,7 @@
       "elastic-o3-f64-s8"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv13/double": {
@@ -109,6 +117,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv16/double": {
@@ -117,6 +126,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv33/double": {
@@ -125,6 +135,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-4nuc/double": {
@@ -133,6 +144,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-nuc/double": {
@@ -141,6 +153,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-poro/double": {
@@ -149,14 +162,16 @@
       "poroelastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-visco/double": {
     "commit": "d1441b92453c6a3798b6c50bf22c843b4d8e71d8",
     "configs": [
-      "viscoelastic-3-o6-f64"
+      "viscoelastic-m3-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5-wiggle/double": {
@@ -165,6 +180,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv5/double": {
@@ -173,6 +189,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpv6/double": {
@@ -181,6 +198,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpvgaussian/double": {
@@ -189,6 +207,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "tpvyoffe/double": {
@@ -197,6 +216,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   },
   "ttpv1/double": {
@@ -205,6 +225,7 @@
       "elastic-o6-f64"
     ],
     "date": "2026-10-22",
+    "drQuadRule": "stroud",
     "note": "re-recorded with the on-fault receivers sampled at fixed times within the time steps, with the wave field and the friction state of that time, and with the static frictional work from the traction at the output time"
   }
 }

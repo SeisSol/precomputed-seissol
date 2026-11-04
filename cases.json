@@ -132,12 +132,12 @@
         "reference": "tpv5-poro/double"
     },
     "tpv5-visco/double": {
-        "config": "viscoelastic-3-o6-f64",
+        "config": "viscoelastic-m3-o6-f64",
         "parameters": "tpv5-visco/parameters.par",
         "output": { "directory": "tpv5-visco/precomputed/double", "prefix": "tpv" }
     },
     "tpv5-visco/single": {
-        "config": "viscoelastic-3-o6-f32",
+        "config": "viscoelastic-m3-o6-f32",
         "parameters": "tpv5-visco/parameters.par",
         "reference": "tpv5-visco/double"
     },
