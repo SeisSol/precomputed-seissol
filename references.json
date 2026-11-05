@@ -58,40 +58,40 @@
     "note": "a planar wave on a fully periodic mesh, with local time stepping"
   },
   "tpv101-slip/double": {
-    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
+    "commit": "4abd64d25f632c51823565c596cb3548f948bb62",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "drQuadRule": "dunavant",
-    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
+    "note": "re-recorded with the rate-and-state solver of davschneller/more-newton, which resolves the state and the pressurization inside the slip-rate inversion"
   },
   "tpv101/double": {
-    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
+    "commit": "4abd64d25f632c51823565c596cb3548f948bb62",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "drQuadRule": "dunavant",
-    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
+    "note": "re-recorded with the rate-and-state solver of davschneller/more-newton, which resolves the state and the pressurization inside the slip-rate inversion"
   },
   "tpv104/double": {
-    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
+    "commit": "4abd64d25f632c51823565c596cb3548f948bb62",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "drQuadRule": "dunavant",
-    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
+    "note": "re-recorded with the rate-and-state solver of davschneller/more-newton, which resolves the state and the pressurization inside the slip-rate inversion"
   },
   "tpv105/double": {
-    "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
+    "commit": "4abd64d25f632c51823565c596cb3548f948bb62",
     "configs": [
       "elastic-o6-f64"
     ],
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "drQuadRule": "dunavant",
-    "note": "re-recorded with Dunavant's rules on the fault faces, the default of SeisSol since d826813c1"
+    "note": "re-recorded with the rate-and-state solver of davschneller/more-newton, which resolves the state and the pressurization inside the slip-rate inversion"
   },
   "tpv13-fused-plasticity/double": {
     "commit": "05e3297791543418c8e7a06875be08c99ae23f6d",
